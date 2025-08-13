@@ -1,0 +1,74 @@
+\documentclass[a4paper]{book}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{xsim}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+
+\DeclareExerciseEnvironmentTemplate{number-only}{%
+	\par\noindent
+	\textbf{\GetExerciseProperty{counter}}%
+	\GetExercisePropertyT{subtitle}{ \textit{#1}} %
+}{\par}
+
+\newcommand\printsectionexercises{%
+	\ForEachUsedExerciseByType{%
+		\ifnum\ExercisePropertyGet{##1}{##2}{chapter-   value}=\value{chapter}
+		\noindent\ExercisePropertyGet{##1}{##2}{instruction}\par
+		\XSIMprint{exercise}{##1}{##2}%
+		\fi
+	}%
+}
+
+\renewcommand\printsolutions{%
+	\def\currentchapter{}%
+	\def\lastchapter{}%
+	\ForEachUsedExerciseByType{%
+		\let\lastchapter\currentchapter
+		\edef\currentchapter{\ExercisePropertyGet{##1}{##2}{chapter- value}}%
+		\ifx\lastchapter\currentchapter\else
+		\section*{Chapter \ExercisePropertyGet{##1}{##2}{chapter}}
+		\fi
+		\XSIMprint{solution}{##1}{##2}%
+	}%
+}
+
+\DeclareExerciseProperty{instruction}
+\newcommand\ExerciseRef[1]{%
+	\expanded{%
+		\noexpand
+		\ExercisePropertyGet{exercise}{\GetExerciseIdForProperty{ID}{#1}}.   {counter-value}%
+	}%
+}
+\newcommand\This{\GetExerciseProperty{counter-value}}
+
+\xsimsetup{
+	exercise/template = number-only ,
+	solution/template = number-only ,
+	exercise/within = section ,
+	exercise/the-counter = \arabic{exercise}. ,
+	exercise/print = true
+}
+
+\begin{document}
+	
+	\chapter{ChapterOne}
+	\section{Solving for an unknown}
+	\blindtext
+		
+	\subsection*{Exercises}
+	\begin{exercise}
+	\(x - 1 = 0\)
+	\end{exercise}
+	\begin{solution}
+		\(x = 1\)
+	\end{solution}
+
+%	\printsectionexercises
+	
+	\newpage
+	
+	\chapter*{Solutions to the exercises}
+	\printsolutions
+	
+\end{document}

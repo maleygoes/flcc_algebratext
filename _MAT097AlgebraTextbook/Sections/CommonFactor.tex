@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Factoring: Common Factor
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Factoring: Common Factor}
+\label{CommonFactor}
+
+What is a factor?
+
+When it comes to multiplying, a \underline{factor} \index{Factor} is one of the things being multiplied and the \underline{product} is the result that is obtained from multiplying.  For example in the equation $2 \cdot 6 = 12$, $2$ and $6$ are factors and the product is $12$.
+
+Recall from section \ref{Distribution}; the distributive law gives us $a(b+c)=ab+ac$.  Here $a$ and $b+c$ are the factors and the product is $ab+ac$.
+
+Putting this into a context, we have $3(x+5)=3x+15$ with factors $3$ and $(x+5)$ and a product of $3x+15$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Common Factor: Common Factor
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Common Factor}
+
+We can use a common factor to reverse the distributive law we were introduced to in section \ref{Distribution}.  A common factor is a term that divides each term of the expression. We are looking for our result to be \textbf{factored completely} \index{Factor!Completely}, meaning that there are no other factors that can be divided out. When looking at the example above, $3$ is a common factor of the expression $3x+15$ because $3$ divides both $3x$ and $15$ evenly.
+
+\exam{\label{CommonFactorExample1}Factor the expression $10x^2+25x$}
+
+\indenttext{We are looking for a common factor that divides both $10x^2$ and $25x$. Beginning with the coefficients, $5$ divides both $10$ and $25$ and the highest power of $x$ that divides both $x^2$ and $x$ is $x$. Therefore our common factor of $10x^2$ and $25x$ is $5x$.	When we divide both terms in our original expression by $5x$, we have:
+$$\displaystyle \frac{10x^2}{5x} + \frac{25x}{5x} = \frac{\cancel{10}^{~2}\cdot \cancel{x}^{~1} \cdot x}{\cancel{5}^{~1}\cdot\cancel{x}^{~1}} + \frac{\cancel{25}^{~5}\cdot\cancel{x}^{~1}}{\cancel{5}^{~1}\cdot\cancel{x}^{~1}} = \frac{2x}{1} + \frac{5}{1} = 2x+5$$
+
+and we obtain:
+$$10x^2+25x=5x(2x+1)$$
+}
+
+Because the terms $2x$ and $5$ share no other common factors (other than 1) we have completely factored our expression.  We can use the distributive law to check if our factored expression is correct:
+$$5x(2x+1)=5x(2x)+5x(5)=10x^2+25x$$
+
+When multiplying the factors $5x$ and $2x+5$, our product was the expression we started with, so we can see we factored the expression appropriately.
+
+\exam{\label{CommonFactorExample2}Factor the expression $4x^3+20x^2$}
+
+\indenttext{We are looking for a common factor that divides both $4x^3$ and $20x^2$. Beginning with the coefficients, both $2$ is a common factor of $4$ and $20$ and the highest power of $x$ that divides both $x^3$ and $x^2$ is $x^2$.
+
+We can use the common factor $2x^2$.  When we divide both terms in our original expression by $2x^2$ we have:
+$$\displaystyle \frac{4x^3}{2x^2} + \frac{20x^2}{2x^2} = \frac{\cancel{4}^{~2} \cdot \cancel{x}^{~1} \cdot\cancel{x}^{~1} \cdot x}{\cancel{2}^{~1}\cdot\cancel{x}^{~1} \cdot\cancel{x}^{~1}} + \frac{\cancel{20}^{~10}\cdot\cancel{x}^{~1} \cdot\cancel{x}^{~1}}{\cancel{2}^{~1}\cdot\cancel{x}^{~1} \cdot\cancel{x}^{~1}} = \frac{2x}{1} + \frac{10}{1} = 2x+10$$
+
+so the factorization we have obtained is $4x^3+20x^2=2x^2(2x+10)$.
+
+However, the terms inside the parenthesis share another common factor of $2$, so our result is \underline{not completely factored}.  We would then have to factor out another $2$, leaving us with:
+$$4x^3+20x^2=2x^2(2x+10)=2x^2(2)(x+5)=4x^2(x+5)$$
+
+Notice that the common factor after we divided out another $2$, becomes $4x^2$. If we had originally divided both terms in our original expression by $4x^2$, we would have $4x^2(x+5)$.
+}
+
+Although we have the same result in either case, it is more efficient to factor out $4x^2$ initially as it has a larger coefficient than $2x^2$.  We can call $4x^2$ the \underline{greatest common factor (GCF)} of $4x^3$ and $20x^2$ because that is the factor with the largest coefficient and highest degree literal part that divides both terms.
+
+\exam{\label{CommonFactorExample3}Factor the expression $3x+21$}
+
+\indenttext{Beginning with the coefficients, $3$ divides both $3$ and $21$ and because $21$ has no literal part, the variable cannot be a part of our common factor. Therefore, our greatest common factor is $3$.  When we divide both terms in our original expression by $3$, we have:
+$$\displaystyle \frac{3x}{3} + \frac{21}{3} = \frac{\cancel{3}^{~1} \cdot x}{\cancel{3}^{~1}} + \frac{\cancel{21}^{~7}}{\cancel{3}^{~1}} = \frac{x}{1} + \frac{7}{1} = x+7$$
+
+and we obtain:
+$$3x+21=3(x+7)$$
+
+Because the terms $x$ and $7$ share no other common factors our expression is factored completely.
+}
+
+\exam{\label{CommonFactorExample4}Factor the expression $-6x+9$}
+
+\indenttext{$-6$ and $9$ are both divisible by $3$ and again, the second term in the expression has no literal part so the variable will not be included in our common factor. When we divide by 3 we have:
+$$-6x+9=3(-2x+3)$$
+
+We can also consider a common factor of $-3$ being that our leading term has a negative coefficient.  When we divide out a -3 we have:
+$$-6x+9=-3(2x-3)$$
+
+Both are factored completely and when using the distributive property, both give back the original expression.
+$$3(-2x+3)=3(-2x)+3(3)=-6x+9$$
+
+and
+$$-3(2x-3)=-3(2x)-3(-3)=-6x+9$$
+}
+
+\exam{\label{CommonFactorExample5}Factor the expression $-6x^2-18x$}
+
+\indenttext{$6$ divides both $-6$ and $-18$ and the highest power of $x$ that divides both $x^2$ and $x$ is $x$. Because both terms in the original expression are negative, we can use $-6x$ as our common factor.  When we divide by $-6x$ we have:
+$$-6x^2-18x=-6x(x+3)$$
+}
+
+\exam{\label{CommonFactorExample6}Factor the expression $8a^3b-24ab^2+16a^2b^3$}
+
+\indenttext{We are looking for a common factor of $8a^3b$, $-24ab^2$, and $16a^2b^3$. $8$ divides the coefficients $8$, $-24$ and $16$. The literal part of all three terms here contain both $a$ and $b$.  Therefore, we need to consider both variables when looking for our common factor. The highest power of $a$ that divides $a^3$, $a$, and $a^2$ is $a$ and the highest power of $b$ that divides $b$, $b^2$, and $b^3$ is $b$. Therefore our common factor is $8ab$.  When we divide out $8ab$, we obtain:
+$$8a^3b-24ab^2+16a^2b^3=8ab(a^2-3b+2ab^2)$$
+}
+
+We can of course use the distributive law to check our solution:
+$$8ab(a^2-3b+2ab^2)=8ab(a^2)+8ab(-3b)+8ab(2ab^2)=8a^3b-24ab^2+16a^2b^3$$
+
+Looking back to the beginning of this section, specifically at the expression $ab+ac$, we can see that the two terms share a common factor of $a$. We can then divide $a$ from each term leaving us with $a(b+c)$.  In some cases, it will be appropriate to use an expression with more than one term as our common
+factor. 
+
+\exam{\label{CommonFactorExample7}Factor the expression $3x^2(x-1)+4(x-1)$}
+
+\indenttext{$(x-1)$ is a factor of both $3x^2(x-1)$ and $4(x-1)$ using the same pattern as above, we can factor this expression into $(x-1)(3x^2+4)$. In both forms we can see that both the $3x^2$ and $4$ are being distributed to the factor of $(x-1)$.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Common Factor: Factor by Grouping
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Factor by Grouping}
+
+If we need to factor an expression with four terms, we can look for a common factor that contains more than one term. This method is known as factoring by grouping.
+\exam{\label{CommonFactorExample8}Factor $x^3-3x^2+2x-6$}
+
+\indenttext{Now we are working with an expression with four terms, none of which have a common factor greater than $1$. We can split our expression into two groups of terms first looking at $x^3-3x^2$ and noticing that this expression has a common factor of $x^2$ and when we divide out that term, we are left with $x^2(x-3)$. Let’s now look at the second group, $2x-6$ and notice that this expression has a common factor of $2$ and when we divide out the $2$, we are left with $2(x-3)$. Notice that we have a common factor now of $x-3$. We can then factor:
+$$x^3-3x^2+2x-6=x^2(x-3)+2(x-3)=(x^2+2)(x-3)$$
+}
+
+We can of course use the distributive law to check our solution:
+$$(x^2+2)(x-3)=x^2(x)+x^2(-3)+2(x)+2(-3)=x^3-3x^2+2x-6$$
+
+\exam{\label{CommonFactorExample9}Factor the expression $ab-6a+2b-12$}
+
+\indenttext{Splitting our expression into two groups, let’s look at the first group $ab-6a$. We see that this expression shares a common factor of $a$, and when we divide that term out, we are left with $a(a-6)$. The second group $2b-12$ shares a common factor of $2$ and when we divide that term out, we are left with $2(b-6)$. Both groups share a common factor of $b-6$ therefore we can factor:
+$$ab-6a+2b-12=a(a-6)+2(a-b)=(a+2)(b-6)$$.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Factoring Common Factor: Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsection{Exercises}
+
+Factor the expression:
+\begin{tasks}[label={}](2)
+	\task\ex{$18x^2-2x$} \sol{$2x(9x-1)$}
+	\task\ex{$2t^2+8t$}
+	\task\ex{$9y^3-y^2$} \sol{$y^2(9y-1)$}
+	\task\ex{$6ab-4ad+12ac$}
+	\task\ex{$3x^3y^2-18x^2y^2$} \sol{$3x^2y^2(x-6)$}
+	\task\ex{$4x^2y^3-18x^5y^2+2xy^4$}
+	\task\ex{$5x^2y^3+15x^3y^2$} \sol{$5x^2y^2(y+3x)$}
+	\task\ex{$12a^4-21a^3-9a^2$}
+	\task\ex{$6cd+9df-3cf$} \sol{$3(2cd+3df-cf)$}
+	\task\ex{$25p^2q-45pq^3$}
+	\task\ex{$2x^3-10x^2+14x^4$} \sol{$(2x^2)(x-5+7x^2)$}
+	\task\ex{$-5x^4y+20x^3y^2-20x^2y^3$}
+	\task\ex{$18a^2bc+24ab^2c^2-6a^2bc^2$} \sol{$6abc(3a+4bc-ac)$}
+	\task\ex{$-p^3-4p^2+p$}
+	\task\ex{$4x^2y^3-18x^5y^2+2xy^4$} \sol{$2xy^2(2xy-9x^4+y^2)$}
+	\task\ex{$ax-5x+5a-25$}
+	\task\ex{$3x^3-6x^2+5x-10$} \sol{$(3x^2+5)(x-2)$}
+	\task\ex{$10x^2-5x+10x-5$}
+	\task\ex{$ac-bc+a^2-ab$} \sol{$(a-b)(c+a)$}
+	\task\ex{$10x^3-2x^2-15x+3$}
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

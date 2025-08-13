@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Section: Distribution
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Distribution}
+\label{Distribution}
+
+The distributive law, one of the basic laws of arithmetic and algebra, states that when you have something multiplied by an expression in parentheses, you can multiply it by each of the terms inside the parentheses.
+
+\index{Distribution} Well, that was awfully wordy. It’s far easier to represent this using symbols:
+$$a(b+c)=ab+ac$$
+
+where $a$, $b$ and $c$ represent any algebraic expressions at all.
+
+The distributive law is often put to use in simplifying algebraic expressions, as the next few examples will illustrate.
+
+\exam{\label{DistributionExample1}Distribute and then simplify the expression $5(2x+3y)$.}
+
+\indenttext{Following the distributive law, we can multiply 5 by each term inside the parentheses:
+$$5(2x+3y)=5(2x)+5(3y)=10x+15y$$
+}
+
+The instructions for example \ref{DistributionExample1} explicitly told us to distribute. Usually, though, it is understood that distributing whenever possible is a part of simplifying, and so you should assume that distributing is expected when you are asked to simplify an expression as in the next example.
+
+\exam{\label{DistributionExample2}Simplify $5x(2x^2+3x+1)+3x(2x-5)$.}
+
+\indenttext{We’ll distribute first, and then simplify each of the resulting terms. Finally, we will combine like terms.
+\begin{align*}
+	5x(2x^2+3x+1)+3x(2x-5) & = 5x(2x^2)+5x(3x)+5x(1))+3x(2x)+3x(-5) \\
+		& \\
+		& = 10x^3+15x^2+5x+6x^2+-15x\\
+		& \\
+		& = 10x^3 + 21x^2 -10x
+\end{align*}
+}
+
+Usually we don’t actually write out the step shown on the second line in the example above. We usually just combine the steps of distributing into each term and simplifying, going directly from the first line to the third. From here on in we will not write out that step in this book, but whether or not you want to write that step out in your own work is entirely your choice.
+
+The following example will illustrate a very important point about distributing when a subtraction is involved. Pay particular attention to this next example!
+
+\exam{\label{DistributionExample3}Simplify $4x(x-3)-3x(x+2)$}
+
+\indenttext{It is clear that we need to distribute $4x$ into the first set of parentheses. In the second set, though, it is easy to make a mistake. It appears that we need to just distribute the $3x$, which would give us the following (incorrect) result:
+$$\text{\underline{Incorrect:}    } 4x^2-12x-3x^2+6x$$
+
+The error here is that the \quotes{$-$} is only being applied to the first part of what’s inside those parentheses. The \quotes{$x$} got the negative, but the \quotes{$+2$} did not.
+
+To treat this correctly, in theory what we should do is to rewrite $4x(x-3)-3x(x+2)$ as $4x(x-3)+(-3x)(x+2)$, using the fact that subtracting is the same as adding a negative. Then we would distribute the $-3x$ in and everything would get the negative.  In practice, most people just remember that when you distribute, the minus gets distributed as well.
+
+In this case, that means that we’d bring along the \quotes{$-$} and distribute a $-3x$ into the $(x+2)$.  Whichever way you choose to look at it, the result is the same:
+$$\text{\underline{Correct:}    } 4x(x-3)-3x(x+2)=4x^2-12x-3x^2-6x=x^2-18x$$
+}
+
+Let’s try one additional example before moving on:
+
+\exam{\label{DistributionExample4}Simplify $5x(3x-1)-2(x^2-4x-3)-3(4x+2)$.}
+
+\indenttext{There are a lot of \quotes{$-$}’s to deal with here. Take your time and be careful!
+
+\begin{align*} 5x(3x-1)&-2(x^2-4x-3)-3(4x+2)\\
+		& = 5x(3x-1)+(-2)(x^2-4x-3)+(-3)(4x+2)\\
+		& = 15x^2-5x-2x^2+8x+6-12x-6\\
+		& = 13x^2-9x 
+\end{align*}
+}
+
+The notion of distribution extends from simple terms as demonstrated in the following examples:
+
+\exam{\label{DistributionExample5}Simplify $(x+2)(x+3)$}
+
+\indenttext{We begin by distributing the second expression across the addition in the first:
+\begin{align*} 
+	(x+2)(x+3)& = x(x+3)+2(x+3)\\
+		& \\
+		& = x^2+3x+2x+6\\
+		& \\
+		& = x^2+5x+6 
+\end{align*}
+}
+
+\exam{\label{DistributionExample6}Simplify $(2x-4)(3x-1)$}
+
+\indenttext{We distribute and combine like terms:
+\begin{align*} 
+	(2x-4)(3x-1) & = 2x(3x-1)-4(3x-1)\\
+	& \\
+	& = 6x^2-2x-12x+4\\
+	& \\
+	& = 6x^2-14x+4 
+\end{align*}
+}
+
+\exam{\label{DistributionExample7}Simplify $(x-2)(2x^2+3x+4)$}
+
+\indenttext{We distribute and combine like terms:
+\begin{align*} 
+	(x-2)(2x^2+3x+4) & = x(2x^2+3x+4)-2(2x^2+3x+4)\\
+	& \\
+	& = 2x^3+3x^2+4x-4x^2-6x-8\\
+	& \\
+	& = 2x^3-x^2-2x-8 
+\end{align*}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Distribution: Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\subsection{Exercises}
+
+Simplify each of the following algebraic expressions:
+
+\begin{tasks}[label={}](2)
+	\task\ex{$2(x-3)$} \sol{$2x-6$}
+	\task\ex{$5(x+2)$}
+	\task\ex{$2y(3y+5)$} \sol{$6y^2+10y$}
+	\task\ex{$7x(x-1)$}
+	\task\ex{$3(x-2)+2(x-3)$} \sol{$5x-12$}
+	\task\ex{$6(y+3)+4(2y-9)$}
+	\task\ex{$3x(x-9)+5(x^2+7x-1)$} \sol{$8x^2+8x-5$}
+	\task\ex{$3(k^2-5k+1)+2k(k+3)$}
+	\task\ex{$4(z-3)-2(z-5)$}\sol{$2x-22$}
+	\task\ex{$2(5y+7)-3(3y+1)$}
+	\task\ex{$4y(y^2-8)-3(y^3+2y)$} \sol{$y^-38y$}
+	\task\ex{$3z(3z-4)-5(z-1)$}
+	\task\ex{$2x(x-3)+x(4x-1)-5(x^2-2x-1)$} \sol{$x^2+3x+5$}
+	\task\ex{$5x(2x-1)-3(x^2+2x)+11x(x-4)$}
+	\task\ex{$4x(2x-1)-3x(2-6x)$} \sol{$26x-10x$}
+	\task\ex{$8(3-5x)-3(8-2x)$}
+	\task\ex{$4x^2-3x(x-2)$} \sol{$x^2+6x$}
+	\task\ex{$(3x)(2x)(5x^2)$}
+	\task\ex{$t^2-5t+3$} \sol{$t^2-5t+3$}
+	\task\ex{$4x(x-5)-2x(x+7)$}
+	\task\ex{$5r^2-3r+r(2r+5)+3(r-1)+5$} \sol{$7r^2+5r+2$}
+	\task\ex{$p^2-p(p-2)$}
+	\task\ex{$(t^2-3t+6)-(t^2+3t-5)$} \sol{$-6t+11$}
+	\task\ex{$2t(3t^2)+3t^3$}
+	\task\ex{$w(w-3)-3w(w+1)$} \sol{$-2w^2-6w$}
+	\task\ex{$5y^2-2y(y-3)$}
+	\task\ex{$(2z^2)(3z)(z^3)$} \sol{$6z^6$}
+	\task\ex{$x^3+x^2+x$}
+	\task\ex{$6z(2z-5)-4z(3z-2)$} \sol{$-22z$}
+	\task\ex{$2+4h(h-1)+2h(h-7)-h^2+3h-5$}
+	\task\ex{$6x^2-3x(2x+5)$} \sol{$-15x$}
+	\task\ex{$4p^2(2p^2)-2p^3(4p)$}
+	\task\ex{$g(g+2)-2g(g-1)$} \sol{$-g^2+4g$}
+	\task\ex{$(6x^3-3x+1)-(1-3x-x^2-6x^3)$}
+	\task\ex{$(f+2)(f+9)$} \sol{$f^2+11f+18$}
+	\task\ex{$(g-7)(g-11)$}
+	\task\ex{$(h+4)(h-2)$} \sol{$h^2+2h-8$}
+	\task\ex{$(I-10)(I+5)$}
+	\task\ex{$2(j+6)(j+9)$} \sol{$2j^2+30j+108$}
+	\task\ex{$(k+5)(k-5)$}
+	\task\ex{$(k+5)(k+5)$} \sol{$k^2+10k+25$}
+	\task\ex{$(L+10)(L-10)$}
+	\task\ex{$(7-L)(7+L)$} \sol{$49-L^2$}
+	\task\ex{$(m-8)(8+m)$}
+	\task\ex{$-7(n+6)(n-6)$} \sol{$252-7n^2$}
+	\task\ex{$(p-2)^2$}
+	\task\ex{$(3q-7)^2$} \sol{$9q^2-42q+49$}
+	\task\ex{$5(r+3)^2$}
+	\task\ex{$-4(7-2s)^2$} \sol{$-16s^2+112s-196$}
+	\task\ex{$(t-2)(3t+4)$}
+	\task\ex{$-3(u^2-3u+20)$} \sol{$-3u^2+9u-60$}
+	\task\ex{$(2v+7)^2$}
+	\task\ex{$(w-3)(w+3)$} \sol{$w^2-9$}
+	\task\ex{$(x-4)(x^2-2x+1)$}
+	\task\ex{$(a+2)(3a^2+4a-7)$} \sol{$3a^3+10a^2+a-14$}
+	\task\ex{$(m-4)(m^2-8m+1)$}
+	\task\ex{$(2g+5)(g^3-2g^2+g)$} \sol{$2g^4+g^3-8g^2+5g$}
+	\task\ex{$(4t-1)(3t^2-8t+2)$}
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,64 @@
+\documentclass[twoside,a4paper,cleardoublepage=empty,14pt]{book}
+
+
+
+\usepackage{tikz}
+\usepackage{exsheets}
+\SetupExSheets[question]{type=exam}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=rectangle,draw,inner sep=3pt] (char) {#1};}}
+\usepackage{enumitem}
+\usepackage{multicol}
+\setlist[enumerate]{label=\protect\circled{\arabic*}}
+\SetupExSheets{counter-format=ch.qu[1]}
+\RenewQuSolPair{question}[headings-format=\large\bfseries,name=Problem]{solution}
+\DeclareRobustCommand*\questionstar{\texorpdfstring{\bonusquestionsign}{* }}
+\DeclareRobustCommand*\bonusquestionsign{\llap{$\bigstar$\space}}
+\NewQuSolPair
+{question*}[name=\questionstar Bonus Question]
+{solution*}[name=\questionstar Solution]
+\usepackage{pgffor}
+
+\newcounter{solcount}
+\setcounter{solcount}{1}
+\newcommand\CC{%
+	\grayitem\label{sol:\arabic{solcount}}
+	\stepcounter{solcount}
+}
+
+\newcommand\printmyanswers{%
+	\section*{\centering Answers Sheet}
+	
+	\foreach \x in {1,...,\thequestion}{% 
+		
+		\noindent
+		\thechapter.\x.~\ref{sol:\x}\par
+	}
+}
+\usepackage{etoolbox}
+
+\let\olditem\item
+\newcommand{\grayitem}{\let\item\olditem\item\preto\item{\color{black}}}
+
+\begin{document}
+	
+	
+	\tableofcontents
+	
+	\chapter*{Preface}
+	\addcontentsline{toc}{chapter}{Preface}
+	\chapter{Analysis of Algorithms}
+	
+	\begin{question}
+		What is a function?
+		
+		\begin{multicols}{3}
+			\begin{enumerate}
+				\item First item
+				\CC Second item
+				\item Fourth item
+			\end{enumerate}
+		\end{multicols}
+	\end{question}\printmyanswers
+	
+\end{document}

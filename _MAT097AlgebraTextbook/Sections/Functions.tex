@@ -1,0 +1,995 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Section: Functions
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Functions}
+\label{Functions}
+
+One of the biggest uses of algebra (and mathematics in general) is describing and modeling the relationship between two related quantities. For example, we might want to:
+
+\begin{enumerate}[label=$\circ$]
+	\item find the amount of grass seed we need to cover an athletic field based on its size, or
+	\item calculate the equivalent temperature in Fahrenheit for a temperature in Celsius, or
+	\item price a vacation package based on the number of nights we want to stay, or
+	\item estimate when we will arrive at our destination from how many miles we have left to travel, or
+	\item determine the grade needed on a final exam to achieve a desired final course grade
+\end{enumerate}
+
+and we could easily come up with many, many more examples. In this chapter, we’ll develop techniques that will be useful in handling these sorts of situations.\\
+
+Even though these examples deal with unrelated things, they all have something in common. Each involves a relationship between two quantities, and in each we have in mind that we will know the value (or values) we want to consider for one of the quantities (the Celsius temperature, the field size, the number of nights, the distance left to travel, or the desired grade), and we will want to find the value(s) of the other quantity as a result. You might have several athletic fields to seed, and need to figure out how much grass seed you need to take to each one to complete the job. Or you might be taking a trip to Canada, where temperatures are given in Celsius, and want to have a way to convert them to more familiar Fahrenheit temperatures.\\
+
+These situations all fit nicely into a general framework called a function. In this chapter, we will introduce functions, and show how they can be used in these and other situations.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Functions
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Functions}
+
+We’ll start by defining functions and related terms. This all may seem overwhelming at first, but don’t worry – it should make more sense after looking at a few examples.\\
+
+\begin{definition}
+	\index{Function}
+	\textbf{\underline{Function Definition}}\\
+	\bigskip
+
+	A function is a rule which processes information by assigning one and only one output to each input.  If the input variable’s name is $x$, the output variable is $y$, and the name of the function is $f$, we write $y=f(x)$ which is read as \quotes{$y$ equals $f$ of $x$.} (Other letters can be used for any of the quantities involved, but whatever letters are used they follow the same pattern.)\\
+	Functions can be represented using a function diagram like this:\\
+
+	$$input \rightarrow \boxed{f} \rightarrow output$$
+
+	or using variables:
+
+	$$x \rightarrow \boxed{f} \rightarrow y \text{  OR  } x \rightarrow \boxed{f} \rightarrow f(x)$$
+	\bigskip
+
+	When a function exists between two quantities, we say that \quotes{the output variable (or quantity) is a function of the input variable (or quantity).}
+\end{definition}
+
+Perfectly clear? Probably not – that’s a lot of terminology to absorb all at once. With practice, though, these terms will become familiar. Let’s take a look at a couple of examples to illustrate how it all works.
+
+\exam{\label{FunctionsExample1}
+	The amount of grass seed (in pounds) needed to cover an athletic field can be determined based on the area (in square feet). Let $y$ represent the amount of grass seed and let $A$ represent the area.
+	\begin{enumerate}[label=(\alph*)]
+		\item State the input variable and quantity.
+		\item State the output variable and quantity.
+		\item Describe the relationship by stating \quotes{ is a function of } using both the variables and the quantities they represent.
+		\item Assuming the function’s name is $f$, write an equation which relates the variables and the function.
+	\end{enumerate}
+}
+
+\indenttext{
+	\begin{enumerate}[label=(\alph*)]
+		\item The relationship described here says that we are going to determine the amount of seed based on the area. The question does not say we need to draw a function diagram, but it may be helpful to do this.  It seems that we are meant to \quotes{tell} the function the area we need to cover, and then \quotes{ask} the function to then determine how much grass seed we need. So the function diagram would look like this:
+
+		$$area \rightarrow \boxed{f} \rightarrow grass \text{ } seed$$ 
+
+		and from this diagram it is clear that the input quantity is area (in square feet) and the input variable is $A$.
+
+		\item From the diagram we can see that the output quantity is pounds of grass seed, and the output variable is $y$.
+
+		\item The phrasing always follows the patters \quotes{output is a function of input}. So, using quantities, we would say that \quotes{the amount of grass seed, $y$, is a function of the area, $A$}.
+
+		\item Following the pattern used in the definition, we would write $y=f(A)$.
+	\end{enumerate}
+}
+\bigskip
+
+A function can be imagined as a kind of computer, programmed to process just the information we want. The function diagrams can help with that. In the example we just saw, the description clearly indicated that we’d need something we could tell the area of the field and then have it figure out and tell us how much grass seed we’d need. Drawing a diagram to reflect this flow of information makes it clear which is the input and which is the output, and then following the
+definitions everything else just falls into place. With practice, you may not need to draw diagrams or look back at definitions. But until you’ve reached the point where this is all second nature, it’s a good idea to follow the method shown in the example.
+
+\exam{\label{FunctionsExample2}
+	The Fahrenheit temperature $F$ can be calculated for any temperature in Celsius, $C$.  Let the function which calculates this be called $T$.
+
+	\begin{enumerate}[label=(\alph*)]
+		\item State the input variable and quantity.
+		\item State the output variable and quantity.
+		\item Describe the function using \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}} using the variables and the quantities they represent.
+		\item Write an equation which relates the variables and the function.
+	\end{enumerate}
+}
+
+\indenttext{
+	The problem states that we want to determine Fahrenheit for a given Celsius temperature. So we want our function to do this:
+
+	$$C \rightarrow \boxed{T} \rightarrow F$$
+
+	\begin{enumerate}[label=(\alph*)]
+		\item The input quantity is degrees Celsius, and the input variable is $C$
+		\item The output quantity is degrees Fahrenheit and the output variable is $F$
+		\item It’s always \quotes{\underline{output} is a function of \underline{input}}, so we would say\\ 
+		\quotes{the Fahrenheit temperature, $F$, is a function of the Celsius temperature, $C$}.\\
+	\end{enumerate}
+}
+
+In this example Celsius is the input and Fahrenheit is the output. Could it be the other way around? Well, with Fahrenheit and Celsius temperatures at least, sure it could. We could figure out Celsius based on Fahrenheit just as well as Fahrenheit based on Celsius. Which is input and which is output is determined by what we are trying to do. The description of this problem made it clear that in this case we want to determine Fahrenheit for a given Celsius temperature, and that’s why we set our function up that way. You have to read carefully to determine input and output – be careful!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Functions and Formulas
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Functions and Formulas}
+
+Now, in what we've done so far, we've been able to determine the setup of the input-output function relationship and describe it in appropriate terminology, but we haven't had enough information to actually find the correct output for any particular input value. To do that, we need to know the details of the function's rule.\\
+
+The most common way to give a function's rule is with a formula. A simple example will illustrate. Suppose we want to set up a function to find the area $A$ of a square based on the length of its side, $s$. This function would take side length as its input, and give area as its output. So we would say that area is a function of side length, or $A$ is a function of $s$. If we name the function $f$, we could write $A = f(s)$.\\
+
+But we can go further. We know how to calculate the area of a square based on its side length.  Using our variables, we can write the formula for the area of a square as
+
+$$ A = s^2 $$
+
+or, replacing the output variable with $f(s)$ we could write this formula as
+
+$$ f(s) = s^2 .$$
+
+We've taken the formula for the area of a square and used it to write a formula for the function which finds the area of a square. For any given input value of $s$, this formula tells you that the output value you want can be found by using that value in the formula $s^2$.\\
+
+In other words, once we have this formula for the function, we can find the output for any input by algebraic substitution into a formula. For example, suppose we want to find the area of a square whose length is $10$ inches. We would then use $s = 10$ in our formula to get:
+
+\begin{align*}
+	& f(s)=s^2
+	& f(10)=10^2
+	& f(10)=100
+\end{align*}
+
+Not surprisingly the formula tells us the area would be $100$ square inches.\\
+
+Before we move on, notice that we substituted for $s$ both in the formula itself and also inside the \quotes{$f(\phantom{s})$.}  This left us with the expression \quotes{$f(10)$} on the left side. This will happen whenever we replace the input variable with a specific value. So wherever we might run into the expression
+\quotes{$f(10)$} we would understand that to mean \quotes{the specific output you get from the function $f$ with the input $10$}.  A shorter way of saying that is \quotes{$f$ of $10$}. Likewise, we would read \quotes{$f(5.3)$} as \quotes{$f$ of $5.3$} and would understand that to mean the output you get from the function $f$ if you input the value $5.3$.
+
+\exam{\label{FunctionsExample3}
+	The Fahrenheit temperature $F$ is a function of the Celsius temperature $C$. The formula for this function is given by $T(C)=\frac{9}{5}C+32$. Use this function formula to find the Fahrenheit temperature equivalent to $30 ^\circ C$.
+}
+
+\indenttext{
+	We need to use $C=30$ in the formula. We get:
+
+	\begin{align*}
+		T(C)&=\frac{9}{5}C+32\\
+		\\
+		T(30)&=\frac{9}{5}(30)+32\\
+		&=86
+	\end{align*}
+
+	So the Fahrenheit temperature corresponding to $30 ^\circ C$ would be $86 ^\circ F$.\\
+}
+
+Of course it is nice to know the purpose of a function, but if all we have is a formula we can still calculate outputs for inputs just the same.
+
+\exam{\label{FunctionsExample4}	Suppose $f(x)=x^2-3x+1$. Find $f(-2)$.}
+
+\indenttext{
+	$f(-2)$ is the result of using $-2$ as an input into this function. So:
+
+	\begin{align*}
+		f(x)&=x^2-3x+1\\
+		\\
+		f(-2)&=(-2)^2-3(-2)+1\\
+		&=4+6+1\\
+		&=11
+	\end{align*}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Functions Defined Verbally
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Functions Defined Verbally}
+
+Formulas are a very handy way to state a function’s rule. But having a formula is not required. To have a function, you must have one and only one output for each input. The way you get that input may be specified by a formula, but it can be expressed in other ways. One of these other ways is a verbal description of the rule.
+
+\exam{\label{FunctionsExample5}
+	The sales tax rate in Ontario County, NY is $7.5 \% $.  Let $f(t)$ be the total price including tax for a purchase of $t$ dollars. Find $f(800)$, the price including sales tax for a laptop priced at $ \$ 800$. Express your answer both as an answer to the question and in function notation.
+}
+
+\indenttext{
+	The sales tax is $ 7.5 \% $ of $\$800$ which would be $(0.075)(\$800) = \$60$. So the total price would be $\$800 + \$60 = \$860$. So, in answer to the question, the price including tax is $\$860$. In function notation we would write $f(800)=860$.\\
+}
+
+Here, we didn’t have a formula, but we had enough information to calculate the output, nonetheless. If we wanted to, we could come up with a formula for this function. It is not too hard to see that this function could also be given as $f(t)=.075t+t$. Sometimes, though, we may have a function for which a formula would be utterly impossible.
+
+\exam{\label{FunctionsExample6}
+	Suppose $f$ is the rule which assigns to each U.S. state its capital. Find $f(Washington)$.
+}
+
+\indenttext{
+	The function takes states as inputs and gives their capitals as outputs. There is obviously no way we could ever write an algebraic formula to \quotes{calculate} this. But, we can still determine the output for a given input. If you don’t happen to know the state capital of Washington, a few moments with an atlas or surfing the web reveals that $f(Washington)=Olympia$.\\
+}
+
+The state capital example reveals something else about functions: they don’t necessarily have to involve numbers or quantities. Other pieces of information, such as states or their capitals, can be used as the inputs and outputs for a function. In mathematics, we are usually most interested in functions with numerical inputs and outputs – and most of the functions we’ll see in this class will be numeric ones. But non-numeric functions like this are nonetheless perfectly good functions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Functions Defined by Tables
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Functions Defined by Tables}
+
+Sometimes neither a formula nor a verbal description is available to give a function’s rule. Functions can also be defined using a table which lists inputs and gives their corresponding outputs. We don’t need to know what the rationale (if any) was for assigning any particular input its output -- we only need to be able to determine what the output is.\\
+
+One common example of a table-defined function might be US Social Security numbers. Each US citizen has one and only one Social Security number, and so we can look at Social Security numbers as a function of US citizens. There is no way to possibly define any algebraic formula for this function, nor is there any way to verbally describe a rule that would let you figure out someone’s Social Security number based on who they are (if you ever did find such a rule, you could make a
+fortune in identity theft.) The only way to specify that function would be by listing out every citizen and his or her number. This would be impractical to do on paper, but it is not hard to imagine that a computer could contain this information in a massive table. In fact, the Social Security Administration has such a table in their computer systems.\\
+
+Here is a more modest example of a table-defined function.
+
+\exam{\label{FunctionsExample7}
+	Let $f(s)$ be the fine in Pennsylvania for speeding in a $65 mph$ zone. A highway road sign shows the fine for speeding as a function of how fast you were going.
+
+	\begin{center}
+		\begin{tabular}{c|c}
+			Speed & Fine\\
+			\hline
+			$70$ mph & $\$45$\\
+			$75$ mph & $\$55$\\
+			$80$ mph & $\$65$\\
+			$85$ mph & $\$75$
+		\end{tabular}
+	\end{center}
+
+	Find $f(80)$, the fine for going $80$ mph. Express your result as an answer to the question and also in function notation.
+}
+
+\indenttext{
+	Reading the table we can see that the fine is $\$65$. In function notation we would write $f(80)=65$.\\
+}
+
+A word of warning about table-defined functions. Unless you have extra information about how the function’s outputs are determined, you cannot use a table to find outputs for any inputs that are not listed in the table. Table-defined functions are limited to only the inputs listed in the table.\\
+
+For example, suppose you want to know the fine for going $90$ mph. There is no way to tell this from the given table. It seems that for every $5$ mph increase in speed the fine goes up $\$10$, so it might be reasonable to guess the fine would be $\$85$. But that is only a guess. It could also be that the maximum fine for speeding is $\$75$, so that might be the fine for a $90$ mph speed. Or, maybe the state has an extra fine tacked on for really excessive speeds, making the fine for $90$ mph $\$100$, or $\$150$, or $\$250$? There just is no way of knowing for sure. Based on this table, you cannot determine the fine for a $90 mph$ speed. But really you shouldn’t be driving that fast anyway.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Domain and Range
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Domain and Range}
+
+We’ve defined a function to be any rule that takes inputs, processes them according to some rule, and then gives outputs as a result. We haven’t said much, though, about what sorts of things we can use as inputs or get as outputs from our functions. For a given function, some things would make sense as inputs, and some things would not. In Example \ref{FunctionsExample6} (the state capitals function) it would make sense to use \quotes{Washington}, \quotes{Nebraska}, or \quotes{Rhode Island} as inputs, since these are all states. But it wouldn’t make any sense at all to input the \quotes{Pacific Ocean}, the number $8$, or \quotes{Justin Bieber} into that function – none of these are states, and so asking what the state capital of the Pacific Ocean, 8, or the Bieb wouldn’t make any sense.\\
+
+On the other hand, for the function $f(x)=x^2-3x+1$ which we used in Example \ref{FunctionsExample4} it makes perfect sense to input the number 8, but \quotes{Washington}, \quotes{Nebraska} or \quotes{Rhode Island} don’t make any more sense as inputs than an ocean or a teen idol.\\
+
+Every function has a certain set of things that it can take as inputs, and also a set of things that can show up as outputs. These are called the domain and range respectively. They’re important enough to deserve a highlighted definition:\\
+
+\begin{definition}
+	\index{Function!Domain} \index{Function!Range}
+	\textbf{\underline{Domain and Range}}\\
+	\bigskip
+	The set of all possible inputs for a function is called its \textbf{domain}. The set of all possible outputs for a function is called its \textbf{range}.
+\end{definition}
+
+\bigskip
+
+For a function like the state capitals function, determining the domain and range is a matter of asking yourself what sorts of things the described function is intended to take as inputs, and what the relevant outputs would be. For the state capitals example, the domain is the set of all U.S. states. More formally we could write this as $\{ x \vert x \text{ is a U.S. State} \}$. The range would be the set of all U.S. state capitals; formally $\{ y \vert y \text{ is a U.S. state capital}\}$. Note that the letters used in the formal set descriptions don’t matter -- the domain could also have been written $\{ t \vert t \text{ is a U.S. State} \}$ or using any other letter.  (You should ask your instructor whether or not you are expected to write domains and ranges in formal set-builder notation or can just give a verbal description.)
+
+\exam{\label{FunctionsExample8}
+	Let $c(t)$ be the rule that tells what day of the week each human being $t$ was born on. What are the domain and range of this function?
+}
+
+\indenttext{
+	This function takes as inputs human beings. So the domain would be the set of all human beings, or $\{t \vert t \text{ is a human being} \}$.\\
+	\newline
+
+	The outputs from this function are days of the week. So the domain would be the set of days of the week, or $\{y \vert y \text{ is a day of the week} \}$, or $\{$Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday$\}$.
+}
+
+\bigskip
+
+For a numerical function like $f(x)=x^2-3x+1$ the domain would be the set of all real numbers, or $\mathbb{R}$, since any real number could be substituted into the formula and give a result.  The range for this function is a more complicated question.  While the outputs from this function will obviously be real numbers, it’s not obvious whether every real number actually does end up as an output from this function. In fact, it turns out that there are lots of real numbers that cannot
+possibly be output from this function. For example, no matter what you input for $x$ you will never get $-5$ out of this function (take our word for that for now, though you’ll see how we know this can never happen later in the course.) So, the range is not the set of all real numbers. At this point in the course we are not ready to determine just what the range of this function is, so we will avoid questions about the ranges of functions like this one for now (we’ll revisit this question later.)
+
+\exam{\label{FunctionsExample9}
+	What is the domain of the function $g(z)=2z+\frac{z^2}{5}$?
+}
+
+\indenttext{
+	Any real number could be substituted in to this formula and give a result. So the domain is $\mathbb{R}$, the set of all real numbers.\\
+}
+
+Sometimes there are real numbers that cannot be substituted in to a formula to give an output.  For example, the function $h(x)=\frac{1}{x}$ cannot have the number $0$ in its domain, because if you substitute zero into the formula you get $\frac{1}{0}$ which is undefined. Any other real number, though, would be fine. So the domain of this function is all nonzero real numbers, or $\{x \vert x\ne 0\}$.\\
+
+At this point in your mathematical career, you know about two impossibilities. You cannot divide by zero, and you cannot take the square root of a negative number. So, if a function’s rule asks you to divide by or take the square root of anything involving the input variable, we need to make sure to exclude from its domain any values that would require doing the impossible.
+
+\exam{\label{FunctionsExample10}
+	What is the domain of the function $f(x)=\frac{3x^2 -5x+73}{x-3}$?
+}
+
+\indenttext{
+	The numerator looks intimidating, but it doesn’t matter to us. Nothing impossible will happen in the numerator, no matter what value of $x$ you input. On the other hand, we must make sure that the denominator is never zero. So, to find the value we need to exclude from the domain, we solve the equation $x-3=0$ and get $x=3$. So since $x=3$ would give us a zero denominator, we must exclude it from the domain. So the domain is all real numbers except 3, or $\{x \vert x \ne 3\}$.\\
+}
+
+\exam{\label{FunctionsExample11}
+	What is the domain of the function $g(x)=\sqrt{3x-2}$?
+}
+
+\indenttext{
+	Here we need to make sure that the expression in the square root is not negative, or, in other words, that it is greater than or equal to zero. So we solve $3x-2 \ge 0$ and get that $x \ge \frac{2}{3}$. So our domain is all real numbers greater than or equal to $\frac{2}{3}$, or $\{ x \vert x \ge \frac{2}{3} \}$, or $[2,\infty)$.\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Determining Whether or Not a Rule is a Function
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Determining Whether or Not a Rule is a Function}
+
+Not every rule is a function. When we have a function, we demand that it provide us a clear and unambiguous output for any input we give it. If I input the length of a square’s side, I want to know the area. I don’t want a list of several different possible areas. If I know the Celsius temperature is $10^\circ C$ and want to convert that to Fahrenheit, I want one and only one answer to that question. I don’t want to be told, \quotes{well, it might be $50^\circ F$, or it might be $84^\circ F$, or it might be twenty below.}\\
+
+Our definition of a function requires that for each input we get one and only one output. A function isn’t allowed to hedge. Functions have to always give a straight answer! So, a rule that does not do this can’t be a function.\\
+
+How could a rule not meet this requirement? Well, just about any algebraic formula can be used to define a function. We know from experience that the basic mathematical operations always evaluate to the same result. (Six times nine is fifty-four, it was fifty-four yesterday, it will be fifty-four tomorrow, it is fifty-four in New York, it is fifty-four in China, it is always always always always fifty-four.) So we know that $f(x)=5x^3-7x^2-3x-9$ is a perfectly good function, because no matter what input we substitute in for $x$, the process of evaluating the result will always give one and only one final answer, and whatever that answer is it will be the same anytime, anywhere.\\
+
+But not all rules behave this way. Sometimes, though, we try to set up a function and end up with a rule that can give more than one output for a given input. The following examples will illustrate a few cases where this may be a problem.
+
+\exam{\label{FunctionsExample12}
+	Let $h(c)$ be the rule that tells you the current NHL hockey team for each location that is the named home of a current NHL team. Does this rule define a function?
+}
+
+\indenttext{
+	This rule is set up to process information, taking homes of NHL teams as inputs and giving the teams themselves as outputs:
+
+	$$\text{home} \rightarrow \boxed{h} \rightarrow \text{team}$$
+
+	Now for many locations this works fine. For example:
+
+	$$\text{Buffalo} \rightarrow \boxed{h} \rightarrow \text{Sabres}$$
+
+	and similarly if we input Boston, Toronto, or Montreal things work out fine; we get the Bruins, the Leafs, and the Canadiens as outputs respectively.\\
+	\newline
+
+	But we run into a problem if we input New York. There are two NHL teams that call New York home: the Islanders and the Rangers. Which is the output? According to our rule, they both are. This is not allowed. This \quotes{function} doesn’t give us a single straight answer, and so it is not a function after all!\\
+}
+
+Now a couple of comments are important here. It does not matter that most of the time this rule would have given only one output. If there is even one single input that gives multiple outputs, the rule is not a function. That doesn’t mean that it is meaningless, or that it doesn’t describe any real relationship. But it does mean it is not a function. Rules like our NHL example that can give multiple outputs for an input are called multifunctions and are used in some situations (though we won’t be using them in this book.) But they are absolutely not functions.\\
+
+Secondly, sometimes people will mistakenly think a rule is not a function because some inputs don’t give any output. If you input San Diego into this rule, for example, you don’t get an output, because San Diego does not have a current NHL team. This is not a problem. That only means that San Diego is not in the domain! A rule does not have to give an output for every imaginable input to be a function. The rule only has to give one and only one output for each input in its domain.
+
+\exam{\label{FunctionsExample13}
+	Let $k(t)$ be the rule that assigns to each current NHL team the team’s named home. Is $k(t)$ a function?
+}
+
+\indenttext{
+	This rule is set up to take teams as inputs and give homes as outputs:
+	$$\text{team} \rightarrow \boxed{k} \rightarrow \text{home}$$
+	Now, here we do not have the problem from the previous example. If you input the Sabres you get Buffalo, input the Bruins you get Boston, etc. But if you input the Rangers you get one and only one output: New York. And if you input the Islanders you also get one and only one output: New York. The fact that two distinct inputs give the same output is not a problem! 	Since no two teams have two named homes, this is a function.\\
+}
+
+It is important to contrast these last two examples. Remember: a function must give one and only one output for each input. If there is even one input that gives two outputs according to a rule, that rule is not a function. So, this is not OK:
+
+$$ \text{New York} \rightarrow \boxed{h} \begin{array}{l} \rightarrow \text{Rangers?}\\ \rightarrow \text{Islanders?} \end{array}$$
+
+But there is absolutely nothing wrong with two inputs sharing the same output. This is OK:
+
+$$\begin{array}{l} \text{Rangers} \rightarrow \\ \text{Islanders} \rightarrow \end{array} \boxed{k} \begin{array}{l} \rightarrow \text{New York}\\ \rightarrow  \text{New York} \end{array}$$
+
+The key to functions is that they must never give an ambiguous answer. In the first case, is the output the Rangers or the Islanders? Can’t tell? Well, that’s a problem. In the second case, there’s no ambiguity about what the output is for any input. So that’s not a problem at all.
+
+\exam{\label{FunctionsExample14}
+	Is the following rule a function? Why or why not?  $p(x)=42$
+}
+
+\indenttext{
+	This rule is a bit ridiculous. No matter what you input for $x$, you always get the same output: $42$.  However, that makes this a perfectly fine function. There is nothing you could possibly input for $x$ that would give you two or more different outputs. There is always one and only one output for any
+	given input. So this rule is a function.\\
+}
+
+It is important to note that when you are showing that a rule is not a function, all you need to do is give any one input that has two outputs. There is no need to discuss whether or not the example you give is the only one, one of many, or one of infinitely many. Don’t get bogged down in extra unnecessary details. To show
+that a rule is not a function, you only need one input that gives more than one output. Anything more is unnecessary.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Functions Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsection{Exercises}
+
+\subsubsection*{Function Terminology}
+
+Each of the following relationships can be represented by a function. For each relationship
+
+\begin{enumerate}[label=(\alph*)]
+	\item state the input variable and quantity,
+	\item state the output variable and quantity, 
+	\item describe the relationship as a function using the phrasing \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}} using both the
+	variables and the quantities they represent, and
+	\item write an equation which relates the variables and the function. You may find it helpful to draw a function diagram.
+\end{enumerate}
+
+\bigskip
+\ex{The price $P$ for a shipment of $x$ gallons of paint can be determined using a function called $f$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $x$, gallons of paint
+		\item output $P$, price
+		\item price, $P$, is a function of gallons of paint, $x$
+		\item $P=f(x)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The cost $C$ to produce $z$ litres of solvent can be calculated using the function $g$.}
+
+\bigskip
+\ex{The number of coaches $y$ for a youth soccer league is determined based on the number of kids enrolled in the league, $t$. The function used to determine this is called $C$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $t$, number of kids
+		\item output $y$, number of coaches
+		\item number of coaches, $y$, is a function of the number of kids, $t$
+		\item $y=C(t)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The number of hours $h$ Jayden needs to work to earn $d$ dollars at his job is determined by the function $w$.}
+
+\bigskip
+\ex{The number of barrels of oil $B$ needed to produce $G$ gallons of gasoline can be calculated using the function $r$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $G$, gallons of gasoline
+		\item output $B$, barrels of oil
+		\item barrels of oil needed, $B$, is a function of gallons of gasoline, $G$
+		\item $B=r(G)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The number of seconds $s$ it takes a computer network to transmit $d$ terabytes of data is determined by the function $T$.}
+
+\bigskip
+\ex{The function $f$ calculates the speed $s$ of a rocket (in miles per hour) $t$ seconds after it is launched.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $t$, seconds since launch
+		\item output $s$, speed of the rocket
+		\item speed, $s$, is a function of time since launch, $t$
+		\item $s=f(t)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The function $h$ determines the height $y$ of a baseball (in feet) $t$ seconds after it is thrown upward.}
+
+\bigskip
+\ex{If you know $Q$ the number of questions on a multiple choice test, you can figure out the number $x$ you need to answer correctly to pass the test using the function $P$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $Q$, number of questions
+		\item output $x$, number you need to answer correctly
+		\item number of questions you need to answer correctly, $x$, is a function of the number of questions, $Q$
+		\item $x=P(Q)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{If you know $d$ the distance you need to travel on the thruway you can calculate the toll $t$ you will have to pay using the function $f$.}
+
+
+\vspace{24 pt}
+\noindent In each of the following problems, two variables and the quantities they represent are given, and an equation relating these variables with a function is also given. 
+\begin{enumerate}[label=(\alph*)]
+	\item state the input variable and quantity,
+	\item state the output variable and quantity, 
+	\item describe the relationship as a function using the phrasing \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}} using both the
+	variables and the quantities they represent, and
+\end{enumerate}
+
+\bigskip
+\ex{$h$ is the number of minutes needed to walk to school at a given pace, $d$ is the distance to school in miles, and $h = f(d)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $d$, miles to school
+		\item output $h$, minutes need to walk
+		\item minutes to walk, $h$, is a function of miles to school, $x$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{$w$ is the number of weeks required to install $m$ miles of fiber optic cable, and $w = f(m)$.}
+
+\bigskip
+\ex{$y$ is the number of months it will take to pay off a credit card with balance $B$ paying the minimum payment, and $y = f(B)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $B$, balance
+		\item output $y$, months to pay off
+		\item months to pay off, $y$, is a function of balance, $B$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{$T$ is the total amount paid over the life of a car loan, $C$ is the amount borrowed, and $T = f(C)$.}
+
+\bigskip
+\ex{$t$ is the time in seconds that it takes for a race car to accelerate to a speed of $m$ miles per hour, and $t = a(m)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $m$, speed
+		\item output $t$, time to accelerate
+		\item time to accelerate, $t$, is a function of speed, $m$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{$K$ is the temperature in degrees Kelvin, $F$ is the temperature in degrees Fahrenheit, and $K = g(F)$.}
+
+\bigskip
+\ex{$m$ is the velocity a race car needs to accelerate up to, $t$ is the time required to do this, and $t = a(m)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $m$, velocity
+		\item output $t$, time to accelerate
+		\item time to accelerate, $t$, is a function of velocity, $m$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{$F$ is the temperature in degrees Fahrenheit, $K$ is the temperature in degrees Kelvin, and $F = g(K)$.}
+
+\bigskip
+\ex{$C$ is the amount borrowed on a car loan, $I$ is the total amount of interest on the loan, and $I = f(C)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $C$, amount borrowed
+		\item output $I$, amount of interest
+		\item amount of interest, $I$, is a function of amount borrowed, $C$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{$B$ is the balance on a credit card, $y$ is the number of months it will take to pay it off making the minimum monthly payment, and $y = f(B)$.}
+
+\subsubsection*{Functions and Formulas}
+
+\bigskip
+\ex{The annual property tax on residential property in the Town of Townsville is calculated using the function $f(x)=0.018x+75$, where $x$ is the property’s assessed value. Use this function to determine the annual property tax on a home assessed at $\$175,000$.}
+\sol{$\$3,225$}
+
+\bigskip
+\ex{The annual property tax on residential property in the Village of Villageport is calculated using the function $f(x)=0.021x+350$ where $x$ is the property’s assessed value. Use this function to determine the annual property tax on a home assessed at $\$154,000$.}
+
+\bigskip
+\ex{The height in feet of a ball thrown upward with an initial upward velocity of 75 feet per second can be calculated using the function $h(t)=-16t^2+75t$, where $t$ is the number of seconds since the ball was thrown. Use this function to find the ball’s height $2$ seconds after being thrown.}
+\sol{$86$ feet}
+
+\bigskip
+\ex{The height of a ball thrown upward with an initial velocity of 18 meters per second can be calculated using the function $h(t)=-4.9t^2+18t$, where $t$ is the number of seconds since the ball was thrown. Use this function to find the ball’s height $2$ seconds after being thrown (round to one decimal place).}
+
+\bigskip
+\ex{If $f(x)=3x+7$, find $f(5)$.}
+\sol{$f(5)=22$}
+
+\bigskip
+\ex{If $f(x)=11-5x$, find $f(3)$.}
+
+\bigskip
+\ex{If $g(x)=x^2-2x+1$, find $g(1)$.}
+\sol{$g(1)=0$}
+
+\bigskip
+\ex{If $g(x)=2x^2-5x+3$, find $g(2)$.}
+
+\bigskip
+\ex{If $g(t)=7t+t^2$, find $g(-1)$.}
+\sol{$g(-1)=-6$}
+
+\bigskip
+\ex{If $g(t)=5-t^2$, find $g(-3)$.}
+
+\bigskip
+\ex{If $h(z)=3-2z$, find $h(0)$.}
+\sol{$h(1)=3$}
+
+\bigskip
+\ex{If $r(x)=150+2x$, find $r(5)$.}
+
+\subsubsection*{Functions Defined Verbally}
+
+\bigskip
+\ex{Let $r$ be the rule that rounds each real number $x$ to the nearest whole integer. Find (a) $r(0.54)$, (b) $r(227.1396)$, and (c) $r(-2.93)$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $r(0.54) = 1$
+		\item $r(227.1396) = 227$
+		\item $r(-2.93) = -3$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Let $d$ be the rule that rounds each real number $x$ to one decimal place. Find (a) $d(1.76)$, (b) $d(22.43)$, and (c) $d(-11.55)$.}
+
+\bigskip
+\ex{Let $a$ be the rule that assigns to each English word the first letter in the word. Find (a) $a(\text{bicycle})$, (b) $a(\text{porcupine})$, and (c) $a(\text{plastic})$.}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $a(\text{bicycle})=\text{b}$
+		\item $a(\text{porcupine})=\text{p}$
+		\item $a(\text{plastic})=\text{p}$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Let $f$ be the rule that assigns to each English word the last letter in the word. Find (a) $f(\text{bicycle})$, (b) $f(\text{porcupine})$, and (c) $f(\text{plastic})$.}
+
+\subsubsection*{Function Defined by Tables}
+Answer the following questions based on the table below, which gives the price of each lunch special as a function of the entree ordered. Assume the function’s name is $p$.
+\begin{center}
+	\begin{tabular}{c|c}
+		Lunch Special & Price (includes soup, eggroll, or can of soda)\\
+		\hline
+		Beef with broccoli & $\$7.95$\\
+		Kung pao chicken & $\$6.95$\\
+		Shrimp with lobster sauce &$\$8.95$\\
+		Szechuan tofu& $\$7.50$		
+	\end{tabular}
+\end{center}
+
+\bigskip
+\ex{Find $p(\text{Szechuan tofu})$, the price of the Szechuan tofu lunch special. Express your answer both in ordinary English and in function notation.}
+\sol{$p(\text{Szechuan tofu})=7.50$; the price of the Szechuan tofulunch special is $\$7.50$}
+
+\bigskip
+\ex{Find $p(\text{Kung pao chicken})$, the price of the Kung pao chicken lunch special. Express your answer both in ordinary English and in function notation.}
+\vspace{12 pt}
+\noindent Answer the following questions based on the table below, which gives the weight in pounds at which a $35$ year old man is considered \quotes{obese} according to USDA diet guidelines as a function of his height in inches. Assume the function’s name is $f$.
+\begin{center}
+	\begin{tabular}{c|c}
+		Height (inches) & Weight (pounds)\\
+		\hline
+		$66$ & $186$\\
+		$68$ & $197$\\
+		$70$ & $209$\\
+		$72$ & $221$
+	\end{tabular}
+\end{center}
+
+\bigskip
+\ex{Find $f(70)$, the weight at which a $70$ inch tall man would be considered obese. Express your answer both in ordinary English and in function notation.}
+\sol{$f(70)=209$; a $70$ inch tall man would be considered obese at a weight of $209$ pounds}
+
+\bigskip
+\ex{Find $f(66)$, the weight at which a $66$ inch tall man would be considered obese. Express your answer both in ordinary English and in function notation.}
+
+\subsubsection*{Domain and Range}
+
+\bigskip
+\ex{Let $M$ be the function that assigns to each living human being their legal date of birth (month and day). What is the domain of $M$? What is the range of $M$?}
+\sol{Domain is all living human beings; range is all possible dates (month and day)}
+
+\bigskip
+\ex{Let $p$ be the rule that assigns to each vehicle registered in the state of New York its license plate number. What is the domain of $p$? What is the range of $p$?}
+
+\bigskip
+\ex{Let $r$ be the rule that gives the rank of each current member of the U.S. Army. What is the domain of $r$? What is the range of $r$?}
+\sol{Domain is all current members of the US Army; range is all possible ranks}
+
+\bigskip
+\ex{Let $W$ be the rule that gives the wedding date (month and day) of each legally married American married couple. What is the domain of $W$? What is the range of $W$?}
+
+\bigskip
+\ex{What is the domain of $f(x)=x^2-3x+5$?} \sol{Domain is all real numbers or $\mathbb{R}$}
+
+\bigskip
+\ex{What is the domain of $f(x)=2x-5$?}
+
+\bigskip
+\ex{What is the domain of $g(x)=\frac{17x-5}{x-1}$?} \sol{Domain is all real numbers except $1$, or $\{x \vert x \ne 1 \}$}
+
+\bigskip
+\ex{What is the domain of $g(x)=\frac{x^2-3x+17}{x+2}$?}
+
+\bigskip
+\ex{What is the domain of $h(x)=\frac{x}{2}+\frac{2}{x}$?} \sol{Domain is all real numbers except 0, or $\{x \vert x \ne 0 \}$}
+
+\bigskip
+\ex{What is the domain of $h(x)=\frac{x-3}{x-5}-\frac{3}{4}$?}
+
+\bigskip
+\ex{What is the domain of $f(t)=2+\sqrt{t-3}$?} \sol{Domain is all real numbers greater than or equal to 3, or $\{x \vert x \ge 3 \}$}, or $[3,\infty)$]
+
+\bigskip
+\ex{What is the domain of $f(t)=\sqrt{2t-5}$?}
+
+\bigskip
+\ex{What is the domain of $h(t)=\frac{t}{2t-1}$?} \sol{Domain is all real numbers except $\frac{1}{2}$, or $\{x \vert x \ne \frac{1}{2} \}$}
+
+\bigskip
+\ex{What is the domain of $g(t)=\frac{6t+1}{2t-3}$?}
+
+\subsubsection*{Determining Whether or Not a Rule is a Function}
+Each of the following exercises describes a rule which could be used to process information.  Determine whether or not the given rule is a function. Clearly justify your answer.
+
+
+\bigskip
+\ex{Let $f$ be the rule that names the biological father of each living human being.}
+\sol{Yes this is a function. Each input (living human being) has one and only one biological father.}
+
+\bigskip
+\ex{Let $m$ be the rule that gives the legal spouse of every legally married American.}
+
+\bigskip
+\ex{Let $c$ be the rule that assigns to each biological father his child.}
+\sol{No, this is not a function. There are some inputs (biological fathers) who have more than one child.}
+
+\bigskip
+\ex{Let $w$ be the rule that assigns to each person who has ever gotten married the person they married.}
+
+\bigskip
+\ex{Let $P$ be the rule that determines the current selling price for each item in stock at the Macedon, NY Walmart store.}
+\sol{Yes, this is a function. Each item has one and only one price (when the cashier rings it up there is only one price that comes up.)}
+
+\bigskip
+\ex{Let $D$ be the rule that determines the current selling price for each item in stock at a dollar store.}
+
+\bigskip
+\ex{Let $g$ be the rule that gives each student who completes this course his or her final course grade.}
+\sol{Yes, this is a function. Each input (student) gets only one final grade.}
+
+\bigskip
+\ex{Let $k$ be the rule that gives each student enrolled at this college his or her current grade point average.}
+
+\bigskip
+\ex{Let $m$ be the rule that assigns to each dog owner his or her dog.}
+\sol{No, this is not a function. Some inputs (dog owners) have more than one output (dogs they own.)}
+
+\bigskip
+\ex{Let $n$ be the rule that assigns to each owned dog its owner.}
+
+\bigskip
+\ex{$f(x)=(x-3)(x+2)$}
+\sol{Yes, this is a function. If you input any real number and evaluate the result, you get one and only one answer.}
+
+\bigskip
+\ex{$g(x)=3x^2+1$}
+
+\bigskip
+\ex{$g(t)=\frac{2t+1}{t-1}$} 
+\sol{Yes, this is a function. If you input any real number except $t=1$, you get one and only one answer. ($t=1$ is not a problem because it is excluded from the domain, and even if you ignored this fact and input $t=1$ you would give you no output, not more than one)}
+
+\bigskip
+\ex{$h(x)=\frac{x^2-1}{x-1}$}
+
+\bigskip
+\ex{$f(x)=0$} \sol{Yes, this is a function. No matter what you use as input, you get only one output (the output is always zero.)}
+
+\bigskip
+\ex{$c(t)=42$}
+
+\subsubsection*{Grab Bag}
+
+\bigskip
+\ex{Suppose $f(x)=x^2-3x$. Calculate:
+	\begin{enumerate}[label=(\alph*)]
+		\item $f(3)$
+		\item $f(-2)$
+		\item $f(0)$
+	\end{enumerate}
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $f(3)=0$
+		\item $f(-2)=10$
+		\item $f(0)=0$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The cost of roaming data on a cellular plan is a function of the amount of data downloaded. The cost is $\$15.36$ per megabyte. Use this function to determine how much it would cost to download $3.5$ megabytes on this plan.}
+
+\bigskip
+\ex{Let $C$ be the cost of roaming data on a cellular plan, let $d$ be the amount of data downloaded (in megabytes) and suppose $C=f(d)$. 
+	\begin{enumerate}[label=(\alph*)]
+		\item State the input variable and quantity,
+		\item state the output variable and quantity, and
+		\item describe the relationship using both the variables and the quantities they represent using the phrasing \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}}.
+	\end{enumerate}
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $d$, The amount of data 
+		\item $C$, the cost
+		\item The cost of roaming data, $C$, is a function of the amount of data downloaded, $d$.
+	\end{enumerate}
+}
+
+\bigskip
+\ex{What is the domain of $g(x)=x^2+3x-1$?}
+
+\bigskip
+\ex{For the table given below:
+	\begin{align*}
+		\begin{array}{c|cccccc}
+			X & 0 & 1 & 2 & 3 & 4 & 5 \\
+			\hline
+			Y & 6 & 2 & -1 & 4 & 7 & 2 \\
+		\end{array}
+	\end{align*}
+	\begin{enumerate}[label=(\alph*)]
+		\item Is $Y$ a function of $X$? Justify your answer.
+		\item Is $X$ a function of $Y$? Justify your answer.
+	\end{enumerate}
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $Y$ is a function of $X$, Each input ($X$) has only one output value ($Y$).
+		\item $X$ is not a function of $Y$. The input $Y=2$ corresponds to two different outputs ($X=1$ and $X=5$)
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Give an example of a rule that does not define a function. Explain why the rule fails to define a function.}
+
+\bigskip
+\ex{Does the rule $f(x)=\frac{3}{x}$ define a function? Why or why not.}
+\sol{Yes, $f$ is a function.  Each input $x$ gives one and only one output. ($x=0$ is excluded from the domain.)}
+
+\bigskip
+\ex{Suppose $f(x)=8-x^2$. Calculate:
+	\begin{enumerate}[label=(\alph*)]
+		\item $f(3)$
+		\item $f(-2)$
+		\item $f(0)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{The rated range of an electric vehicle is a function of the storage capacity of its battery. Suppose an electric car is expected to travel $4.5$ miles per kilowatt hour. Use this function to determine its range if it has a $28$ kwh battery.}
+\sol{$126$ miles}
+
+\bigskip
+\ex{Suppose $R$ is the range (in miles) of an electric vehicle, let $E$ be the storage capacity of its battery in kilowatt hours, and suppose $R=g(E)$. 
+	\begin{enumerate}[label=(\alph*)]
+		\item State the input variable and quantity,
+		\item state the output variable and quantity, and
+		\item describe the relationship using both the variables and the quantities they represent using the phrasing \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}}.
+	\end{enumerate}
+}
+
+\bigskip
+\ex{What is the domain of $f(x)=\frac{x+2}{x-5}$?}
+\sol{All real numbers except $5$, or $\{x \vert x \ne 5\}$}
+
+\bigskip
+\ex{For the table given below:
+	\begin{align*}
+		\begin{array}{c|c}
+			\text{Agent} & \text{Listing}\\
+			\hline
+			\text{Loman} &  742 \text{ Evergreen}\\
+			\text{Mays} & 1313 \text{ Mockingbird} \\
+			\text{Popeil} & 10 \text{ Stigwood} \\
+			\text{Mays} & 342 \text{ Gravelpit} \\ 
+			\text{Hill} & 518 \text{ Crestview} \\ 
+			\text{Hill} & 704 \text{ Hauser}
+		\end{array}
+	\end{align*}
+	\begin{enumerate} [label=(\alph*)]
+		\item Is agent a function of listing? Justify your answer.
+		\item Is listing a function of agent? Justify your answer.
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Fill in the table below so that $x$ is a function of $y$ and $y$ is also a function of $x$.
+	\begin{align*}
+		\begin{array}{c|c|c|c|c|c|}
+			x & \phantom{111} & \phantom{222} & \phantom{333} & \phantom{444} & \phantom{555} \\
+			\hline
+			y & & & & & \\
+		\end{array}
+	\end{align*}
+}
+\sol{There are many possible correct answers. As long as no value appears more than once in either the $x$ or $y$ row, it works.}
+
+\bigskip
+\ex{Fill in the table below so that $x$ is a function of $y$ but $y$ is not a function of $x$.
+	\begin{align*}
+		\begin{array}{c|c|c|c|c|c|}
+			x & \phantom{111} & \phantom{222} & \phantom{333} & \phantom{444} & \phantom{555} \\
+			\hline
+			y & & & & & \\
+		\end{array}
+	\end{align*}
+}
+
+\bigskip
+\ex{Fill in the table below so that $x$ is not a function of $y$ but $y$ is a function of $x$.
+	\begin{align*}
+		\begin{array}{c|c|c|c|c|c|}
+			x & \phantom{111} & \phantom{222} & \phantom{333} & \phantom{444} & \phantom{555} \\
+			\hline
+			y & & & & & \\
+		\end{array}
+	\end{align*}
+}
+\sol{There are many possible correct answers. As long as no value appears more than once in the $x$ row but at least one value does appear more than once in the $y$ row, it works.}
+
+\bigskip
+\ex{Fill in the table below so that $x$ is not a function of $y$ and $y$ is also not a function of $x$.
+	\begin{align*}
+		\begin{array}{c|c|c|c|c|c|}
+			x & \phantom{111} & \phantom{222} & \phantom{333} & \phantom{444} & \phantom{555} \\
+			\hline
+			y & & & & & \\
+		\end{array}
+	\end{align*}
+}
+
+\bigskip
+\ex{Suppose $h$ is the function which gives the number of electoral votes that each state gets in the Electoral College. Determine $h(\text{Florida})$, $h(\text{Wyoming})$ and $h(\text{Massachusetts})$.  (NOTE:  Unless you happen to have this information memorized for some reason, look it up in a reference book or on the internet.)
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item $h(\text{Florida})=30$
+		\item $h(\text{Wyoming})=3$
+		\item $h(\text{Massachusetts})=11$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{What is the domain of the function $q(t)=\frac{t+5}{t-5}$}
+
+\bigskip
+\ex{The mass in kilograms $m$ of an object can be determined based on its weight $w$ in pounds, using a function called $C$. 
+	\begin{enumerate}[label=(\alph*)]
+		\item State the input variable and quantity,
+		\item state the output variable and quantity, and
+		\item describe the relationship using both the variables and the quantities they represent using the phrasing \quotes{\underline{$\phantom{blank}$} is a function of \underline{$\phantom{blank}$}}.
+		\item Write an equation which relates the variables and the function.
+	\end{enumerate}
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item input $w$, weight in pounds
+		\item output $m$, mass in kilograms
+		\item mass, $m$ is a function of weight $w$
+		\item $m=C(w)$
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Suppose $f$ is defined to be a function which takes as inputs the last name of each student in a college’s freshman class and gives as an output that student’s academic advisor. Does $f(\text{Smith}) = \text{Jones}$ mean (a) that Smith is Jones’ academic advisor or (b) that Jones is Smith’s academic advisor?}
+
+\bigskip
+\ex{Suppose $H$ is a function that gives the first name of each student in a class as a function of that student’s last name. 
+	\begin{enumerate}[label=(\alph*)]
+		\item Since $H$ is a function, which of the following must be true: that no two students share the same last name, that no two students share the same first name, or that no two students share either the same first name or last name? Justify your answer.
+		\item Rewrite each of the following function equations as a student’s name (such as \quotes{Mary Jones}): $H(\text{James}) = \text{George}$, $H(\text{Li}) = \text{Huang}$, and $H(\text{Bradley}) = \text{Cooper}$.
+	\end{enumerate}
+}
+\sol{
+	\begin{enumerate}[label=(\alph*)]
+		\item No two students share the same last name
+		\item George James, Huang Li, Cooper Bradley
+	\end{enumerate}
+}
+
+\bigskip
+\ex{Suppose $f(x)=\frac{2}{3}x-1$. Find
+	\begin{enumerate}[label=(\alph*)] 
+		\item $f(0)$, 
+		\item $f(-9)$ and 
+		\item $f(5)$.
+	\end{enumerate}
+}
+
+\bigskip
+\ex{If $f(x) = x^2$ find two different input values which give the same output value. Does the fact that you can do this mean $f(x)$ is not a function?}
+\sol{There are many possible answers. Take any positive number and the corresponding negative number. $3$ and $-3$ for example, since $f(3)=3^2=9$ and $f(-3)=(-3)^2=9$. This is not a problem, since it is fine for two different inputs to give the same output.}
+
+\clearpage

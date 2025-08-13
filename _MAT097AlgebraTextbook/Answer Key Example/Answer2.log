@@ -1,0 +1,250 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.6)  8 FEB 2024 01:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Answer2.tex
+(Answer2.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/xsim\xsim.sty
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+
+
+! LaTeX Error: Mismatched LaTeX support files detected.
+(LaTeX)        Loading 'l3backend-pdftex.def' aborted!
+(LaTeX)        
+(LaTeX)        The L3 programming layer in the LaTeX format
+(LaTeX)        is dated 2023-08-29, but in your TeX tree the files require
+(LaTeX)        at least 2023-10-10.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.44   }
+        
+
+The most likely causes are:
+ - A recent format generation failed;
+ - A stray format file in the user tree which needs to be removed or rebuilt;
+ - You are running a manually installed version of l3backend-pdftex.def
+   which is incompatible with the version in LaTeX.
+
+LaTeX will abort loading the incompatible support files but this may lead to
+later errors. Please ensure that your LaTeX format is correctly regenerated.
+
+
+))
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/xsim\xsimverb.sty
+Package: xsimverb 2022/02/12 v0.4 write environments verbatim to files
+\l__xsimverb_tmpa_int=\count193
+\l_xsim_line_gobble_int=\count194
+)
+Package: xsim 2022/02/12 v0.21 eXercise Sheets IMproved
+Loading module `base' ...
+\l__xsim_tmpa_dim=\dimen141
+\l__xsim_tmpb_dim=\dimen142
+\l__xsim_tmpc_dim=\dimen143
+\l__xsim_tmpa_int=\count195
+\l__xsim_tmpb_int=\count196
+\l__xsim_tmpc_int=\count197
+\l__xsim_tmpa_box=\box51
+\l__xsim_tmpb_box=\box52
+\l__xsim_tmpc_box=\box53
+Loading module `auxfile' ...
+Loading module `properties' ...
+Loading module `environments' ...
+Loading module `templates' ...
+Loading module `tags' ...
+Loading module `goals' ...
+Loading module `exercises' ...
+\g_xsim_id_int=\count198
+\g_xsim_max_id_int=\count199
+Loading module `solutions' ...
+\l_xsim_printsolutions_section_int=\count266
+\l_xsim_printsolutions_chapter_int=\count267
+Loading module `collections' ...
+Loading module `blanks' ...
+\l__xsim_blank_dim=\dimen144
+\l__xsim_blank_line_increment_dim=\dimen145
+\l__xsim_blank_line_minimum_length_dim=\dimen146
+\l__xsim_blank_box=\box54
+Loading module `grades' ...
+Loading module `random' ...
+\g__xsim_random_list_id_int=\count268
+Loading module `translations' ...
+
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+Loading module `interface' ...
+Loading module `definitions' ...
+\c@exercise=\count270
+\c@solution=\count271
+\c@numberofexercises=\count272
+ (C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box55
+\extrarowheight=\dimen148
+\NC@list=\toks17
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box56
+)
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
+\@cmidla=\count273
+\@cmidlb=\count274
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
+\@thisruleclass=\count275
+\@lastruleclass=\count276
+\@thisrulewidth=\dimen161
+))
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count277
+\c@Blindtext=\count278
+\c@blind@countparstart=\count279
+\blind@countxx=\count280
+\blindtext@numBlindtext=\count281
+\blind@countyy=\count282
+\c@blindlist=\count283
+\c@blindlistlevel=\count284
+\c@blindlist@level=\count285
+\blind@listitem=\count286
+\c@blind@listcount=\count287
+\c@blind@levelcount=\count288
+\blind@mathformula=\count289
+\blind@Mathformula=\count290
+\c@blind@randomcount=\count291
+\c@blind@randommax=\count292
+\c@blind@pangramcount=\count293
+\c@blind@pangrammax=\count294
+)
+\g_xsim_collection_exercise_in_all exercises_int=\count295
+\c@totalexerciseinall exercises=\count296
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 7.
+
+(Answer2.aux (Answer2.xsim))
+\openout1 = `Answer2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\l__xsim_aux_file_iow=\write3
+\openout3 = `Answer2.xsim'.
+
+
+(C:\Users\charl\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
+ [1
+
+{C:/Users/charl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (Answer2
+.aux (Answer2.xsim))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4486 strings out of 475248
+ 112837 string characters out of 5757814
+ 1918785 words of memory out of 5000000
+ 26027 multiletter control sequences out of 15000+600000
+ 559279 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,5n,97p,241b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/charl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb>
+Output written on Answer2.pdf (2 pages, 36614 bytes).
+PDF statistics:
+ 24 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

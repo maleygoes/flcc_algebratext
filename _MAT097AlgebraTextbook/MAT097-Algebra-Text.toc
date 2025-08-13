@@ -1,0 +1,126 @@
+\contentsline {chapter}{\numberline {1}Foundations of Arithmetic}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Order of Operations}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Common Pitfalls}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Order of Operation and Your Calculator}{7}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Exercises}{9}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Arithmetic with Fractions}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Adding and Subtracting Fractions}{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Multiplying and Dividing Fractions}{16}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Reducing Fractions to Lowest Terms}{17}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Fraction Arithmetic and Your Calculator}{19}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Closing Thoughts}{20}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Exercises}{21}{subsection.1.2.6}%
+\contentsline {section}{\numberline {1.3}Algebraic Substitution}{23}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Substitution in Algebraic Expressions}{23}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Formulas}{24}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Input-Output and Your Calculator}{26}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Tables with Multiple Inputs}{30}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Exercises}{32}{subsection.1.3.5}%
+\contentsline {section}{\numberline {1.R}Foundation of Arithmetic Review Questions}{35}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Foundations of Algebra}{39}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Algebraic Expressions}{40}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Terms}{41}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Simplifying Terms}{42}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Combining Like Terms}{44}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Exercises}{46}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Distribution}{49}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Exercises}{52}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Algebraic Expressions Exponents}{54}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Exponents and Multiplication}{54}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Exponents and Division}{54}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Exponents and Expressions}{57}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Exponents and Fractions}{58}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Exercises}{60}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Negative Exponents}{62}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Exercises}{65}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Factoring: Common Factor}{66}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Common Factor}{66}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Factor by Grouping}{68}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Exercises}{70}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Factoring: Second Degree Expression}{71}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Exercises}{74}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.R}Foundations of Algebra Review}{75}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Solving Equations}{79}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Solving First Degree Equations}{80}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Solving Equations Using the Balance Principle}{81}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Solving Equations Involving Fractions}{85}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Identities and Contradictions}{88}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Solving for One Variable in Terms of Others}{90}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Exercises}{93}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Solving Second Degree Equations}{99}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The Square Root Property}{99}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Factor to Solve a Second-Degree Equation}{100}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Exercises}{103}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Solving Equations of Degree 2 or Greater}{104}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Rational Exponents}{104}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Solving using Rational Exponents}{105}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}One Solution or Multiple Solutions}{106}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Exercises}{108}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.R}Solving Equations Review Questions}{109}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Foundations of Functions}{111}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Functions}{112}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Functions}{112}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Functions and Formulas}{115}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Functions Defined Verbally}{116}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Functions Defined by Tables}{117}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Domain and Range}{118}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Determining Whether or Not a Rule is a Function}{120}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Exercises}{123}{subsection.4.1.7}%
+\contentsline {section}{\numberline {4.2}Functions and Graphs}{132}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Functions and Coordinates}{132}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Graphs}{133}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}The Graphing Calculator}{143}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Exercises}{149}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Solving Equations Graphically}{155}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Graphical Solution}{155}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Window Setting for Graphical Solution}{162}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}When to Use a Graphical Solution}{167}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Exercises}{172}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Functions and Mathematical Models}{176}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Functions as Mathematical Models}{176}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Interpreting Function Notation}{182}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Relevant Domain and Range}{183}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Exercises}{188}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Implicit Functions}{196}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Implicit Functions}{196}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Rewriting Implicit Functions in Explicit Form}{198}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Switching Input and Output Variables}{201}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Exercises}{203}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Rates of Change}{207}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Average Rates of Change}{207}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Interpreting Average Rates of Change}{210}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Constant vs. Nonconstant Rates of Change}{212}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Exercises}{215}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.R}Foundations of Functions Review Questions}{222}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Linear Functions}{231}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Linear Functions and Their Slopes}{232}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Linear Functions and Slope}{232}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Linear Functions and Mathematical Models}{234}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Graphs of Linear Functions}{237}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Exercises}{242}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Linear Functions and Their Intercepts}{249}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}The Vertical Intercept}{250}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Slope-Intercept Form}{254}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}The Horizontal Intercept}{256}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Exercises}{259}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Finding Formulas for Linear Functions}{265}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Formulas for Linear Functions Given Slope and Intercept}{265}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Formulas for Linear Models Given Slope and Input-Output Pair}{266}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Point-Slope Form}{268}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Formulas for Linear Models Given Two Input-Output Pairs}{270}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Exercises}{274}{subsection.5.3.5}%
+\contentsline {section}{\numberline {5.4}Linear Functions and Their Graphs}{280}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Graphical Solution of Linear Equations}{280}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Graphical Solution of Linear Inequalities}{281}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Parallel and Perpendicular Lines}{283}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Exercises}{285}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Systems of Linear Equations}{289}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Linear Systems and their Solutions}{289}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Solving Linear Systems Graphically}{290}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Solving Linear Systems by Substitution}{294}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Solving Linear Systems by Elimination}{297}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Strategies for Solving Linear Systems}{300}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Exercises}{302}{subsection.5.5.6}%
+\contentsline {section}{\numberline {5.R}Linear Functions Review Questions}{309}{section.5.6}%
+\contentsline {chapter}{\numberline {A}Selected Answers}{313}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Index}{347}{appendix.B}%

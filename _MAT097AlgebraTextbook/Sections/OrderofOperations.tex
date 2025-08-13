@@ -1,0 +1,515 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Section: Order of Operations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Order of Operations}
+\label{OrderofOperations}
+
+When you need to follow a set of instructions, it’s pretty important that the instructions be clear.  Suppose, for example, you’ve just filled a prescription, and instructions on the bottle say \quotes{A dose is two capsules. Take two each day.}
+
+So ... are you supposed to take two capsules (one dose) each day? Or are you supposed to take two doses (four capsules) each day?
+
+Directions like this simply are not very good directions. Two different people interpreting these instructions differently will take different amounts of the medicine, and at least one of those amounts is going to be wrong. This is obviously not a good thing.  The expressions we right down in mathematics are also sets of instructions. For example, the expression:
+
+$$7+1-3*2$$	
+
+is a set of instructions telling you to perform a collection of arithmetic steps. There should not be any room for misinterpretation about just what those instructions are telling us to do. Two different people trying to follow these instructions should always get the same results.
+
+There’s not really any ambiguity about what numbers we are supposed to use or what arithmetic operations we are supposed to do with those numbers. \quotes{7} means seven, \quotes{+} means addition, and so on. But there is room for disagreement about the order in which we should do those steps, and different people following different orders will get different results. So, to avoid any possible confusion, we adopt a set of rules known as the order of operations:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Definition: Order of Operations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{definition}
+	\index{Order of Operations}
+	\textbf{\underline{Order of Operations}} \hfill \\
+	\bigskip
+	\begin{tabular}{ | l | p{8 cm} |}
+		\hline
+		Operations & What to Do \\ \hline
+		Parenthesis & Any operations inside of parentheses must be done before any operations outside of parentheses.  What is inside of the parentheses takes priority over every other operation.\\ \hline
+		Exponents & Exponents are evaluated before any other operation \\ \hline
+		Multiplication and Division & Multiplications and divisions are done next. If there is more than one to do, work from left to right.\\ \hline
+		Addition and Subtraction & Lastly do additions and subtractions. If there is more than one to do, work from left to right. \\ \hline
+	\end{tabular}
+\end{definition}
+
+The order can be remembered using the acronym \textbf{PEMDAS} (for \textbf{\underline{P}}arentheses, \textbf{\underline{E}}xponents, \textbf{\underline{M}}ultiplication and \textbf{\underline{D}}ivision, \textbf{\underline{A}}ddition and \textbf{\underline{S}}ubtraction).
+
+Given this order, there is never any room for misunderstanding arithmetic instructions. The steps of:
+
+$$7+1-3*2$$
+
+must be done following the order of operations.
+
+There are no parentheses or exponents in this expression, so we skip over those steps and move next to multiplication and division. We have one multiplication in the expression, so we multiply $3*2$ to get $6$, and arrive at:
+
+$$7+1-\bm{3*2} = 7+1-6$$
+
+The next step is additions and subtractions, and we have one of each. Order of operations says we do them from left to right, so we first add $7+1$ to get $8$:
+
+$$\bm{7+1}-6 = 8-6$$
+
+and then finish up by subtracting $8-6$ to arrive at a final result:
+
+$$\bm{2}$$
+
+A few examples will further illustrate.
+
+\exam{\label{OrderofOperationsExample1}\textbf{Evaluate $4-2^3+7(2-3)$}}
+
+\indenttext{
+	Following order of operations we will (a) do what is inside parentheses, then (b) apply the exponent, then (c) multiply, and then (d) add and subtract, left to right:
+	
+	\begin{align*}
+			5-2^3+7\bm{(2-3)} & = 5-\bm{2^3}+7(-1)\\
+						& = 5-8+\bm{7(-1)} \\
+						& = \bm{5-8}-7 \\
+						& = \bm{-3-7} \\
+						& = \bm{-10}
+	\end{align*}
+}
+
+\exam{\label{OrderofOperationsExample2}\textbf{Evaluate $(5-2)^3+7(2)-3$}}
+
+\indenttext{We again follow order of operations:
+	
+	\begin{align*}
+		\bm{(5-2)}^3+7(2)-3 & = \bm{(3)^3}+7(2)-3\\
+			& = 27+\bm{7(2)}-3 \\
+			& = \bm{27+14}-3 \\
+			& = \bm{41-3} \\
+			& = \bm{38}
+	\end{align*}
+}
+
+\bigskip
+
+You may wonder why the order of operations is what it is. Why put multiplication before addition, or division after exponents? Why the PEMDAS order instead of some other? In fact, there is no absolute reason why order of operations \textit{has} to be the way it is, but it is important to have a commonly accepted standard to avoid misunderstandings. The PEMDAS order of operations is sort of like the rule that we drive on the right side of the road in the US. There really is no reason why driving on the right is better than driving on the left, and it doesn’t really matter all that much which side we agree is the correct one, but it is pretty important that we all agree which side we’re all going to drive on! PEMDAS is the accepted \quotes{rules of the road} in mathematics. \footnote{Just as in some countries the standard is to drive on the left, there actually are some circumstances in which a 	different order of operations is used. Two examples are Polish notation, developed in the early 1900’s by the 	Polish logician Jan Lukasiewicz, and Reverse Polish notation, a variation of regular Polish notation. These are used in certain very special technical circumstances. But you are very unlikely to ever run into those circumstances, though, and if you ever do, you’ll know!}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Order of Operations: Common Pitfalls
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Common Pitfalls}
+
+Most of the time, evaluating an expression following order of operations is straightforward. Follow the PEMDAS order, just like we did in the examples above, and everything’s fine. There are, though, a few situations where things can get a little confusing.
+
+\subsubsection*{Multiplication and Division are tied as are Addition and Substraction}
+
+One situation we’ve already encountered, but it bears repetition. Remember that even though M comes before D in PEMDAS, Multiplication and Division are tied and are carried out from left to right as at the same time.  Similarly Addition and Subtraction are tied and carried out from left to right in the order they appear.
+
+\exam{\label{OrderofOperationsExample3}\textbf{Evaluate $20 \div 4 * 3$}}
+
+\indenttext{
+	We carry out the division and then the multiplication since this is how they appear from left to right in the expression:
+	
+	\begin{align*}
+			\bm{20 \div 4} * 3 & = \bm{5*3}\\
+			& = \bm{15}
+	\end{align*}
+}
+
+\subsubsection*{Nested Parentheses}
+
+Parentheses can occur inside other parentheses, called nested parentheses. Following order of operations, we do whatever is inside parentheses first. If what is inside those parentheses has multiple steps, we need to do those steps following order of operations, and so we work on the parentheses inside first. The following example illustrates:
+
+\exam{\label{OrderofOperationsExample4}\textbf{Evaluate $4-2[7-3(4+2)^2]$}}
+
+\indenttext{
+	Recall that the different shapes [ ] and ( ) for the parentheses have no significance; the different shapes are just used to make the expression easier to read.
+	
+	Looking at the expression overall, we need to do what is inside the [ ] parentheses first. Once inside those parentheses, what do we do first? We do what is inside the ( ) parentheses of course!
+	
+	\begin{align*}
+		4-2[7-3\bm{(4+2)}^2] & = 4-2[7-3\bm{(6)^2}]\\
+		& = 4-2[7\bm{-3(36)}] \\
+		& = 4-2\bm{[7-108]} \\
+		& = 4\bm{-2[-101]} \\
+		& = \bm{4+202} \\
+		& = \bm{206}
+	\end{align*}
+}
+
+\subsubsection*{Exponents and Negative Numbers}
+
+A second situation often gives more trouble. Suppose we want to evaluate:
+
+$$-3^2$$
+
+There are two reasonable ways to read this. Does the exponent apply just to the $3$, or does is apply to the entire $-3$? In other words, does this mean $(-3)(-3)$, or should we read it as $-(3)(3)$?
+  
+The correct answer is the second one. The correct evaluation is:
+
+$$-\bm{3^2}=-\bm{(3)(3)}=\bm{-9}$$
+
+Why do we interpret things this way? By convention, we interpret $-3$ as though the negative sign and the $3$ are being multiplied. In other words, we treat $-3$ as though it were $(-1)(3)$. And so, following this convention, since exponents come before multiplication:
+
+$$-\bm{3^2}=(-1)\bm{3^2}=\bm{(-1)(9)}=\bm{-9}$$
+
+If we actually wanted to say $(-3)(-3)$ we would need to use parentheses and write $(-3)^2$.  Since parentheses take precedence over everything, the correct evaluation of that would be:
+
+$$\bm{(-3)^2}=\bm{(-3)(-3)}=\bm{9}$$
+
+\exam{\label{OrderofOperationsExample5}\textbf{Evaluate $-5^2+(-3)^2-(-4^2)$}}
+
+\indenttext{
+Using the discussion above on exponents and signs:
+
+\begin{align*}
+	-\bm{5^2}+\bm{(-3)^2}-(-\bm{4^2}) & = -25+9 \bm{-(-16)}\\
+		& = \bm{-25+9+16} \\
+		& = \bm{0}
+\end{align*}
+}
+
+\subsubsection*{Implied Groupings}
+
+The third special situation to look out for is best illustrated with an example first.
+
+\exam{\label{OrderofOperationsExample6}\textbf{Evaluate $\displaystyle \frac{30-16}{4+3}$}}
+
+\indenttext{We evaluate the numerator and denominator before carrying out the division
+
+$$\frac{30-16}{4+3}=\frac{14}{7}=2$$
+}
+
+No problem, right?
+
+There’s only one tiny little issue with this example. Order of operations says multiplications and divisions have to be done before additions and subtractions. But in this example, we did just the opposite – we did the addition and subtraction before we did the division! So, even though it should feel as though we did do this correctly, it also looks like we violated order of operations, which would not be correct.
+
+But now if we go back and try to follow the rules, we run into a roadblock. Clearly we are supposed to divide the top, $30-16$, by the bottom, $4+3$. But how can we possibly do that without first subtracting $30-16$ to get $14$, and adding $4+3$ to get $7$? We can’t!
+
+What we have here is an example of an implied grouping. Because we cannot possibly do the division first, we know the numerator and denominator must be meant to be treated as though they were grouped by parentheses. So, when we see:
+
+$$\frac{30-16}{4+3}$$
+
+we mentally interpret that as though there were parentheses there:
+
+$$\frac{(30-16)}{(4+3)}$$
+
+We don’t usually actually write them, because it is always clear that we have to interpret any fraction as though they were there. Since \quotes{everyone knows} they must be there, we don’t bother writing them.
+
+There are other implied groupings as well. Two examples you may have encountered before are absolute value and square roots. PEMDAS doesn’t say anything at all about those, but we always interpret them as though what is inside them is in parentheses.
+
+\exam{\label{OrderofOperationsExample7}\textbf{Evaluate $\displaystyle \frac{4+|5-13|}{\sqrt{7+2}+1}$}}
+
+\indenttext{Following order of operations, we have:
+
+$$\frac{4+|5-13|}{\sqrt{7+2}+1}=\frac{4+|-8|}{\sqrt{9}+1}=\frac{4+8}{3+1}=\frac{12}{4}=3$$
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Order of Operations: Calculator
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Order of Operation and Your Calculator}
+
+Almost all calculators sold today, including the calculator you are using for this course, have order of operations built-in. When you enter an expression to evaluate, the calculator automatically follows order of operations correctly. So to evaluate:
+
+$$5+(8-3^2)^4$$
+
+you would enter (try it now):
+
+\quotes{$$5+(8-3 ^\wedge 2 ) ^\wedge 4$$}
+
+and once you hit enter the calculator should reply with the correct answer, $6$.
+
+This is a very, very nice feature. But, it comes with some drawbacks, especially when dealing with the special cases discussed in the last section.
+
+Suppose you need to square the number $3$. You type \quotes{$3 ^\wedge 2$} into your calculator and get the correct answer, $9$. But now suppose you need to square $-3$. You type \quotes{$-3 ^\wedge 2$} into your calculator just as you did with $3$. But since your calculator follows order of operations, it will interpret this according to those rules, not according to what you meant, and the answer you get will be $-9$. If you want to square $-3$, you need to insert parentheses to tell the calculator that is what you mean. So you need to enter:
+\quotes{$(-3) ^\wedge 2$} to arrive at the correct result.
+
+Implied groupings are also an issue with the calculator as the following example will illustrate.
+
+\exam{\label{OrderofOperationsExample8}To evaluate $\displaystyle \frac{8+10}{5-3}$ Jessie typed \quotes{$8+10/5-3$} into her calculator, and got an answer of 7. This is not the correct answer. What went wrong and how do we correct it?}
+
+\indenttext{
+	When we as human beings see the $8+10$ written as a numerator and $5-3$ as the denominator, we understand that there is an implied grouping at work. But when she typed \quotes{$8+10/5-3$}, the machine had no way of knowing about that grouping, and so it followed order of operations, dividing before adding and subtracting:
+	
+	$$8+\bm{10/5}-3=8+2-3=10-3=7$$
+	
+	To correct this, Jessie needs to insert those implied parentheses into what she types into the calculator: \quotes{$(8+10)/(5-3)$}. The calculator will then do what was intended:
+	
+	$$(8+10)/(5-3)=18/2=9$$
+}
+
+With long calculations, especially those with nested parentheses, it can become tedious to enter the whole expression into the calculator at once. In those cases, it may be easier to break the expression into pieces (following order of operations of course) and use the calculator to evaluate each of the pieces. The next example will illustrate.
+
+\exam{\label{OrderofOperationsExample9}\textbf{Evaluate $\displaystyle \frac{-5+2(3-1)^2}{7+4(3^2-5)}$}}
+
+\indenttext{
+	To enter this into the calculator all at once, you would need to insert the implied parentheses, and then enter: \quotes{$(-5+2(3-1) ^\wedge 2)/(7+4(3 ^\wedge 2-5))$}.
+
+	That works, but it is such a long entry that it would be easy to make a typo entering it, and hard to 	notice that it happened. It might be better to evaluate the numerator and denominator separately, and then divide the results:
+	
+	\begin{align*}
+		& -5+2(3-1) ^\wedge 2 = 3 \\
+		& 7+4(3 ^\wedge 2-5) = 23
+	\end{align*}
+	
+	The final answer then is $3/23$. Dividing this and rounding to 4 decimal places gives a final answer of $0.1304$.
+
+	There is another advantage to doing the top and bottom separately. $3/23$ does not divide evenly, and so you might want to leave it just as a fraction. Doing the two pieces separately makes it easy to see that the answer can be written as $3/23$. Doing the whole thing in one piece would just give a decimal which you’d be unlikely to recognize as the fraction $3/23$.
+
+	Sometimes rounding will raise issues depending on how you break things up to enter into the calculator. While this may result in different answers, those differences will be very small. In general we won’t worry about these sorts of discrepancies.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Order of Operations: Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsection{Exercises}
+
+Evaluate each of the following arithmetic expressions:
+%Addition Problems
+\begin{tasks}[label={}](2)
+	\task	\ex{$3+5-2+4$} \sol{$10$}
+	\task	\ex{$6-2+7-1$}
+	\task	\ex{$2+8-4+3$} \sol{$9$}
+	\task	\ex{$5-1+4-2$}
+	\task	\ex{$7+3-2-6$} \sol{$2$}
+	\task	\ex{$6-3+2-1-7$}
+	\task	\ex{$8-2-3-6$} \sol{$-3$}
+	\task	\ex{$9-2-1-4$}
+	\task	\ex{$3+6-1+5-2$} \sol{$11$}
+	\task	\ex{$4-2+6-1+3$}
+	\task	\ex{$3+6-1+5-2-4$} \sol{$7$}
+	\task	\ex{$3+(-5)-2+4$}
+	\task	\ex{$(-6)-2+7-1$} \sol{$-2$}
+	\task	\ex{$2+(-8)-4+3$}
+	\task	\ex{$(-5)-1+4-2+6$} \sol{$2$}
+	\task	\ex{$7+3-(-2)+5-1$}
+	\task	\ex{$(-6)-3+2-1+4$} \sol{$-4$}
+	\task	\ex{$8+2-(-3)+4-1$}
+	\task	\ex{$(-9)-2+1-4+3$} \sol{$-11$}
+	\task	\ex{$3+(-6)-1+5-2+4$}
+%Addition/Multiplication Problems
+	\task\ex{$3+(-5)\times2-4+7$}\sol{$-4$}
+	\task\ex{$(-4)\times3+6-2$}
+	\task\ex{$2-7+(-3)\times4+5$}\sol{$-12$}
+	\task\ex{$6-(-2)\times3+4$}
+	\task\ex{$(-3)\times4+2-1\times7$}\sol{$-17$}
+	\task\ex{$8-(-3)\times2+5$}
+	\task\ex{$(-2)\times3+4-5\times2$}\sol{$-12$}
+	\task\ex{$3+(-4)\times2-(-1)$}
+	\task\ex{$(-6)+2\times3-4$}\sol{$-4$}
+	\task\ex{$(-5)\times2+7-3$}
+	\task\ex{$4-(-3)+2\times5$}\sol{$17$}
+	\task\ex{$3\times(-2)+4+6$}
+	\task\ex{$(-7)+3\times(-2)-1$}\sol{$-14$}
+	\task\ex{$5\times(-2)-3+7$}
+	\task\ex{$(-4)\times2+6-(-3)$}\sol{$1$}
+	\task\ex{$8-(-2)+5\times(-1)$}
+	\task\ex{$(-6)\times2+7-3$}\sol{$-8$}
+	\task\ex{$3+(-2)\times4-(-1)$}
+	\task\ex{$(-5)\times2+4+(-3)$}\sol{$-9$}
+	\task\ex{$2\times(-3)+5-(-2)$}
+	\task\ex{$3+(-5)\cdot2-4+7-(-2)$} \sol{$-2$}
+	\task\ex{$(-4)\cdot3+6-2+1$}
+	\task\ex{$2-7+(-3)\cdot4+5\cdot(-2)$} \sol{$-27$}
+	\task\ex{$6-(-2)\cdot3+4-(-1)$}
+	\task\ex{$(-3)\cdot4+2-1\cdot7-3$} \sol{$-20$}
+	\task\ex{$8-(-3)\cdot2+5-1$}
+	\task\ex{$(-2)\cdot3+4-5\cdot2+3$} \sol{$-9$}
+	\task\ex{$3+(-4)\cdot2-(-1)\cdot2$}
+	\task\ex{$(-6)+2\cdot3-4-1$} \sol{$-5$}
+	\task\ex{$(-5)\cdot2+7-3-2$}
+	\task\ex{$4-(-3)+2\cdot5+1$} \sol{$18$}
+	\task\ex{$3\cdot(-2)+4+6+2$}
+	\task\ex{$(-7)+3\cdot(-2)-1+3$} \sol{$-11$}
+	\task\ex{$5\cdot(-2)-3+7-4$}
+	\task\ex{$(-4)\cdot2+6-(-3)-2$} \sol{$-1$}
+	\task\ex{$8-(-2)+5\cdot(-1)+1$}
+	\task\ex{$(-6)\cdot2+7-3-4$} \sol{$-12$}
+	\task\ex{$3+(-2)\cdot4-(-1)\cdot2$}
+	\task\ex{$(-5)\cdot2+4+(-3)\cdot2+2$} \sol{$-10$}
+	\task\ex{$2\cdot(-3)+5-(-2)-1$}
+	\task\ex{$3+(-5)(2)-4+7-(-2)$} \sol{$-2$}
+	\task\ex{$(-4)(3)+6-2+1$}
+	\task\ex{$2-7+(-3)(4)+5(-2)$} \sol{$-27$}
+	\task\ex{$6-(-2)(3)+4-(-1)$}
+	\task\ex{$(-3)(4)+2-1(7)-3$} \sol{$-27$}
+	\task\ex{$8-(-3)(2)+5-1$}
+	\task\ex{$(-2)(3)+4-5(2)+3$} \sol{$-9$}
+	\task\ex{$3+(-4)(2)-(-1)(2)$}
+	\task\ex{$(-6)+2(3)-4-1$} \sol{$-5$}
+	\task\ex{$(-5)(2)+7-3-2$}
+	\task\ex{$4-(-3)+2(5)+1$} \sol{$18$}
+	\task\ex{$3(-2)+4+6+2$}
+	\task\ex{$(-7)+3(-2)-1+3$} \sol{$18$}
+	\task\ex{$5(-2)-3+7-4$}
+	\task\ex{$(-4)(2)+6-(-3)-2$} \sol{$-11$}
+	\task\ex{$8-(-2)+5(-1)+1$}
+	\task\ex{$(-6)(2)+7-3-4$} \sol{$-12$}
+	\task\ex{$3+(-2)(4)-(-1)(2)$}
+	\task\ex{$(-5)(2)+4+(-3)(2)+2$} \sol{$-10$}
+	\task\ex{$2(-3)+5-(-2)-1$}
+	\task\ex{$3+(-5)\times(2-4)+7-(-2)$} \sol{$-10$}
+	\task\ex{$(-4)\times3+6-2\times1$}
+	\task\ex{$2-(7+(-3)\cdot4)+5\cdot(-2)$} \sol{$-3$}
+	\task\ex{$6-(-2)\times(3+4)-(-1)$}
+	\task\ex{$(-3)\times4+2-1\times(7-3)$} \sol{$-14$}
+	\task\ex{$8-(-3)\times(2+5)-1$}
+	\task\ex{$(-2)\times(3+4)-5\times2+3$} \sol{$-21$}
+	\task\ex{$3+(-4)\times2-(-1)\times2$}
+	\task\ex{$(-6)+2\times(3-4)-1$} \sol{$-9$}
+	\task\ex{$(-5)\times2+7-3-2$}
+	\task\ex{$4-(-3)+2\times(5+1)$} \sol{$19$}
+	\task\ex{$3\times(-2)+4+6+2$}
+	\task\ex{$(-7)+3\times(-2)-1+3$} \sol{$-11$}
+	\task\ex{$5\times(-2)-3+7-4$}
+	\task\ex{$(-4)\times2+6-(-3)-2$} \sol{$-1$}
+	\task\ex{$8-(-2)+5\cdot(-1)+1$}
+	\task\ex{$(-6)\times2+7-3-4$} \sol{$-12$}
+	\task\ex{$3+(-2)\times(4-(-1))$}
+	\task\ex{$(-5)\times2+4+(-3)\times(2+2)$} \sol{$-18$}
+	\task\ex{$2\times(-3)+5-(-2)-1$}
+	\task\ex{$3+(-5)(2-4)+7-(-2)$} \sol{$22$}
+	\task\ex{$(-4)(3+6)-2+1$}
+	\task\ex{$2-(7+(-3)(4-5))\cdot(-2)$} \sol{$22$}
+	\task\ex{$6-(-2)(3+4-(-1))$}
+	\task\ex{$(-3)(4+2-1)+(7-3)$} \sol{$-11$}
+	\task\ex{$8-(-3)(2+5)-1$}
+	\task\ex{$(-2)(3+4)-5(2+3)$} \sol{$-39$}
+	\task\ex{$3+(-4)(2-(-1))-2$}
+	\task\ex{$(-6)+2(3-4)-1$} \sol{$-9$}
+	\task\ex{$(-5)(2+7-3)-2$}
+	\task\ex{$4-(-3)+2(5+1)$} \sol{$19$}
+	\task\ex{$3(-2)+4+6+2$}
+	\task\ex{$(-7)+3(-2)-1+3$} \sol{$-11$}
+	\task\ex{$5(-2)-3+7-4$}
+	\task\ex{$(-4)(2+6-(-3))-2$} \sol{$-46$}
+	\task\ex{$8-(-2)+5(-1)+1$}
+	\task\ex{$(-6)(2+7-3)-4$} \sol{$-40$}
+	\task\ex{$3+(-2)(4-(-1))-1$}
+	\task\ex{$(-5)(2+4-3)(2+2)$} \sol{$-60$}
+	\task\ex{$2(-3)+5-(-2)-1$}
+	\task\ex{$3+(-5)(2-4)+7-(-2)+1$} \sol{$23$}
+	\task\ex{$(-4)(3+6)-2+1-(-3)$}
+	\task\ex{$2-(7+(-3)(4-5))(-2)+4$} \sol{$26$}
+	\task\ex{$6-(-2)(3+4-(-1))+5-(-3)$}
+	\task\ex{$(-3)(4+2-1)+(7-3)+6$} \sol{$-5$}
+	\task\ex{$8-(-3)(2+5)-1-(-2)$}
+	\task\ex{$(-2)(3+4)-5(2+3)+7$} \sol{$-32$}
+	\task\ex{$3+(-4)(2-(-1))-2-(-3)$}
+	\task\ex{$(-6)+2(3-4)-1+8$} \sol{$-1$}
+	\task\ex{$(-5)(2+7-3)-2+9$}
+	\task\ex{$4-(-3)+2(5+1)+3$} \sol{$22$}
+	\task\ex{$3(-2)+4+6+2+(-5)$}
+	\task\ex{$(-7)+3(-2)-1+3+4$} \sol{$-7$}
+	\task\ex{$5(-2)-3+7-4+(-6)$}
+	\task\ex{$(-4)(2+6-(-3))-2+5$} \sol{$-41$}
+	\task\ex{$8-(-2)+5(-1)+1-3$}
+	\task\ex{$(-6)(2+7-3)-4+2$} \sol{$-38$}
+	\task\ex{$3+(-2)(4-(-1))-1+(-4)$}
+	\task\ex{$(-5)(2+4-3)(2+2)+1$} \sol{$-59$}
+	\task\ex{$2(-3)+5-(-2)-1-(-7)$}
+	\task\ex{$3+(-5)[2-(4-1)]+7-(-2)$} \sol{$17$}
+	\task\ex{$(-4)(3+6)-(2+1)-(-3)$}
+%Original Questions
+	\task\ex{$5+3(2-5)$} \sol{$-4$}
+	\task\ex{$8+4(3-1)$}
+	\task\ex{$7(5+1)+3(2-6)$} \sol{$30$}
+	\task\ex{$5(12-9)+2(3+1)$}
+	\task\ex{$3(4-7)-2(3-7)$} \sol{$3$}
+	\task\ex{$9(11-9)-12(3-5)$}
+	\task\ex{$5-2(2-3)$} \sol{$7$}
+	\task\ex{$8-5(4+1)$}
+	\task\ex{$5-3^2-4(3-5)$} \sol{$4$}
+	\task\ex{$7^2-5(16-10)$}
+	\task\ex{$5-(2+1)^3$} \sol{$-22$}
+	\task\ex{$(3-1)^2-(5-3)^2$}
+	\task\ex{$16+3(2+1)^2+7$} \sol{$50$}
+	\task\ex{$6+10 \div (7-5)$}
+	\task\ex{$8+12 \div 2^2$} \sol{$11$}
+	\task\ex{$4-(12-5*2)^2$}
+	\task\ex{$25-10+5$} \sol{$20$}
+	\task\ex{$100-80-5+25$}
+	\task\ex{$16-3(2+1)^2+7$} \sol{$-4$}
+	\task\ex{$23-3^2+(11-9)^2$}
+	\task\ex{$5-5\times 5+5$} \sol{$-15$}
+	\task\ex{$5\div 5\times 5-5+5$}
+	\task\ex{$5+2[5-2(3+1)]$} \sol{$-1$}
+	\task\ex{$7-2[3-5(7-8)]$}
+	\task\ex{$(3-2)^3-4[2(3-4)+1]$} \sol{$5$}
+	\task\ex{$(7-3)^2-5[7-2(8-9)]$}
+	\task\ex{$14-2[9-3(4+2)^2]$} \sol{$212$}
+	\task\ex{$5^2-3[2-3(5-2)]$}
+	\task\ex{$2-[5(3-4)-2(10-7)]$} \sol{$13$}
+	\task\ex{$10-[(5-6)(4-7)+2]$}
+	\task\ex{$4-(2-5)^2$} \sol{$-5$}
+	\task\ex{$20+(8-13)^2$}
+	\task\ex{$-4^2$} \sol{$-16$}
+	\task\ex{$-3^4$}
+	\task\ex{$-3^2-3^2$} \sol{$-17$}
+	\task\ex{$-2^4-3^2$}
+	\task\ex{$-3^2-3^2$} \sol{$-18$}
+	\task\ex{$-2^4-3^2$}
+	\task\ex{$\frac{8-2}{2+1}$} \sol{$2$}
+	\task\ex{$\frac{10+15}{2+3}$}
+	\task\ex{$\frac{8-2(4+5)}{4-2(5-4)}$} \sol{$-5$}
+	\task\ex{$\frac{20-4(3-1)}{10-2(5-3)}$}
+	\task\ex{$\frac{72-3^2}{9-2^2}$} \sol{$12.6$}
+	\task\ex{$\frac{3^3-3^2}{3-3}$}
+	\task\ex{$|5-3|$} \sol{$2$}
+	\task\ex{$|-6+2|$}
+	\task\ex{$11-3|5-4(3-1)|$} \sol{$2$}
+	\task\ex{$2-2|2(5-3)-4(6-1)|$}
+	\task\ex{$11-3(2+7)$} \sol{$-16$}
+	\task\ex{$16-4(2+3)$}
+	\task\ex{$11^2-5(3-5)+6(3-5)^2$} \sol{$155$}
+	\task\ex{$8^3-7(14+2^2)-3(4-1)^3$}
+	\task\ex{$\frac{9-4}{2+3}$} \sol{$1$}
+	\task\ex{$\frac{12+20}{10-2}$}
+	\task\ex{$\frac{15+1}{3+1}$} \sol{$4$}
+	\task\ex{$\frac{87+13}{28-3}$}
+	\task\ex{$\frac{7(3-2)+4(5-3)}{5(2+1)}$} \sol{$1$}
+	\task\ex{$\frac{10(2+1)}{11(5-2)-6(11-8)}$}
+	\task\ex{$\frac{2(3^2+4^2)}{13-12}$} \sol{$50$}
+	\task\ex{$\frac{10^2-6^2}{4}$}
+	\task\ex{$\frac{2[3-5(2-1)]}{6-4}$} \sol{$-2$}
+	\task\ex{$\frac{36}{3[11-3(5-2)]}$}
+	\task\ex{$(-2)^6$} \sol{$64$}
+	\task\ex{$(-5)^4$}
+	\task\ex{$5-2^3$} \sol{$-3$}
+	\task\ex{$-3^4$}
+	\task\ex{$12-2(3)\div (7-3)$} \sol{$10.5$}
+	\task\ex{$15-3[23-5(4-9)]$}
+	\task\ex{$3-4[5-3(2-7)]$} \sol{$-77$}
+	\task\ex{$\frac{5+23-3}{3(12-2)-8(9-4)}$}
+	\task\ex{$-4^2-5^2$} \sol{$-41$}
+	\task\ex{$(8-1)(3-5)^2$}
+	\task\ex{$7+2(4)-3^3$} \sol{$-12$}
+	\task\ex{$\frac{100-40}{10-2}$}
+	\task\ex{$\frac{16+20}{4+5}$} \sol{$4$}
+	\task\ex{$7-7^2+7\div 7$}
+	\task\ex{$15-3+2-5+1$} \sol{$10$}
+	\task\ex{$12[2-3^2-2(3-5)]$}
+	\task\ex{$(9-2)^2(-3+1)^3$} \sol{$-392$}
+	\task\ex{$8-5(2+1)^2$}
+	\task\ex{$\frac{12-6(5-20)}{3^2-3}$} \sol{$17$}
+	\task\ex{$5-3[4+2(7-4)-1]+2[11-6(3^2-5)]$}
+	\task\ex{$100-10^2$} \sol{$0$}
+	\task\ex{$100-(-10)^2$}
+	\task\ex{$42+3[2(5-2)-7]-4[(3-2)(11-14)]$} \sol{$51$}
+	\task\ex{$25+75-5(2)\div (3-3)$}
+	\task\ex{$|8-3(5)|$} \sol{$7$}
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

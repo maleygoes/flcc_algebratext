@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Solving Equations with Degree 2 or Greater
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Solving Equations of Degree 2 or Greater}
+\label{SolveHigherOrderEquations}
+
+The following exercises will contain concepts covered in chapters 1 (use of the balance principal), chapter 2 (some exponent properties) and the previous section, solving second degree equations. As you may have picked up on, solving an equation of any degree still makes use of the balance principal, manipulating the equation to isolate the variable. As you saw in the previous section, when we had a second degree equation, one option is to use the square root property. Recall this example:
+$$x^2 = 25$$
+
+We wanted to isolate that $x$, and in order to do so we needed to \quotes{undo} that power of $2$. Our method was to take the square root of the left side and subsequently the right side as well to do so:
+$$\sqrt{x^2} = \sqrt{25}$$
+
+leading to: $x = \pm 5$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Rational Exponents 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Rational Exponents}
+
+We are now going to consider what happens in such a situation where the exponent on the variable is larger than $2$.  Everything above is based on the fact that the square root of a number, ($\sqrt(k)$), gives us a solution to $x^2=k$.  We need to explore this in more detail.
+
+Since $\sqrt{16} = 4$, the phrase square root literally comes from the area of a square.  A square with side lengths of $4$cm has an area of $16 \text{cm}^2$. If we are being completely formal, we’d write the expression $\sqrt{16}$ like this:
+$$\sqrt{16}=\sqrt[2]{16^1}$$
+
+The \quotes{2} on the outside of the radical is called the \textbf{index}.  As a matter of efficiency, humans stopped writing this index of $2$ with square roots because we use them so frequently. The \quotes{$1$} on the inside, with the base of $16$, is still called the \textbf{exponent} or \textbf{power}. We can further rewrite the expression like this:
+$$\sqrt{16}=\sqrt[2]{16^1}=16^{\frac{1}{2}}$$
+
+Unique.  Check your calculator to see the expressions are actually equivalent. $16^{\frac{1}{2}}$ can be entered into your calculator as \quotes{$16^\wedge(1/2)$}.
+
+So, what does the expression $\sqrt[3]{27}$ represent? We read this as the \quotes{cube root of $27$} or as the \quotes{third root of $27$}. It can be rewritten as:
+$$\sqrt[3]{27} = \sqrt[3]{27^1} = 27^{\frac{1}{3}}$$
+
+Evaluating this last expression using your calculator yields $3$. Why? Because $3 \cdot 3 \cdot 3 = 27$.
+
+Thus, the $n^{\text{th}}$ root of a number, expressed as $\sqrt[n]{\phantom{a}}$ represent a number that when multiplied by itself $n$ times gives back what was rooted.  That will make more sense with some more examples.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Definition: Rational Exponent
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{definition}
+	\index{Exponent!Rational}
+	\textbf{\underline{Rational Exponent Rule}}\\
+	$$\sqrt[n]{x}=x^{\frac{1}{n}}$$
+\end{definition}
+
+\exam{\label{SolveHigherOrderEquationsExample1}Find $\sqrt[4]{81}$}
+
+\indenttext{
+	Using the ration exponent rule, we have that $\sqrt[4]{81}=81^{\frac{1}{4}}$.  Using a calculator one finds that $81^{\frac{1}{4}}=81^\wedge (1/4)=3$ and it is readily verified that $3 \cdot 3 \cdot 3 \cdot 3 =81$.  
+}
+
+\exam{\label{SolveHigherOrderEquationsExample2}Rewrite the expression $\sqrt[3]{2x}$ using fractional exponents}
+
+\indenttext{
+	Both the $2$ and the $x$ are being ‘cube rooted’ so
+	$$\sqrt[3]{2x}=(2x)^{\frac{1}{3}}$$
+}
+
+\exam{\label{SolveHigherOrderEquationsExample3}Rewrite the expression $(5c^2d)^{\frac{1}{6}}$ in radical form.}
+
+\indenttext{
+	Everything inside the parenthesis is being raised to the $\frac{1}{6}$ power, so;
+	$$(5c^2d)^{\frac{1}{6}}=\sqrt[6]{5c^2d}$$
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Solving Equations with Degree 2 or Greater using Rational Exponents
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Solving using Rational Exponents}
+
+Relating equations to this exponent rule will give us another perspective as to why it is meaningful. Remember that there is a connection between radicals and fractional exponents.   If we look at the same equation, $x^2=25$, we started the section with again we can rationalize the steps in another way. Remember the idea is to isolate the variable. When we solved this equation above, we resulted with just $x$ on the left side. The power on that \quotes{isolated} $x$ is 1. If we recall the power rule for exponents given to us in section \ref{AlgebraicExpressionsExponents}, where $(x^a)^b = x^{a \cdot b}$, we can use this rule to help us solve.
+$$x^2 = 25$$
+
+We want to raise both sides to some power such that when we multiply that power by the power of $2$ that exists on the left side currently, the result is $1$. In other words, \quotes{$2$ times what number gives us $1$}? $2 \cdot \frac{1}{2} = 1$ as $2 \cdot \frac{1}{2} = \frac{2}{1} \cdot \frac{1}{2} = \frac{2}{2}= 1$. Multiplying a number by its reciprocal will always yield $1$!
+
+So, if we raise both sides to the $\frac{1}{2}$ power, we have the following:
+$${(x^2)}^{\frac{1}{2}} = (25)^{\frac{1}{2}}$$
+
+Using the power rule:
+$$x^{2 \cdot \frac{1}{2}} = 25^{\frac{1}{2}}$$
+$$x = \pm 5$$
+
+We end up with the same solution, because raising both sides to the $\frac{1}{2}$ power is the same as taking the square root!
+
+Let’s look at another example:
+
+\exam{\label{SolveHigherOrderEquationsExample4}Solve $x^3=64$}
+
+\indenttext{
+	We want to isolate that variable on the left side and it is being raised to the third power. We need to think what can I multiply $3$ by to give me $1$? $3 \cdot \frac{1}{3} = 1$! Let’s take this approach:
+	$$\left({x^3}\right)^{\frac{1}{3}}=64^{\frac{1}{3}}$$
+
+	Using the power rule:
+	$$x^{3\cdot\frac{1}{3}}=64^{\frac{1}{3}}$$
+
+	Remember that $64^{\frac{1}{3}}$ can be entered into the calculator as \quotes{$64^\wedge(1/3)$} and we get:
+	$$x^1=x=4$$
+}
+
+It is important to realize that because $x^{\frac{1}{3}}=\sqrt[3]{x}$, taking the cube or third root of both sides would have given us the same solution!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: One or Multiple Solutions
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{One Solution or Multiple Solutions}
+
+Another thing to note here is we have one strict solution in this particular case, whereas in the previous equation $x^2=5$ we knew that we had $2$ solutions, $x = 5$ or $x = -5$. In the case of an even power squaring a positive or a negative, results in the same solution:
+$$(3)^2 = 9 \text{    and    } (-3)^2 = 9$$
+
+We can say the same for a number raised to the fourth power (an any even power):
+$$(2)^4 = 2 \cdot 2 \cdot 2  \cdot 2 = 16 \text{    and    } (-2)^4 = (-2) \cdot (-2) \cdot (-2) \cdot (-2) = 16$$
+
+When there is an even number of negatives, the result will always be positive! When we are working with an odd power, we do not yield the same results:
+$$(2)^3 = 2 \cdot 2 \cdot 2 = 8 \text{    and    }  (-2)^3=(-2) \cdot (-2) \cdot (-2) = -8$$
+
+The multiplication of the first two numbers gives us a positive $4$, but then we have a positive $4$ times a negative $2$, which leaves us with a negative $8$. So, going back to our example above, $x^3=64$, $4$ is the unique solution to that equation because if we tried to test our equation with a $-4$:
+$$(-4) \cdot (-4)  \cdot (-4)= -64$$
+
+\exam{\label{SolveHigherOrderEquationsExample5}Solve $2x^3=128$}
+
+\indenttext{Let’s look at this equation very carefully. The left side reads \quotes{two times $x$ to the third power}. We absolutely want to use the balance principal to help us isolate that $x$, but it is important to realize that only the variable is being raised to the third power, not the coefficient out front. For that reason, we need to start here first before we worry about that power. We take the same steps we would take if we had an $x$ with a power of $1$ on the left side. If we are multiplying, we transform this equation using division:
+$$2x^3 = 128$$
+
+Divide by $2$ on both sides to begin:
+\begin{align*}
+	\frac{2x^3}{2} &= \frac{128}{2}\\
+	\\
+	x^3 &= 64\\
+	\\
+	{(x^3)}^{\frac{1}{3}}& = (64)^{\frac{1}{3}}\\
+	\\
+	x &= 4
+\end{align*}
+}
+
+\exam{\label{SolveHigherOrderEquationsExample6}Solve $6p^5-10=182$}
+
+\indenttext{
+Thinking of this equation where the variable was raised to the first power, the first step we would take would be to add $10$ to both sides and then to divide by $6$:
+\begin{align*}
+	6p^5 - 10 + 10 &= 182 + 10\\
+	\\
+	6p^5 &= 192\\
+	\\
+	\frac{6p^5}{6} &= \frac{192}{6}\\
+	\\
+	p^5 &= 32\\
+	\\
+	{(p^5)}^{\frac{1}{5}} &= (32)^{\frac{1}{5}}\\
+	\\
+	p &= 2
+\end{align*}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Solving Equations of Degree 2 or Greater Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsection{Exercises}
+
+Express each of the following using fractional exponents.
+
+\begin{tasks}[label={}](2)
+	\task\ex{$\sqrt{2}$} \sol{$2^{\frac{1}{2}}$}
+	\task\ex{$\sqrt[9]{p}$}
+	\task\ex{$\sqrt[5]{3q}$} \sol{${(3q)}^{\frac{1}{5}}$}
+	\task\ex{$\sqrt[100]{r-5}$}
+	\task\ex{$\sqrt{x^2-2}$} \sol{${\left(x^2-2\right)}^{\frac{1}{2}}$}
+	\task\ex{$5\sqrt[3]{ab}$}
+	\task\ex{$3\sqrt[7]{g}$} \sol{$3{(g)}^{\frac{1}{7}}$}
+	\task\ex{$-4c\sqrt[5]{2d}$}
+\end{tasks}
+
+\bigskip
+
+Write each of the following expressions without fractional exponents (in radical form).
+
+\begin{tasks}[label={}](2)
+	\task\ex{$s^{\frac{1}{9}}$} \sol{$\sqrt[9]{s}$}
+	\task\ex{$2t^{\frac{1}{6}}$}
+	\task\ex{${(2t)}^{\frac{1}{6}}$} \sol{$\sqrt[6]{2t}$}
+	\task\ex{$5a(6b)^{\frac{1}{5}}$}
+	\task\ex{${(6-q))}^{\frac{1}{6}}$} \sol{$\sqrt[6]{6-q}$}
+	\task\ex{$(-2x^2y)^{\frac{1}{5}}$}
+	\task\ex{$19hk^{\frac{1}{7}}$}\sol{$19h\sqrt[7]{k}$}
+	\task\ex{$19(hk)^{\frac{1}{7}}$}
+\end{tasks}
+
+\bigskip
+
+Solve the following equations for the given variable.
+
+\begin{tasks}[label={}](2)
+	\task\ex{$u^3=125$} \sol{$u=5$}
+	\task\ex{$y^2-16=0$}
+	\task\ex{$-s^3=64$} \sol{$s=-8$}
+	\task\ex{$z^3+\frac{1}{2}=\frac{5}{8}$}
+	\task\ex{$v^3+7=34$} \sol{$v=3$}
+	\task\ex{$2q^2+7=57$}
+	\task\ex{$t^3+7=-1$} \sol{$t=-2$}
+	\task\ex{$2w^3-9=-695$}
+	\task\ex{$5p^2+6=3p^2+78$} \sol{$p=6$ or $p=-6$}
+	\task\ex{$5x^3+9=2x^3+225$}
+	\task\ex{$3z^5-20+9z^5=364$} \sol{$z=2$}
+	\task\ex{$2p^4+3=4805$}
+	\task\ex{$3r^4+12-r^4=44$} \sol{$r=2$ or $r=-2$}
+	\task\ex{$3w^5-2000=w^5+48$}	
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

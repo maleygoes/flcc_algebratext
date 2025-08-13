@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Section: Solving Second Degree Equations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Solving Second Degree Equations}
+\label{SolveSecondDegree}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Solving Second Degree Equations: The Square Root Property
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The Square Root Property}
+
+In order to solve a second-degree equation, or an equation with an $x^2$ term, we have to get rid of the exponent to be able to solve for $x$. In many second-degree equations, we can do this simply by taking the square root of both sides of the equation.  For example, to solve the following:
+$$x^2=25$$
+
+We could undo the squaring of $x$ by taking the square root of both sides.  There is, though, a wrinkle in this approach.  There are actually two solutions to this equation: $x$ could be $5$ since $5^2=25$, but $x$ could also be $-5$ because $(-5)^2=25$ as well.  The square root function, which is usually denoted using the radical symbol \quotes{$\sqrt{\phantom{a}}$}, is interpreted to mean just the positive square root.  Yet the positive square root is not the only solution to the equation, and so we need to make sure we don't loose the other solution in the algebra.  To do this we follow the \textbf{square root property} \index{Square Root Property} which tells us that we can take the square root of both sides of the equation so long as we acknowledge that there are two possible square roots, the positive and the negative.  We usually do this using the symbol \quotes{$\pm$} which is read as \quotes{plus or minus}.  So the next step in solving $x^2=25$ would be:
+$$x=\pm \sqrt{25}$$
+
+leading to the solutions:
+$$x=\pm 5$$
+
+It is important to understand that this notation is actually telling us that there are two solutions to the equation.  There is no such number as $\pm 5$.  This notation is just a compact way of expressing that there are to the equation $x^2=25$, specifically it is compact notation for the expression:
+$$x=5 \text{ or } x=-5$$
+
+This method can be applied to other equations, as the following example will illustrate:
+
+\exam{\label{SolveSecondDegreeExample1} Solve $4x^2-25=11$}
+
+\indenttext{To apply the square root property we need to solve for $x^2$ as if it were simply a variable.  Thus, we start by adding $25$ to both sides of the equation to obtain:
+$$4x^2=36$$
+
+and then we divide both sides by $4$ so that:
+$$x^2=9.$$
+
+Applying the square root property now gives:
+$$x=\pm \sqrt{9}$$
+$$x=\pm 3$$
+} 
+
+\exam{\label{SolveSecondDegreeExample2} Solve $2x^2+7=39$}
+
+\indenttext{We start by subtracting $7$ from both sides:
+$$2x^2=32$$
+
+To get $x^2$ by itself, we divide by $2$:
+$$x^2=16$$
+
+Applying the square root property now gives:
+$$x=\pm \sqrt{16}$$
+$$x=\pm 4$$
+} 
+
+\exam{\label{SolveSecondDegreeExample3} Solve $3z^2-9=z^2+6$}
+
+\indenttext{To do this we first use ordinary algebra to solve for $z^2$, so subtract $z^2$ from both sides:
+$$2z^2-9=6$$
+
+and then add $9$ to both sides:
+$$2z^2=15$$
+
+Now to get $z^2$ by itself we divide by 2:
+$$z^2=\frac{15}{2}$$
+
+Now we are ready to use the square root property.  Doing so we end up with two solutions
+$$z=\pm \sqrt{\frac{15}{2}}$$
+
+Since neither $15$ nor $2$ is a perfect square we are stuck on simplifying this any further.  This is a perfectly fine way to express the answer.  If, however, you would like to have a decimal approximation. it can be obtained using your calculator as $z=\pm 2.7386...$.  The problem with converting to a decimal is that it does typically require rounding so it is often preferable to leave your answer in radical notation as that is the exact answer and can be rounded to any level of precision later on.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Solving Second Degree Equations: Factor to Solve
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Factor to Solve a Second-Degree Equation}
+
+In some cases, a second degree equation may be written in a way that makes the solutions very easy to find. For example:
+$$(x-4)(x+1)=0$$
+
+We know that can be simplified by using the distributive property so we know this is indeed a second degree equation.
+
+We know from basic arithmetic that if you multiply two numbers together and get zero, one of these numbers must be zero.  Formally, this fact is called the \textbf{zero product property}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Definition: Zero Product Principle
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{definition}
+	\index{Zero Product Principle}
+	\textbf{\underline{Zero Product Principle}}\\
+	\bigskip
+	If $AB=0$, then either $A=0$ or $B=0$.
+\end{definition}
+
+Now, in this equation we have two expressions being multiplied together: $x-4$ and $x+1$.  The equation says that their product is zero.  So, according to the zero product property, the only possibilities are
+$$x-4=0 \text{ or } x+1=0$$
+
+Using this fact we know there are two possibilities to consider. One is that $x-4=0$. If that is the case, then we can easily solve and see that $x=4$. The other possibility is that $x+1=0$. In that case, we can also easily solve and see that $x=-1$. So, we conclude that this equation’s solutions are $x=4$ and $x=-1$.  When a second degree equation is written in a form like this, as a product, we can find the solutions simply by setting each of the factors equal to zero and solving. Here is another example:
+
+\exam{\label{SolveSecondDegreeExample4} Solve: $5(2x-3)(x+7)=0$}
+
+\indenttext{To solve $5(2x-3)(x+7)=0$ we set each factor equal to zero and determine if that leads to a consistent equation.  Since the product is zero, we can apply the zero product principle to conclude that either $5=0$ or $2x-3=0$ or $x+7=0$.  Since the first factor is a number and it is not equal to zero, we get a contradiction as $5 \ne 0$.  Thus, the first factor does not lead to a solution to the equation in question.  The second factor, $2x-3$ is zero when $x=\frac{3}{2}$.  The third factor $x+7$ is zero when $x=-7$.  Thus, there are two solutions to the equation $x=\frac{3}{2}$ and $x=-7$.
+}
+
+As we saw in section \ref{SecondDegreeFactor} this second-degree equation is written as the product of expressions, or we can say in factored form.  In some cases, we can use the method given to us in section \ref{SecondDegreeFactor} to factor the second degree expression to help us solve. To review:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Definition: Factor Second Degree Expression
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{definition}
+	\textbf{\underline{Factoring Second Degree Expressions of the Form $x^2+bx+c$}}\\
+	\bigskip
+	\begin{enumerate}
+		\item[$\cdot$] Consider all the pairs of integers whose product is $c$
+		\item[$\cdot$] If the sum of any of the pairs is $b$, then the expression can be factored to $(x+m)(x+n)$ where $m$ and $n$ are the integers.
+		\item[$\cdot$] If none of the pairs sum to $b$, then the expression cannot be factored using integers. We then say is it \quotes{not factorable over the integers}.
+	\end{enumerate}
+
+	When groupings of the same variable raised to power or exponents, you can just add the exponents\\ (make sure to remember that a ‘plain’ $x$ is actually $x^1$).
+	$$x^a \cdot x^b = x^{a+b}$$
+\end{definition}
+
+\exam{\label{SolveSecondDegreeExample5} Factor $x^2-5x+6$}
+
+\indenttext{We need to consider all possible pairs of integers whose product is $6$ and then look at their sum to see if it is possible to obtain a sum of the factors equal to $-5$.  We consider all possible pairs $1$ and $6$ (sum $7$), $-1$ and $-6$ (sum $-7$), $2$ and $3$ (sum $5$), and $-2$ and $-3$ (sum $-5$).  The last pair of factors are the factors that we want and $x^2-5x+6=(x-2)(x-3)$
+}
+
+In this case, there were not many possibilities to consider, and one of those possibilities worked. In many cases, though, there are either too many possible pairs to consider, or the expression can’t be factored over the integers at all.  In the special case where the expression can be readily factored, solving by factoring is a reasonable method to use.
+
+\exam{\label{SolveSecondDegreeExample6} Solve $x^2-5x+6=0$ using factoring}
+
+\indenttext{Using example \ref{SolveSecondDegreeExample5}, we can factor the left side of the equation as $(x-2)(x-3)=0$.  Applying the zero product principle we see that the solutions to the equation come from $x-2=0$ or $x-3=0$.  Thus, the solutions we are looking for are $x=2$ and $x=3$.}
+
+\exam{\label{SolveSecondDegreeExample7} Solve $x^2+8x+7=0$ using factoring}
+
+\indenttext{There are not too many possibilities to consider here, since $7$ is prime, and so the only pairs to consider are $7$ and $1$ or $-7$ and $-1$. Since $7 + 1 = 8$ we can factor this expression in $(x+1)(x+7)$ so we need to consider:
+$$(x+1)(x+7)=0$$
+
+Setting each factor equal to zero, we solve $(x+1)(x+7)=0$. So either $x+1=0$ in which case $x=-1$ or $x+7=0$ in which case $x=-7$. So the solutions are $x=-1$ and $x=-7$.
+}
+
+\exam{\label{SolveSecondDegreeExample8} Solve $x^2-9x+20=0$ using factoring}
+
+\indenttext{We consider the possibilities that factors of $20$ which are $4$ and $5$ (sum $9$), $-4$ and $-5$ (sum $-9$), $10$ and $2$ (sum $12$), $-10$ and $-2$ (sum $-12$), $20$ and $1$ (sum $21$), or $-20$ and $-1$ (sum $-21$). We need the pairs whose sum equals $-9$ so we use $-4$ and $-5$, we can factor this into
+$$(x-4)(x-5)=0$$
+
+Setting each factor equal to zero, we solve $(x-4)(x-5)=0$ by saying either $x-4=0$ in which case $x=4$ or $x-5=0$ in which case $x=5$. So the solutions are $x=4$ and $x=5$.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Subsection: Solving Second Degree Equations: Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\subsection{Exercises}
+
+\subsubsection*{The Square Root Property}
+
+Solve each of the following equations using the square root property and ordinary algebra.
+
+\begin{tasks}[label={}](2)
+	\task\ex{$x^2=49$} \sol{$x=7$ and $x=-7$}
+	\task\ex{$x^2=81$}
+	\task\ex{$4x^2=324$} \sol{$x=9$ and $x=-9$}
+	\task\ex{$3y^2=48$}
+	\task\ex{$2z^2-38=12$} \sol{$z=5$ and $z=-5$}
+	\task\ex{$4t^2+75=139$}
+	\task\ex{$(2x-1)^2=49$} \sol{$x=4$ and $x=-3$}
+	\task\ex{$(3y-7)^2=144$}
+	\task\ex{$(2y+5)^2-3=33$} \sol{$x=\frac{1}{2}$ and $x=-\frac{11}{2}$}
+	\task\ex{$(2z+3)^2+19=100$}
+\end{tasks}
+
+\subsubsection*{Solving a Second Degree Equation by Factoring}
+
+Factor the following to solve for the variable.
+
+\begin{tasks}[label={}](2)
+	\task\ex{$z^2-4x-12=0$} \sol{$z=6$ and $z=-2$}
+	\task\ex{$x^2-9x-10=0$}
+	\task\ex{$x^2+7x+12=0$} \sol{$x=-3$ and $x=-4$}
+	\task\ex{$x^2+3x+2=0$}
+	\task\ex{$x^2+6x+9=0$} \sol{$x=-3$}
+	\task\ex{$x^2-6x-7=0$}
+	\task\ex{$(x-2)(4x-16)=0$} \sol{$x=2$ and $x=4$}
+	\task\ex{$x^2-8x+12=0$}
+	\task\ex{$x^2+2x-8=0$} \sol{$x=2$ and $x=-4$}
+	\task\ex{$(x+3)(x+2)=0$}
+	\task\ex{$2a^2-18a+28=0$} \sol{$a=2$ and $a=7$}
+	\task\ex{$3g^2-6g-9=0$}
+	\task\ex{$2r^2+4r-30=0$} \sol{$z=3$ and $z=-5$}
+	\task\ex{$y^2-y=42$}
+	\task\ex{$r^2-9=8r$} \sol{$r=9$ and $r=-1$}
+	\task\ex{$3a^2+3a-60=0$}
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

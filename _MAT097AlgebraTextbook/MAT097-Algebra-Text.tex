@@ -1,0 +1,321 @@
+\documentclass[a4paper,12pt]{book}
+%correct fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%special characters
+\usepackage{stackrel}
+\usepackage{lmodern}
+\usepackage{float}
+%provide internal document links
+\usepackage{hyperref}
+%provide graphic support
+\usepackage{graphicx}
+\usepackage{placeins}
+\usepackage[default]{lato}
+
+%\pdfsuppresswarningpagegroup=1\providecommand\pdfsuppresswarningpagegroup[1]{}
+\graphicspath{{Sections/AlgebraicSubstitutionImages/}{Sections/FirstDegreeEquationsImages/}}
+
+\newcommand{\executeiffilenewer}[3]{%
+	\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+	{\pdffilemoddate{#2}}>0%
+	{\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+	\executeiffilenewer{#1.svg}{#1.pdf}%
+	{inkscape -z -D --file=#1.svg %
+		--export-pdf=#1.pdf --export-latex}%
+	\input{#1.pdf_tex}%
+}
+
+%save pictures externally so that they are not rederred every compile
+%\usepackage{tikz}
+%\usetikzlibrary{external}       
+%\tikzexternalize
+%\usepackage{pgfplots}           
+%\pgfplotsset{compat=newest}     
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Graphics seem to be causing an issue
+
+
+\usepackage[rightcaption]{sidecap}
+%math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+%bold math
+\usepackage{bm}
+\usepackage{amsthm}
+%custom margins
+\usepackage[vmargin=2cm,rmargin=2.5cm,lmargin=2cm]{geometry}
+\usepackage{changepage}
+%index for text
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Unsure what the problem with index is
+\usepackage{makeidx}
+
+%exercise and solution package
+\usepackage{xsim}
+%columns vertical first
+\usepackage{multicol}
+%columns horizontal first
+\usepackage{tasks}
+
+%graphic packages
+%\usepackage{wrapfig}
+
+%currency symbols
+\usepackage{eurosym}
+%fraction reduction
+\usepackage{cancel}
+
+\usepackage{enumitem}
+%No indent in footnotes
+\usepackage[hang,flushmargin]{footmisc} 
+
+%colors
+\usepackage{xcolor}
+%custom environment
+\usepackage{environ}
+%color box with background
+\usepackage[most]{tcolorbox}
+
+%Set parskip to 10pt and parindent to 0 pt
+\usepackage[skip=10pt plus 4pt, indent=0pt]{parskip}
+
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+
+%shortcuts
+\newcommand{\ex}[1]{\begin{exercise}#1 \smallskip\end{exercise}}
+\newcommand{\sol}[1]{\begin{solution}#1 \medskip\end{solution}}
+\newcommand{\exam}[1]{\bigskip\begin{example}#1\end{example}}
+\newcommand{\indenttext}[1]{\begin{adjustwidth}{2em}{2em}#1\end{adjustwidth}}
+%\newcommand{\quotes}[1]{“#1”}
+\newcommand{\quotes}[1]{``#1''}
+
+
+%\definecolor{defback}{gray}{0.3}
+\definecolor{defback}{RGB}{240,240,240}
+%Standard Definition Format for Textbook
+\NewEnviron{definition}
+{
+	\medskip
+	\begin{center}
+		\begin{adjustwidth}{.25in}{.25in}
+			\begin{tcolorbox}[colback=defback,  %light gray background
+					  		  colframe=black,        %black frame colour
+					  		  width=\linewidth,      %full width
+					  		  arc=0.1in, auto outer arc,]
+				\begin{center}
+					\medskip\par
+					\BODY
+					\medskip\par
+				\end{center}
+			\end{tcolorbox}
+		\end{adjustwidth}
+	\end{center}
+	\medskip
+}
+
+%self explained
+\counterwithin{figure}{section}
+
+%part of numbering exercises within sections
+\DeclareExerciseEnvironmentTemplate{numbered-Exercises}
+{
+	\par
+	\textsl{\GetExerciseProperty{counter}}
+}
+{\par}
+
+\DeclareExerciseEnvironmentTemplate{numbered-Solutions}
+{%
+	\par
+	\textsl{\GetExerciseProperty{counter}} %
+}
+{\par}
+
+
+%customize printsolution at end of text
+\renewcommand\printsolutions{%
+	\def\currentchapter{}%
+	\def\currentsection{}%
+	\def\lastchapter{}%
+	\def\lastsection{}%
+	\ForEachUsedExerciseByType{%
+		\let\lastchapter\currentchapter
+		\let\lastsection\currentsection
+		\edef\currentchapter{\ExercisePropertyGet{##1}{##2}{chapter-value}}%
+		\edef\currentsection{\ExercisePropertyGet{##1}{##2}{section-value}}%
+		\ifx\lastchapter\currentchapter\else
+		\section*{Chapter \ExercisePropertyGet{##1}{##2}{chapter}}
+		\fi
+		\ifx\lastsection\currentsection\else
+		\subsection*{Exercises \ExercisePropertyGet{##1}{##2}{section}}
+		\fi
+		\XSIMprint{solution}{##1}{##2}%
+		\smallskip
+	}%
+}
+
+%remove extra spacing on exercises
+\settasks{
+	% the first two should be set to the same value so labels are aligned to the left
+	label-width = 0in,
+	item-indent = 0in,
+	before-skip = 0in, 
+	after-skip = 0in, 
+	after-item-skip = 0in 
+}
+
+\newcommand\This{\GetExerciseProperty{counter-value}}
+
+%exercise and solution environmental settings
+\xsimsetup{
+	exercise/template = numbered-Exercises ,
+	solution/template = numbered-Solutions ,
+	exercise/within = section ,
+	exercise/the-counter = \arabic{exercise}. ,
+	exercise/print = true
+}
+
+% Book's title and subtitle
+\title{\textbf{\huge{Algebra and Introduction to Functions}} \\ Finger Lakes Community College \\ Text for MAT 097 \\ Fall 2024 Edition}
+% Author
+\author{\textsc{FLCC Mathematics Department}}
+
+%create index
+\makeindex
+
+%ignore pages that are not full
+\raggedbottom
+
+\begin{document}
+%\DeclareGraphicsRule{.png}{eps}{.png}{.bb}{pngtopnm #1 | pnmtops}
+%create cover
+\frontmatter
+%create title page
+%\maketitle
+\include{./sections/TitlePage}
+%create table of contents
+\tableofcontents
+\noindent{Updated \today}
+%begin book
+\mainmatter
+
+%no indents for paragraphs
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{10pt plus 4pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Chapter: Foundations of Arithmetic
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Foundations of Arithmetic}
+\clearpage
+
+\include{./sections/OrderofOperations}
+\include{./sections/Fractions}
+\include{./sections/AlgebraicSubstitution}
+\renewcommand{\thesection}{\arabic{chapter}.R}
+\include{./sections/ArithmeticReviewQuestions}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Chapter: Foundations of Algebra
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Foundations of Algebra}
+\clearpage
+
+\include{./sections/AlgebraicExpressions}
+\include{./sections/Distribution}
+\include{./sections/AlgebraicExpressionsExponents}
+\include{./sections/NegativeExponents}
+\include{./sections/CommonFactor}
+\include{./sections/SecondDegreeFactor}
+\renewcommand{\thesection}{\arabic{chapter}.R}
+\include{./sections/AlgebraReviewQuestions}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Chapter: Solving Equations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Solving Equations}
+\clearpage
+
+\include{./sections/FirstDegreeEquations}
+\include{./sections/SolveSecondDegree}
+\include{./sections/SolveHigherOrderEquations}
+\renewcommand{\thesection}{\arabic{chapter}.R}
+\include{./sections/SolvingEquationsReviewQuestions}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Chapter: Foundations of Functions
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Foundations of Functions}
+\clearpage
+
+%%%%%%%%% One of these sections appear to be the problem
+
+\include{./sections/Functions}
+\include{./sections/FunctionsandGraphs}
+\include{./sections/SolvingEquationsGraphically}
+\include{./sections/FunctionsandModels}
+\include{./sections/ImplicitFunctions}
+\include{./sections/RateofChange}
+\renewcommand{\thesection}{\arabic{chapter}.R}
+\include{./sections/FunctionsReviewQuestions}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Chapter: Linear Functions
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Linear Functions}
+\clearpage
+
+\include{./sections/LinearFunctionsandSlope}
+\include{./sections/LinearFunctionsandIntercepts}
+\include{./sections/FormulaLinearFunction}
+\include{./sections/LinearFunctionsGraphs}
+\include{./sections/SystemsofLinearEquations}
+\renewcommand{\thesection}{\arabic{chapter}.R}
+\include{./sections/LinearFunctionsReviewQuestions}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+
+\clearpage
+
+\appendix
+
+%solutions section at end of text
+\chapter{Selected Answers}	
+	\begin{multicols}{2}
+	\printsolutions
+	\end{multicols}
+
+\clearpage
+
+%index at the end of the text
+\chapter{Index}
+%\printindex
+
+\end{document}

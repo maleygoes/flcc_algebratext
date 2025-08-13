@@ -1,0 +1,43 @@
+\providecommand\numberofexercises{}
+\XSIM{solution-body}{exercise-3=={\(x = 1, 2\)}||exercise-4=={\(y = 1, 2, 3\)}||exercise-5=={\(y = 1, 2, 3, 4\)}||exercise-2=={\(x = 1\)}||exercise-1=={\(x = 1\)}}
+\XSIM{exercise-body}{exercise-3=={\(x^2 - 3x + 2 = 0\)}||exercise-4=={\(y^3 - 6 y^2 + 11 y - 6 = 0\)}||exercise-5=={\(y^4 - 10 y^3 + 35 y^2 - 50 y + 24 = 0\)}||exercise-2=={\(x - 1 = 0\)}||exercise-1=={\(x - 1 = 0\)}}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
+\XSIM{goal}{exercise}{bonus-points}{0}
+\XSIM{totalgoal}{bonus-points}{0}
+\XSIM{order}{3||4||5||2||1}
+\XSIM{use}{}
+\XSIM{use!}{}
+\XSIM{used}{exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-2=={true}||exercise-1=={true}}
+\XSIM{print}{}
+\XSIM{print!}{}
+\XSIM{printed}{exercise-3=={false}||exercise-4=={false}||exercise-5=={false}||exercise-2=={true}||exercise-1=={true}}
+\XSIM{total-number}{1}
+\XSIM{exercise}{1}
+\XSIM{types}{exercise}
+\XSIM{idtypes}{3=={exercise}||4=={exercise}||5=={exercise}||2=={exercise}||1=={exercise}}
+\XSIM{collections}{exercise-3=={all exercises}||exercise-4=={all exercises}||exercise-5=={all exercises}||exercise-2=={all exercises}||exercise-1=={all exercises}}
+\XSIM{collection:all exercises}{exercise-3||exercise-4||exercise-5||exercise-2||exercise-1}
+\setcounter{totalexerciseinall exercises}{1}
+\XSIM{id}{exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-2=={2}||exercise-1=={1}}
+\XSIM{ID}{exercise-2=={2}||exercise-4=={4}||exercise-3=={last:x}||exercise-5=={last:y}||exercise-1=={1}}
+\XSIM{counter}{exercise-3=={3.}||exercise-4=={4.}||exercise-5=={5.}||exercise-2=={2.}||exercise-1=={1.}}
+\XSIM{counter-value}{exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-2=={2}||exercise-1=={1}}
+\XSIM{solution}{}
+\XSIM{chapter-value}{exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-2=={1}||exercise-1=={1}}
+\XSIM{chapter}{exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-2=={1}||exercise-1=={1}}
+\XSIM{section-value}{exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-2=={1}||exercise-1=={1}}
+\XSIM{section}{exercise-3=={1.1}||exercise-4=={1.1}||exercise-5=={1.1}||exercise-2=={1.1}||exercise-1=={1.1}}
+\XSIM{sectioning}{exercise-3=={{1}{1}{0}{0}{0}}||exercise-4=={{1}{1}{0}{0}{0}}||exercise-5=={{1}{1}{0}{0}{0}}||exercise-2=={{1}{1}{0}{0}{0}}||exercise-1=={{1}{1}{0}{0}{0}}}
+\XSIM{subtitle}{}
+\XSIM{points}{}
+\XSIM{bonus-points}{}
+\XSIM{page-value}{exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-2=={1}||exercise-1=={1}}
+\XSIM{page}{exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-2=={1}||exercise-1=={1}}
+\XSIM{tags}{}
+\XSIM{topics}{}
+\XSIM{userpoints}{}
+\XSIM{bodypoints}{}
+\XSIM{userbonus-points}{}
+\XSIM{bodybonus-points}{}
+\XSIM{instruction}{exercise-1=={In this exercise...}||exercise-4=={In Exercises \This -- \ExerciseRef {last:y}, solve for \(y\).}}

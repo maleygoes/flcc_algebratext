@@ -1,0 +1,181 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Factoring: Second Degree Expression
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Factoring: Second Degree Expression}
+\label{SecondDegreeFactor}
+
+Recall the distribution rules from Section \ref{Distribution} Example \ref{DistributionExample5}:
+\begin{align*}
+	(x+2)(x+3) & = x(x+3)+2(x+3)\\
+	& \\
+	& = x^2+3x+2x+6\\
+	& \\
+	& = x^2+5x+6
+\end{align*}
+
+Notice, to arrive at our simplified expression, we took the sum of the \quotes{$x$} terms $3x+2x$ to give us our middle term of $5x$. The constant, $6$, came from the multiplication of the integers from our original expression. Our simplified solution is a second-degree expression because it contains an $x^2$ term.
+
+To factor an expression of the second degree, in the form $x^2+bx+c$, which the coefficient of the $x^2$ term is $1$, we need to find numbers whose sum is the coefficient of the middle term $b$ and whose product is the constant term $c$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Defintion: Factored Form
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{definition}
+	\index{Factor!Second Degree}
+	\textbf{\underline{Factoring Second Degree Expressions of the Form $x^2+bx+c$}}\\
+	\bigskip
+	\begin{itemize}[leftmargin=*]
+		\item Consider all the pairs of integers whose product is $c$
+		\item If the sum of any of the pairs is $b$, then the expression can be factored to $(x+m)(x+n)$ where $m$ and $n$ are the integers.
+		\item If none of the pairs sum to $b$, then the expression cannot be factored using integers. We then say is it \quotes{not factorable over the integers}.
+	\end{itemize}
+	\bigskip
+%	Is this misplaced? 
+%	When groupings of the same variable raised to power or exponents, you can just add the exponents (make sure to remember that a ‘plain’ $x$ is actually $x^1$).
+%	$$x^a \cdot x^b = x^{a+b}$$
+\end{definition}
+
+\exam{\label{SecondDegreeFactorExample1}Factor $x^2+7x+10$}
+
+\indenttext{We first consider factors of $10$, which are ($10$,$1$ - the sum of which is $11$) or ($5$,$2$ - the sum of which is $7$). We need the pair we choose to have a sum equal to $7$ and the only pair that satisfies that is $5$ and $2$. So, we can factor $x^2+7x+10$ into $(x+5)(x+2)$.  Remember that multiplication is commutative so the order in which we put the integers $5$ and $2$ here works either way.
+
+We can easily check our work by using the distributive law:
+\begin{align*}
+	(x+5)(x+2) & = x(x)+x(2)+5(x)+5(2)\\
+	& \\
+	& = x^2+2x+5x+10\\
+	& \\
+	& = x^2+7x+10
+\end{align*}
+}
+
+\exam{\label{SecondDegreeFactorExample2}Factor $x^2-11x+10$}
+
+\indenttext{We know from example \ref{SecondDegreeFactorExample1} that the factors to consider are ($10$,$1$ - sum $11$) or ($5$,$2$ - sum $7$). However we are now trying to find a pair whose sum is equal to $-11$. Remember that the product of two negative numbers gives us a positive number, which means that we can also consider the factors of $10$ as ($-10$, $-1$ - sum $-11$) or ($-5$,$-2$ - sum $-7$). We need our pair to have a sum of $-11$ so we will choose ($-10$,$-1$). We can factor $x^2-11x+10$ into $(x-10)(x-1)$.
+}
+
+\exam{\label{SecondDegreeFactorExample3}Factor $x^2-7x-30$}
+\indenttext{We now need to find the factors of $-30$, remember that only multiplying a negative number by a positive number can give us a negative product. Let’s examine the possibilities here:
+
+\begin{center}
+	\begin{tabular}{c|c|c}
+		Factors & Sum & Product\\
+		\hline
+		$-30,1$ & $-29$ & $-30$ \\
+		\hline
+		$-15,2$ & $-13$ & $-30$ \\
+		\hline
+		$\textbf{-10,3}$ & $\textbf{-7}$ & $\textbf{-30}$ \\
+		\hline
+		$-6,5$ & $-1$ & $-30$ \\
+		\hline
+		$-5,6$ & $1$ & $-30$ \\
+		\hline
+		$-3,10$ & $7$ & $-30$ \\
+		\hline
+		$-2,15$ & $13$ & $-30$ \\
+		\hline
+		$-1,30$ & $29$ & $-30$
+	\end{tabular}
+\end{center}
+
+The factors of $-10$ and $3$ give us the sum and product that we are looking for. Therefore, we can factor $x^2-7x-30$ into $(x-10)(x+3)$.
+}
+
+\exam{\label{SecondDegreeFactorExample4}Factor $2x^2+16x+30$}
+
+\indenttext{It is important to recognize here that the coefficient of the $x^2$ terms here does not equal $1$. We can however, begin by dividing by a common factor, which in this case is $2$ and once we do that we are left with:
+$$2x^2+16x+30=2(x^2+8x+15)$$
+
+Remember that we want to be sure we have factored our expression completely.  We have to then attempt to factor what we have inside the parenthesis.  We are looking for factors of $15$, whose sum is $8$. We check the factors of $15$, ($15$, $1$ - sum $16$), ($5$,$3$ - sum $8$). We need the pair $5$, $3$. We can then factor $2x^2+16x+2$ into $2(x+5)(x+3)$.
+}
+
+\exam{\label{SecondDegreeFactorExample5}Factor: $x^3+x^2-6x$}
+
+\indenttext{You will notice that this expression is not in fact second degree because of the presence of the $x^3$, this is a third degree expression. We can however use the same ideas to factor this expression and begin by looking for a common factor between the three terms. There is no common factor between the coefficients other than 1. For the literal part, the highest power of $x$ that is a factor of $x^3$, $x^2$, and $x$ is $x$. Therefore, the common factor is $x$. Once we factor that out we are left with:
+$$x^3+x^2-6x=x(x^2+x-6)$$
+
+To factor completely, we need factors of $-6$ whose sum is $1$ (remember that the middle term, $x$, is equivalent to $1x$). The pairs to consider are ($6$, $-1$ - sum $5$), ($-6$, $1$ - sum $-5$), ($-3$,$2$ - sum $-1$), and ($3$, $-2$ - sum $1$). We need the pair $3$, $-2$.  We can then factor $x^3+x^2-6x$ into $x(x+3)(x-2)$.
+}
+
+\exam{\label{SecondDegreeFactorExample6}Factor: $x^2-25$}
+
+\indenttext{Notice that there are only $2$ terms in this expression, which leads us to believe that the coefficient of the \quotes{middle term} must be $0$. We can think of this expression as $x^2+0x-25$.  We can factor in the same way we had in the previous examples, factors of $-25$ whose sum is $0$. Our options are ($25$, $-1$ – sum $24$), ($-25$,$1$ - sum $-24$) or ($-5$, $5$ - sum $0$). We need the pair $5$, $-5$. We can then factor $x^2-25$ into $(x+5)(x-5)$.
+
+Let’s use the distributive law to check our solution:
+\begin{align*}
+	(x+5)(x-5) & = x(x)+x(-5)+5(x)+5(-5)\\
+	& \\
+	& = x^2-5x+5x-25\\
+	& \\
+	& = x^2-25
+\end{align*}
+}
+
+Notice that the pair of integers we used were the same number with opposite signs.  This caused the middle term to simplify to $0$ when combining like terms.  Also note that multiplying a number by itself is \quotes{squaring} that number ($5 \cdot 5 = 25$) giving us a product that is a perfect square!
+
+When we have a second degree expression in the form $a^2-b^2$ we can refer to that as the \textbf{difference of squares} \index{Factor!Difference of Squares} and factor into $(a+b)(a-b)$. This pattern requires subtraction in the original expression because that is how our middle terms were eliminated when combined.
+
+\exam{\label{SecondDegreeFactorExample7}Factor: $t^2-36$}
+
+\indenttext{Because $t \cdot t = t^2$ and $6 \cdot 6 = 36$, we can factor $t^2-36$ into $(t+6)(t-6)$.
+}
+
+\exam{\label{SecondDegreeFactorExample8}Factor: $2w^2-32$}
+
+\indenttext{We can begin factoring out a common factor here of 2 which leaves us with:
+$$2(w^2-16)$$
+
+We can continue to factor the expression inside the parenthesis knowing that $w\cdot w = w^2$ and $4 \cdot 4 = 16$.  We factor $2w^2-32$ into $2(w+4)(w-4)$.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Factoring: Second Degeee Expression: Exercises
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\subsection{Exercises}
+
+\begin{tasks}[label={}](2)
+	\task\ex{$x^2+5x+6$} \sol{$(x+2)(x+3)$}
+	\task\ex{$a^2-a-6$}
+	\task\ex{$g^2+g-6$} \sol{$(g+3)(g-2)$}
+	\task\ex{$r^2-4r-5$}
+	\task\ex{$x^2+9x+14$} \sol{$(x+7)(x+2)$}
+	\task\ex{$x^2-12x+36$}
+	\task\ex{$x^2+9x+18$} \sol{$(x+3)(x+6)$}
+	\task\ex{$y^2+7y-30$}
+	\task\ex{$t^2+9t+20$} \sol{$(t+5)(t+4)$}
+	\task\ex{$g^2-13g+36$}
+	\task\ex{$x^2+10x-24$} \sol{$(x+12)(x-2)$}
+	\task\ex{$h^2+h-30$}
+	\task\ex{$f^2-7f+12$} \sol{$(f-3)(f-4)$}
+	\task\ex{$v^2+14v+48$}
+	\task\ex{$r^2-10r-24$} \sol{$(r-12)(r+2)$}
+	\task\ex{$p^2-26p+48$}
+	\task\ex{$2b^2+10b+12$} \sol{$2(b+3)(b+2)$}
+	\task\ex{$2w^2+12w+10$}
+	\task\ex{$5x^2-50x+125$} \sol{$5(x-5)(x-5)$}
+	\task\ex{$x^3+3x^2-10x$}
+	\task\ex{$2w^3-4w^2+2w$} \sol{$2w(w-1)(w-1)$}
+	\task\ex{$x^2-100$}
+	\task\ex{$a^2-49$} \sol{$(a+7)(a-7)$}
+	\task\ex{$3x^2-75$}
+	\task\ex{$4x^2-36$} \sol{$4(x-3)(x+3)$}
+	\task\ex{$q^2-225$}
+	\task\ex{$2p^2-72$} \sol{$2(p+6)(p-6)$}
+	\task\ex{$r^2-121$}
+\end{tasks}
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

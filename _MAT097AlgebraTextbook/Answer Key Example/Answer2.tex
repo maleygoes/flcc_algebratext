@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{xsim}
+\usepackage{blindtext}
+
+\xsimsetup{collect}
+
+\begin{document}
+	
+	\section*{Set of problems}
+	
+	\begin{exercise}[ID=A]
+		$1+1=$
+	\end{exercise}
+	\begin{solution}
+		$2$
+	\end{solution}
+	\begin{exercise}[ID=B]
+		$10\div2=$
+	\end{exercise}
+	\begin{solution}
+		5
+	\end{solution}
+	\begin{exercise}[ID=C]
+		Who has a red nosed reindeer?
+	\end{exercise}
+	\begin{solution}
+		santa
+	\end{solution}
+	
+	
+	\section*{Exercises}
+	\printrandomexercises[collection=all exercises,exclude=D]{3}
+	
+	\newpage
+	
+	\printsolutions
+	
+\end{document}
