@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="SolvingEquations">
+  <title>Solving Equations</title>
+  <xi:include  href="FirstDegreeEquations.ptx"/>
+  <xi:include  href="SolveSecondDegree.ptx"/>
+  <xi:include  href="SolveHigherOrderEquations.ptx"/>
+  <xi:include  href="SolvingRationalExponents.ptx"/>
+  <xi:include  href="SolvingEquationsReviewQuestions.ptx"/>
+</chapter>

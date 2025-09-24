@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="LinearFunctions">
+  <title>Linear Functions</title>
+  <xi:include  href="LinearFunctionsandSlope.ptx"/>
+  <xi:include  href="LinearFunctionsandIntercepts.ptx"/>
+  <xi:include  href="FormulaLinearFunctions.ptx"/>
+  <xi:include  href="LinearFunctionsGraphs.ptx"/>
+  <xi:include  href="SystemsofLinearEquations.ptx"/>
+  <xi:include  href="LinearFunctionsReviewQuestions.ptx"/>
+</chapter>
