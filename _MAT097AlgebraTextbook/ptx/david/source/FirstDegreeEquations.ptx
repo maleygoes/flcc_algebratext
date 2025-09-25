@@ -14,7 +14,7 @@
     <p>
       Before we begin reviewing,
       let's review some of the terminology we'll need to use.
-      Suppose you have a <m>\dollar25</m> balance on a pre-paid phone card,
+      Suppose you have a <m>$25</m> balance on a pre-paid phone card,
       and usage costs <m>3</m> cents per minute.
       You can write an algebraic expression for the balance on your card based on minutes used.
       If we represent the minutes used by the variable <m>m</m>,
@@ -25,7 +25,7 @@
       And so on.
     </p>
     <p>
-      But now suppose you want to know how many minutes you can use before your balance falls to <m>\dollar10</m>.
+      But now suppose you want to know how many minutes you can use before your balance falls to <m>$10</m>.
       So, in other words, you need to solve the equation:
       <me>
         25 - 0.03m = 10
@@ -41,8 +41,8 @@
       </md>
       which is nonsense.
       If you use <m>200</m> minutes,
-      we can see that your remaining balance is <m>\dollar19</m>,
-      not the <m>\dollar10</m> we were looking for.
+      we can see that your remaining balance is <m>$19</m>,
+      not the <m>$10</m> we were looking for.
       <m>200</m> minutes is not the amount of usage you were looking for.
     </p>
     <p>
@@ -54,7 +54,7 @@
       </md>
       which is exactly what we would have hoped for.
       If you use <m>500</m> minutes,
-      your remaining balance is <m>\dollar10</m>.
+      your remaining balance is <m>$10</m>.
       <m>500</m> minutes is the amount of usage you were looking for.
     </p>
     <p>
@@ -77,7 +77,7 @@
       The set of all solutions for a given equation is called its solution set.
       We would say that the solution set of <m>25 - 0.03m = 10</m> is <m>\{500\}</m>
       (this solution set has just one member.)
-      We know that <m>500</m> must be the only member of this solution set because common sense tells us that there is only one amount of usage that would result in having <m>\dollar10</m> left.
+      We know that <m>500</m> must be the only member of this solution set because common sense tells us that there is only one amount of usage that would result in having <m>$10</m> left.
     </p>
     <p>
       Most first-degree equations have only one solution,
@@ -150,7 +150,7 @@
     <p>
       \ifx\undefined\undefined \ifx\undefined\undefined \relax \else \fi \else \fi \global \global
     </p>
-    <image source="images/d2ee64e53f626801d712ab0a1f9861fa78a3af67.png"/>
+    <image source="images/d2ee64e53f626801d712ab0a1f9861fa78a3af67.png" />
     <p>
       \end{SCfigure}
     </p>
@@ -204,7 +204,7 @@
       to keep the equation balanced.
       So:
       <md>
-        <mrow>25-0.03m\bm{-25} \amp  = 10\bm{-25}</mrow>
+        <mrow>25-0.03m-25 \amp  = 10-25</mrow>
         <mrow>-0.03m \amp  = -15</mrow>
       </md>
     </p>
@@ -216,7 +216,7 @@
       and so they cannot be combined.
       But we can divide both sides by <m>-0.03</m>:
       <me>
-        \frac{-0.03m}{\bm{-0.03}} = \frac{-15}{\bm{-0.03}}
+        \frac{-0.03m}{-0.03} = \frac{-15}{-0.03}
       </me>
     </p>
     <p>
@@ -849,7 +849,7 @@
         Determine which,
         if any, of the given values satisfy the given equations.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>3x-7=8</m>; <m>x=1,2,3,4,\text{ or } 5</m>
@@ -887,11 +887,11 @@
           </p>
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         Answer each of the following questions based on the information given.
         Justify your answers.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             A technology sales rep quotes the costs for backup data storage systems using the formula
@@ -915,7 +915,7 @@
           <p>
             My water bill <m>W</m> is calculated using the formula
             <m>W=0.02g+5</m> where <m>g</m> is the number of gallons used during the month.
-            Last month my bill was <m>\dollar25</m>,
+            Last month my bill was <m>$25</m>,
             but I'm not sure whether I used
             <m>500, 1000, 1500</m>, or <m>2000</m> gallons.
             Which of these possibilities,
@@ -956,15 +956,11 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving Equations Using the Balance Principle</title>
-      <p>
-        Solve each of the following equations.
-        If your final answer is a fraction,
-        reduce it to lowest terms. \begin{tasks}[label=](2) \task
-      </p>
-      <exercise>
+      
+      <exercises><exercise>
         <statement>
           <p>
             <m>3x-23=37</m>
@@ -976,9 +972,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -986,9 +980,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1001,9 +993,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1011,9 +1001,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1026,9 +1014,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1036,9 +1022,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1051,9 +1035,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1061,9 +1043,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1076,9 +1056,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1086,9 +1064,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1101,9 +1077,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1111,9 +1085,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1126,9 +1098,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1136,9 +1106,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1151,9 +1119,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1161,9 +1127,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1176,9 +1140,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1186,9 +1148,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \end{tasks}
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1231,7 +1191,7 @@
         <statement>
           <p>
             A technology sales rep quotes the costs for backup data storage systems using the formula<m>C=50+0.12d</m> where<m>d</m> is the number of gigabytes of storage used.
-            She wrote up a quote showing a cost of <m>\dollar1850</m>,
+            She wrote up a quote showing a cost of <m>$1850</m>,
             but the quote doesn't show the amount of storage that's based on,
             and I can't remember what she used to determine the quote.
             What amount of storage is the quote based on?
@@ -1248,7 +1208,7 @@
           <p>
             My water bill<m>W</m> is calculated using the formula
             <m>W=0.02g+5</m> where <m>g</m> is the number of gallons used during the month.
-            Last month my bill was <m>\dollar37.68</m>,
+            Last month my bill was <m>$37.68</m>,
             but I'm not sure how much water I used.
             How many gallons did I use last month?
           </p>
@@ -1281,15 +1241,11 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving Equations Involving Fractions</title>
-      <p>
-        Solve each of the following equations.
-        If your final answer is a fraction,
-        reduce it to lowest terms. \begin{tasks}[label=](2) \task
-      </p>
-      <exercise>
+      
+      <exercises><exercise>
         <statement>
           <p>
             <m>\frac{1}{3}x-1=\frac{5}{2}</m>
@@ -1301,9 +1257,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1311,9 +1265,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1326,9 +1278,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1336,9 +1286,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1351,9 +1299,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1361,9 +1307,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1376,9 +1320,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1386,9 +1328,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1401,9 +1341,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1411,9 +1349,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1426,9 +1362,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1436,10 +1370,8 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \end{tasks}
-      </p>
-    </subsubsection>
+      
+    </exercises></subsubsection>
     <subsubsection>
       <title>Identities and Contradictions</title>
       <p>
@@ -1448,7 +1380,7 @@
         Determine which.
         Justify your answer.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>3(2x-5)=2(3x-7)</m>
@@ -1524,16 +1456,14 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving for One Variable in Terms of Others</title>
       <p>
         Solve each of the following equations for the requested variable in terms of the other variable(s).
       </p>
-      <p>
-        \begin{tasks}[label=](2) \task
-      </p>
-      <exercise>
+      
+      <exercises><exercise>
         <statement>
           <p>
             <m>y=2x-10</m> for <m>x</m>
@@ -1545,9 +1475,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1555,9 +1483,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1570,9 +1496,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1580,9 +1504,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1595,9 +1517,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1605,9 +1525,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1620,9 +1538,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1630,9 +1546,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1645,9 +1559,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1655,9 +1567,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1670,9 +1580,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1680,9 +1588,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1695,9 +1601,7 @@
           </p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1705,9 +1609,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \end{tasks}
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -1736,10 +1638,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>General Exercises</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Solve <m>3x-2=5x-8</m>
@@ -1813,7 +1715,7 @@
           <p>
             The daily profit for a tour operator <m>p</m> depends on the number of paying customers taking his tour <m>t</m>.
             The relationship is expressed by the equation <m>p=65t-350</m>.
-            Yesterday he made a profit of <m>\dollar820</m>.
+            Yesterday he made a profit of <m>$820</m>.
             How many paying customers did he have that day?
           </p>
         </statement>
@@ -1946,7 +1848,7 @@
             based on <m>m</m> minutes of usage,
             is given by the formula <m>C=1.08(4.95+0.05m)</m>.
             If my bill for the month is
-            <m>\dollar67.99</m> how many minutes did I use?
+            <m>$67.99</m> how many minutes did I use?
           </p>
         </statement>
         <solution>
@@ -2008,6 +1910,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

@@ -6,10 +6,8 @@
       Determine the number of terms in the algebraic expression.
       For each term, state the coefficient and literal part.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>3a-4b^2</m>
@@ -30,9 +28,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -54,9 +50,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -78,9 +72,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -102,9 +94,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -126,9 +116,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -155,9 +143,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -179,9 +165,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -203,9 +187,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -227,9 +209,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -251,16 +231,12 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-    <p>
+    
+    </exercises><p>
       Rewrite each of the following in simplified form.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>-3g(4g)</m>
@@ -272,9 +248,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -287,9 +261,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -302,9 +274,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -317,9 +287,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -332,9 +300,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -347,9 +313,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -362,9 +326,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -377,9 +339,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -392,9 +352,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -407,9 +365,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -422,9 +378,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -437,9 +391,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -452,9 +404,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -467,9 +417,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -482,9 +430,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -497,9 +443,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -512,9 +456,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -527,9 +469,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -542,9 +482,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -557,16 +495,12 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-    <p>
+    
+    </exercises><p>
       Simplify the following by combining like terms:
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>j^3 + 4j^2 - j^3 - 2j^2 + 4</m>
@@ -578,9 +512,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -593,9 +525,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -608,9 +538,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -623,16 +551,12 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-    <p>
+    
+    </exercises><p>
       Simplify the following expressions
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>3(a - 4)</m>
@@ -644,9 +568,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -659,9 +581,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -674,9 +594,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -689,9 +607,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -704,9 +620,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -719,9 +633,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -734,9 +646,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -749,9 +659,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -764,9 +672,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -779,9 +685,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -794,9 +698,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -809,9 +711,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -824,19 +724,15 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-  </subsection>
+    
+  </exercises></subsection>
   <subsection>
     <title>Exponents</title>
     <p>
       Rewrite each of the following in simplest form.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>(-2a)(4a^3)(a^2)</m>
@@ -848,9 +744,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -863,9 +757,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -878,9 +770,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -893,9 +783,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -908,9 +796,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -923,9 +809,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -938,9 +822,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -953,9 +835,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -968,9 +848,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -983,9 +861,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -998,9 +874,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1013,9 +887,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1028,9 +900,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1043,9 +913,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1058,9 +926,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1073,9 +939,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1088,9 +952,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1103,9 +965,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1118,19 +978,15 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-  </subsection>
+    
+  </exercises></subsection>
   <subsection>
     <title>Negative Exponents</title>
     <p>
       Express each of the following without negative exponents.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>\frac{8^3}{8^7}</m>
@@ -1142,9 +998,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1157,9 +1011,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1172,9 +1024,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1187,9 +1037,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1202,9 +1050,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1217,9 +1063,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1232,9 +1076,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1247,9 +1089,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1262,9 +1102,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1277,9 +1115,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1292,9 +1128,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1307,9 +1141,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1322,16 +1154,12 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-    <p>
+    
+    </exercises><p>
       Express each of the following using fractional exponents.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>\sqrt{2x}</m>
@@ -1343,9 +1171,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1358,9 +1184,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1373,9 +1197,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1388,9 +1210,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1403,9 +1223,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1418,16 +1236,12 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-    <p>
+    
+    </exercises><p>
       Express each of the following without fractional exponents.
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>3z^{\frac{1}{5}}</m>
@@ -1439,9 +1253,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1454,9 +1266,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1469,9 +1279,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1484,9 +1292,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1499,9 +1305,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1514,9 +1318,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1529,19 +1331,15 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-  </subsection>
+    
+  </exercises></subsection>
   <subsection>
     <title>Factoring</title>
     <p>
       Factor each of the following expressions:
     </p>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>18 - 3a</m>
@@ -1553,9 +1351,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1568,9 +1364,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1583,9 +1377,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1598,9 +1390,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1613,9 +1403,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1628,9 +1416,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1643,9 +1429,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1658,9 +1442,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1673,9 +1455,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1688,9 +1468,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1703,9 +1481,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1718,9 +1494,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1733,9 +1507,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1748,9 +1520,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1763,9 +1533,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1778,9 +1546,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1793,9 +1559,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1808,9 +1572,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1823,9 +1585,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1838,9 +1598,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1853,9 +1611,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -1868,8 +1624,6 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-  </subsection>
+    
+  </exercises></subsection>
 </section>

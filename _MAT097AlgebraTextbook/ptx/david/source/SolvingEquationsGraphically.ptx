@@ -32,7 +32,7 @@
     </p>
     <figure>
       <caption>Graph of <m>f(x)=2x-1</m> in the standard window</caption>
-      <image width="92.5%" source="images/Figure01.png"/>
+      <image width="92.5%" source="images/Figure01.png" />
     </figure>
     <p>
       Now, remember that a graph for a function consists of all of its input-output pairs.
@@ -55,7 +55,7 @@
     </p>
     <figure>
       <caption>Graph of <m>g(x)=7</m> in the standard window</caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       Now, we can graph the right-side function and left-side function together.
@@ -66,19 +66,19 @@
     </p>
     <figure>
       <caption>Entering two function in the calculator</caption>
-      <image width="92.5%" source="images/Figure03.png"/>
+      <image width="92.5%" source="images/Figure03.png" />
     </figure>
     <p>
       And then we get both graphed together in the same window:
     </p>
     <figure>
       <caption>Graph of <m>f(x)=2x-1</m> and <m>g(x)=7</m> in the standard window</caption>
-      <image width="92.5%" source="images/Figure04.png"/>
+      <image width="92.5%" source="images/Figure04.png" />
     </figure>
     <p>
       Now, how does this help?
       Well, we are looking for the place where the output of
-      <m>f(x)=2x-1</m> is <m>7</m> <mdash/> or, in other words,
+      <m>f(x)=2x-1</m> is <m>7</m> <mdash /> or, in other words,
       where the graph of <m>f(x)=2x-1</m> is at a height of <m>7</m>.
       But the output of <m>g(x)=7</m> is always <m>7</m>, or,
       in other words,
@@ -105,7 +105,7 @@
     </p>
     <figure>
       <caption>The \quotes{CALC} menu</caption>
-      <image width="92.5%" source="images/Figure05.png"/>
+      <image width="92.5%" source="images/Figure05.png" />
     </figure>
     <p>
       Now, select
@@ -114,7 +114,7 @@
     </p>
     <figure>
       <caption>The first step toward finding the intersection</caption>
-      <image width="92.5%" source="images/Figure06.png"/>
+      <image width="92.5%" source="images/Figure06.png" />
     </figure>
     <p>
       Now we are ready to work through the calculator program to find the intersection.
@@ -134,7 +134,7 @@
     </p>
     <figure>
       <caption>The second step toward finding the intersection</caption>
-      <image width="92.5%" source="images/Figure07.png"/>
+      <image width="92.5%" source="images/Figure07.png" />
     </figure>
     <p>
       Since
@@ -145,7 +145,7 @@
     </p>
     <figure>
       <caption>The third step toward finding the intersection</caption>
-      <image width="92.5%" source="images/Figure08.png"/>
+      <image width="92.5%" source="images/Figure08.png" />
     </figure>
     <p>
       The calculator is now asking for a guess.
@@ -161,7 +161,7 @@
     </p>
     <figure>
       <caption>Found the intersection</caption>
-      <image width="92.5%" source="images/Figure09.png"/>
+      <image width="92.5%" source="images/Figure09.png" />
     </figure>
     <p>
       So the intersection occurs at <m>(4,7)</m>.
@@ -199,7 +199,7 @@
     </p>
     <figure>
       <caption>Entering both sides of the equation</caption>
-      <image width="92.5%" source="images/Figure10.png"/>
+      <image width="92.5%" source="images/Figure10.png" />
     </figure>
     <p>
       Running through the steps:
@@ -211,7 +211,7 @@
             <q>TRACE</q>
             (i.e.
             <q>CALC</q>
-            ) <ndash/>>
+            ) <ndash />&gt;
             <q>5:Intersect</q>
           </p>
         </li>
@@ -243,7 +243,7 @@
     </p>
     <figure>
       <caption>The intersection on the calculator</caption>
-      <image width="92.5%" source="images/Figure11.png"/>
+      <image width="92.5%" source="images/Figure11.png" />
     </figure>
     <p>
       From this we use the X-value of the intersection to conclude that the solution to the equation is <m>t=-4</m>
@@ -275,7 +275,7 @@
     </p>
     <figure>
       <caption>Entering both sides of the equation</caption>
-      <image width="92.5%" source="images/Figure12.png"/>
+      <image width="92.5%" source="images/Figure12.png" />
     </figure>
     <p>
       Running the intersect program up to the
@@ -284,7 +284,7 @@
     </p>
     <figure>
       <caption>Finding an intersection</caption>
-      <image width="92.5%" source="images/Figure13.png"/>
+      <image width="92.5%" source="images/Figure13.png" />
     </figure>
     <p>
       We can see there that there are two intersections between the graphs,
@@ -300,7 +300,7 @@
     </p>
     <figure>
       <caption>First intersection</caption>
-      <image width="92.5%" source="images/Figure14.png"/>
+      <image width="92.5%" source="images/Figure14.png" />
     </figure>
     <p>
       so one solution to the equation
@@ -316,7 +316,7 @@
     </p>
     <figure>
       <caption>Second intersection</caption>
-      <image width="92.5%" source="images/Figure15.png"/>
+      <image width="92.5%" source="images/Figure15.png" />
     </figure>
     <p>
       So the equation's two solutions are <m>x=-2.32</m> and <m>x=4.32</m>. }
@@ -346,7 +346,7 @@
     </p>
     <figure>
       <caption>Standard Window</caption>
-      <image width="92.5%" source="images/Figure16.png"/>
+      <image width="92.5%" source="images/Figure16.png" />
     </figure>
     <p>
       We don't get an intersection in the standard window,
@@ -356,7 +356,7 @@
     </p>
     <figure>
       <caption>Error screen</caption>
-      <image width="92.5%" source="images/Figure17.png"/>
+      <image width="92.5%" source="images/Figure17.png" />
     </figure>
     <p>
       Not the most descriptive error code ever written,
@@ -378,14 +378,14 @@
     </p>
     <figure>
       <caption>Xmax, Ymax set from <m>10</m> to <m>20</m></caption>
-      <image width="92.5%" source="images/Figure18.png"/>
+      <image width="92.5%" source="images/Figure18.png" />
     </figure>
     <p>
       which gives us this view of the graphs:
     </p>
     <figure>
       <caption>New graph based on new window</caption>
-      <image width="92.5%" source="images/Figure19.png"/>
+      <image width="92.5%" source="images/Figure19.png" />
     </figure>
     <p>
       It's not clear whether or not they actually intersect in this window.
@@ -398,7 +398,7 @@
     </p>
     <figure>
       <caption>New graph based on new window</caption>
-      <image width="92.5%" source="images/Figure20.png"/>
+      <image width="92.5%" source="images/Figure20.png" />
     </figure>
     <p>
       So we can conclude the solution to this equation is <m>x=22</m>. }
@@ -419,7 +419,7 @@
     </p>
     <figure>
       <caption>Treating both sides as functions in the calculator</caption>
-      <image width="92.5%" source="images/Figure21.png"/>
+      <image width="92.5%" source="images/Figure21.png" />
     </figure>
     <p>
       But if we look at these graphs in the standard window we see nothing at all!
@@ -431,7 +431,7 @@
     </p>
     <figure>
       <caption>Treating both sides as functions in the calculator</caption>
-      <image width="92.5%" source="images/Figure22.png"/>
+      <image width="92.5%" source="images/Figure22.png" />
     </figure>
     <p>
       From this we can see that if we are using X-values that fall within the standard window,
@@ -443,7 +443,7 @@
     </p>
     <figure>
       <caption>Treating both sides as functions in the calculator</caption>
-      <image width="92.5%" source="images/Figure23.png"/>
+      <image width="92.5%" source="images/Figure23.png" />
     </figure>
     <p>
       Luckily, this view not only gives us a hint where the intersection might be,
@@ -452,7 +452,7 @@
     </p>
     <figure>
       <caption>Treating both sides as functions in the calculator</caption>
-      <image width="92.5%" source="images/Figure24.png"/>
+      <image width="92.5%" source="images/Figure24.png" />
     </figure>
     <p>
       allowing us to conclude that the solution is <m>x=-8.6</m>. }
@@ -466,7 +466,7 @@
       that it's possible for an equation to have multiple solutions.
       Which raises the question:
       how do we know in <xref ref="FunctionsandGraphsExample3">Examples</xref>
-      and <xref ref="FunctionsandGraphsExample4"></xref>
+      and <xref ref="FunctionsandGraphsExample4" />
       that we got all the solutions?
       We adjusted our window to find a solution ... but how do we know that we wouldn't find another if we looked elsewhere?
     </p>
@@ -585,7 +585,7 @@
         <p>
           Which solution method would be the better bet for each of the following equations?
           Why?
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 <m>3x-5=4-2x</m>
@@ -610,7 +610,7 @@
         </p>
       </statement>
     </example>
-    <ol marker="labelalph">
+    <ol marker="a">
       <li>
         <p>
           <m>3x-5=4-2x</m> For this, traditional algebra is probably the better bet,
@@ -659,7 +659,7 @@
     </p>
     <figure>
       <caption>A very hard to find intersection</caption>
-      <image width="92.5%" source="images/Figure25.png"/>
+      <image width="92.5%" source="images/Figure25.png" />
     </figure>
     <p>
       Now, the two graphs don't intersect in this window,
@@ -696,7 +696,7 @@
     </p>
     <figure>
       <caption>A very hard to find intersection</caption>
-      <image width="92.5%" source="images/Figure26.png"/>
+      <image width="92.5%" source="images/Figure26.png" />
     </figure>
     <p>
       But in fact this equation does have a solution:
@@ -742,7 +742,7 @@
         but all solutions for these equations occur within the standard window.
         Round your answers to two decimal places if necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>3+4x=5-2x</m>
@@ -837,7 +837,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Window Setting for Graphical Solution</title>
       <p>
@@ -846,7 +846,7 @@
         Each of these equations has one and only one solution.
         Round your answers to two decimal places if necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>20-3x=9-8x</m>
@@ -960,7 +960,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>When to use graphical solutions</title>
       <p>
@@ -971,7 +971,7 @@
         so there are no right or wrong answers,
         but you should explain your reasoning.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>3.25(4.13x-3.17)-2.55=0.87x+3.13(0.55x-1.15)</m>
@@ -1067,7 +1067,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
       <p>
@@ -1076,7 +1076,7 @@
         Unless otherwise noted, each of these equations has only one solution.
         Round your answers to two decimal places if necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>2(3x-1)-5x=8x+3-3(2x+5)</m>
@@ -1159,7 +1159,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         (NOTE: This equation has two solutions.)
       </p>
       <solution>
@@ -1167,7 +1167,7 @@
           <m>x=0</m> and <m>x=2</m>
         </p>
       </solution>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>180k-32,000=160k+48,000</m>
@@ -1193,10 +1193,10 @@
           </p>
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         (NOTE: This equation has two solutions.)
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>\frac{19x-5}{10}=\frac{39x+50}{40}</m>
@@ -1255,6 +1255,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

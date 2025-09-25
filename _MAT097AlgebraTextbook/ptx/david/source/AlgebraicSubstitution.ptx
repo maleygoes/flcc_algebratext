@@ -1,4 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+
 <section xml:id="AlgebraicSubstitution">
+
   <title>Algebraic Substitution</title>
   <introduction>
     <p>
@@ -88,14 +91,14 @@
           <idx><h>Algebraic Substitution</h></idx>
       <em>algebraic substitution</em>.
     </p>
-    <example xml:id="AlgebraicSubstitutionExample1">
+    <algorithm xml:id="AlgebraicSubstitutionExample1">
       <statement>
         <p>
           Evaluate the algebraic expression
           <m>t^2+2t-4p</m> if <m>t=7</m> and <m>p=-3</m>
         </p>
       </statement>
-    </example>
+    </algorithm>
     <p>
       We start with the equation,
       and then replace the variables <m>t</m> and <m>p</m> with their given values,
@@ -108,13 +111,13 @@
       Since we don't know what this algebraic expression is meant to represent or the appropriate units for the variables represent,
       we just leave the final answer as <m>75</m>. }
     </p>
-    <example xml:id="AlgebraicSubstitutionExample2">
+    <algorithm xml:id="AlgebraicSubstitutionExample2">
       <statement>
         <p>
           Evaluate <m>\frac{c^2V}{2}</m> if <m>c=-3</m> and <m>V=200</m>
         </p>
       </statement>
-    </example>
+    </algorithm>
     <p>
       The original equation contains <m>c^2</m>,
       so whatever <m>c</m> is, we need to square it.
@@ -133,13 +136,13 @@
       you may want to consider always putting parentheses around negative numbers when you substitute them in,
       to play it safe.
     </p>
-    <example xml:id="AlgebraicSubstitutionExample3">
+    <algorithm xml:id="AlgebraicSubstitutionExample3">
       <statement>
         <p>
           Evaluate <m>P^2T^3-1</m> if <m>P=-4</m> and <m>T=2</m>
         </p>
       </statement>
-    </example>
+    </algorithm>
     <p>
       Substituting in the given values:
       <me>
@@ -156,8 +159,8 @@
       the equation <m>A=LW</m> is the formula for the area of a rectangle.
       On the other hand,
       we would probably not call the algebraic expressions in <xref ref="AlgebraicSubstitutionExample1">Examples</xref>,
-      <xref ref="AlgebraicSubstitutionExample2"></xref>
-      and <xref ref="AlgebraicSubstitutionExample3"></xref> formulas,
+      <xref ref="AlgebraicSubstitutionExample2" />
+      and <xref ref="AlgebraicSubstitutionExample3" /> formulas,
       because we don't really have any sense of those expressions' purposes or meanings.
     </p>
     <p>
@@ -166,7 +169,7 @@
       When you have know the units involved or the meaning of what you are calculating,
       it is appropriate to state your final answer using the appropriate units and/or in a way that relates it to the meaning.
     </p>
-    <example xml:id="AlgebraicSubstitutionExample4">
+    <algorithm xml:id="AlgebraicSubstitutionExample4">
       <statement>
         <p>
           The formula for converting from temperature in Fahrenheit to temperature in Celsius is <m>C=\frac{5}{9}(F-32)</m>.
@@ -174,7 +177,7 @@
           what is the temperature in Celsius?
         </p>
       </statement>
-    </example>
+    </algorithm>
     <p>
       It is clear that in the formula <m>F</m> represents temperature in degrees Fahrenheit and <m>C</m> represents temperature in degrees Celsius.
       So we substitute given <m>F=14</m> to get:
@@ -208,14 +211,14 @@
       Of course, if you don't know the appropriate units or the context,
       then you can only reasonably give the numeric answer.
     </p>
-    <example xml:id="AlgebraicSubstitutionExample5">
+    <algorithm xml:id="AlgebraicSubstitutionExample5">
       <statement>
         <p>
           The formula for the energy stored in a charged capacitor is <m>W=\frac{1}{2}cv^2</m>.
           Calculate <m>W</m> if <m>c=100</m> and <m>v=50</m>
         </p>
       </statement>
-    </example>
+    </algorithm>
     <md>
       <mrow>W \amp  = \frac{1}{2}(100)(50)^2</mrow>
       <mrow>\amp</mrow>
@@ -235,7 +238,7 @@
       If, however, we did know the units,
       it would be appropriate to use them. }
     </p>
-    <example xml:id="AlgebraicSubstitutionExample6">
+    <algorithm xml:id="AlgebraicSubstitutionExample6">
       <statement>
         <p>
           The energy, in joules,
@@ -244,7 +247,7 @@
           Determine the energy stored if the capacitance is 100 farads and the current is 50 volts.
         </p>
       </statement>
-    </example>
+    </algorithm>
     <p>
       This is the same problem as <xref ref="AlgebraicSubstitutionExample5">Example</xref>,
       except that here we know more about what the formula represents.
@@ -277,56 +280,56 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>If his average daily vigorous exercise is:</cell>
         <cell>His projected weight in one year would be:</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>none</cell>
-        <cell></cell>
+        <cell />
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>30</cell>
-        <cell></cell>
+        <cell />
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>60</cell>
-        <cell></cell>
+        <cell />
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>90</cell>
-        <cell></cell>
+        <cell />
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>120</cell>
-        <cell></cell>
+        <cell />
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -349,7 +352,7 @@
     </p>
     <figure>
       <caption>Calculator Formula Input Screen</caption>
-      <image source=""/>
+      <image source="AlgebraicSubstitutionImages\CalculatorFormulaScreen.png" />
     </figure>
     <p>
       If there are any formulas already entered,
@@ -381,7 +384,7 @@
     </p>
     <figure>
       <caption>Formula Entered into Calculator</caption>
-      <image source=""/>
+      <image source="AlgebraicSubstitutionImages\CalculatorFormulaEx6Small.png" />
     </figure>
     <p>
       Now, to set up the table.
@@ -397,7 +400,7 @@
     </p>
     <figure>
       <caption>Calculator Table Setup Screen</caption>
-      <image source=""/>
+      <image source="AlgebraicSubstitutionImages\CalculatorTableEx6.png" />
     </figure>
     <p>
       For our table,
@@ -431,7 +434,7 @@
     </p>
     <figure>
       <caption>Calculator Table Setup Screen</caption>
-      <image source=""/>
+      <image source="" />
     </figure>
     <p>
       Now we are ready to see our table.
@@ -444,7 +447,7 @@
     </p>
     <figure>
       <caption>Calculator Automatically Generated Table</caption>
-      <image source=""/>
+      <image source="" />
     </figure>
     <p>
       Note that even though we only wanted to go as far as 120 minutes,
@@ -457,56 +460,56 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>If his average daily vigorous exercise is:</cell>
         <cell>His projected weight in one year would be:</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>none</cell>
         <cell>210 lbs</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>30</cell>
         <cell>200 lbs</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>60</cell>
         <cell>190 lbs</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>90</cell>
         <cell>180 lbs</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>120</cell>
         <cell>170 lbs</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -566,7 +569,7 @@
         </p>
       </statement>
     </definition>
-    <example xml:id="AlgebraicSubstitutionExample7">
+    <algorithm xml:id="AlgebraicSubstitutionExample7">
       <statement>
         <p>
           Using the formula <m>C=\frac{5}{9}(F-32)</m> given in <xref ref="AlgebraicSubstitutionExample4">Example</xref>,
@@ -574,8 +577,7 @@
           <m>32^\circ \text{F}</m>, <m>68^\circ \text{F}</m>,
           <m>98.6^\circ \text{F}</m>, and <m>212^\circ \text{F}</m>.
         </p>
-      </statement>
-    </example>
+      
     <p>
       First we enter the formula, replacing the input variable,
       using Y1 in place of C and X in pace of F. We will put parentheses around the fraction 5/9 to make it clear that the (X-32) is not part of the denominator.
@@ -585,7 +587,7 @@
     </p>
     <figure>
       <caption>Calculator Formula Entered on Formula Screen</caption>
-      <image source=""/>
+      <image source="" />
     </figure>
     <p>
       Now, since there is no set increment between the input values we want to use,
@@ -594,7 +596,7 @@
     </p>
     <figure>
       <caption>Calculator Table Setup Screen</caption>
-      <image source=""/>
+      <image source="" />
     </figure>
     <p>
       Now, we got to the table, and enter the input values we want.
@@ -603,8 +605,10 @@
     </p>
     <figure>
       <caption>Calculator Table Generated from Entered Values</caption>
-      <image source=""/>
+      <image source="" />
     </figure>
+    </statement>
+    </algorithm>
   </subsection>
   <subsection>
     <title>Tables with Multiple Inputs</title>
@@ -612,7 +616,7 @@
       The examples we've done here with tables both involved formulas where there was just one input variable.
       Could we create a table for a formula where we needed to input more than one value,
       such as the <m>W=\frac{1}{2}cv^2</m> we used in <xref ref="AlgebraicSubstitutionExample4">Examples</xref>
-      and <xref ref="AlgebraicSubstitutionExample5"></xref>?
+      and <xref ref="AlgebraicSubstitutionExample5" />?
     </p>
     <p>
       The TI-83 and 84 calculators can do this,
@@ -624,7 +628,7 @@
       Any time we need to substitute in multiple values,
       we will do this by substituting and evaluating,
       as we did in <xref ref="AlgebraicSubstitutionExample4">Examples</xref>
-      and <xref ref="AlgebraicSubstitutionExample5"></xref>.
+      and <xref ref="AlgebraicSubstitutionExample5" />.
     </p>
   </subsection>
   <subsection>
@@ -634,21 +638,18 @@
       <p>
         Evaluate the given algebraic expressions by substituting in the given variable values.
       </p>
-      <p>
-        \begin{tasks}[label=](2) \task
-      </p>
-      <exercise>
+      
+      <exercises><exercise>
         <statement>
           <p>
             Evaluate <m>3x-1</m> if <m>x=8</m>
           </p>
         </statement>
         <solution>
+        <p>23</p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -656,9 +657,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -666,11 +665,10 @@
           </p>
         </statement>
         <solution>
+        <p>42</p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -678,9 +676,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -688,11 +684,10 @@
           </p>
         </statement>
         <solution>
+        <p>19</p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -700,9 +695,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -710,11 +703,10 @@
           </p>
         </statement>
         <solution>
+        <p>41</p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -722,9 +714,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -732,11 +722,10 @@
           </p>
         </statement>
         <solution>
+        <p>550</p>
         </solution>
       </exercise>
-      <p>
-        \task
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -744,9 +733,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \task!
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -755,11 +742,10 @@
           </p>
         </statement>
         <solution>
+        <p>10.5</p>
         </solution>
       </exercise>
-      <p>
-        \task!
-      </p>
+      
       <exercise>
         <statement>
           <p>
@@ -767,10 +753,8 @@
           </p>
         </statement>
       </exercise>
-      <p>
-        \end{tasks}
-      </p>
-    </subsubsection>
+      
+    </exercises></subsubsection>
     <subsubsection>
       <title>Formulas</title>
       <p>
@@ -778,7 +762,7 @@
         Phrase your answers appropriately for the information given.
         Round appropriately if necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             A publisher's printing cost <m>C</m>
@@ -789,7 +773,7 @@
         </statement>
         <solution>
           <p>
-            <m>\dollar6350</m>
+            <m>$6350</m>
           </p>
         </solution>
       </exercise>
@@ -884,7 +868,7 @@
             but will cost much less to operate each year than her current system.
             The time <m>T</m> in years that it will take to recoup the extra cost of installing the system is given by the formula
             <m>T=\frac{12000}{K-300}</m> where <m>K</m> is the annual cost of operating her current system.
-            How long will it take to recoup the cost if her current system costs <m>\dollar1800</m> to operate?
+            How long will it take to recoup the cost if her current system costs <m>$1800</m> to operate?
           </p>
         </statement>
         <solution>
@@ -901,7 +885,7 @@
             but will cost less to operate.
             The time <m>T</m> in months that it will take to recoup the additional cost of the LED lighting is given by the formula
             <m>T=\frac{4200}{D-170}</m> where <m>D</m> is the monthly cost of the current lighting.
-            How long will it take to recoup the LED system's cost if the current lighting costs <m>\dollar380</m> per month?
+            How long will it take to recoup the LED system's cost if the current lighting costs <m>$380</m> per month?
           </p>
         </statement>
       </exercise>
@@ -916,7 +900,7 @@
         </statement>
         <solution>
           <p>
-            <m>\dollar25.69</m>
+            <m>$25.69</m>
           </p>
         </solution>
       </exercise>
@@ -930,23 +914,23 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Input-Output Tables</title>
       <p>
         Create an Input-Output table in each of the following situations
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             A travel agent sells travelers checks denominated in foreign currencies to their customers.
             The cost in US dollars of buying travelers checks worth <m>x</m> euros is calculated using the formula <m>y=1.345x+27.50</m>.
-            The agent wants to post a table showing what the cost would be to buy <m>\geneuro 250</m>,
-            <m>\geneuro 500</m>, <m>\geneuro 750</m>, <m>\geneuro 1000</m>,
-            <m>\geneuro 1250</m> and <m>\geneuro 1500</m> worth of travelers' checks.
+            The agent wants to post a table showing what the cost would be to buy €<m> 250</m>,
+            €<m> 500</m>, €<m>750</m>, €<m> 1000</m>,
+            €<m> 1250</m> and €<m> 1500</m> worth of travelers' checks.
             Create the table he is looking for.
             (Note:
-            <q><m>\geneuro</m></q>
+            <q>€<m></m></q>
             is the symbol for euros.)
           </p>
         </statement>
@@ -957,32 +941,32 @@
               <cell><m>y</m></cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell><m>\geneuro 250</m></cell>
-              <cell><m>\dollar363.75</m></cell>
+              <cell>€<m> 250</m></cell>
+              <cell><m>$363.75</m></cell>
             </row>
             <row>
-              <cell><m>\geneuro 500</m></cell>
-              <cell><m>\dollar700.00</m></cell>
+              <cell>€<m> 500</m></cell>
+              <cell><m>$700.00</m></cell>
             </row>
             <row>
-              <cell><m>\geneuro 750</m></cell>
-              <cell><m>\dollar1036.25</m></cell>
+              <cell>€<m> 750</m></cell>
+              <cell><m>$1036.25</m></cell>
             </row>
             <row>
-              <cell><m>\geneuro 1000</m></cell>
-              <cell><m>\dollar1372.50</m></cell>
+              <cell>€<m> 1000</m></cell>
+              <cell><m>$1372.50</m></cell>
             </row>
             <row>
-              <cell><m>\geneuro 1250</m></cell>
-              <cell><m>\dollar1708.75</m></cell>
+              <cell>€<m> 1250</m></cell>
+              <cell><m>$1708.75</m></cell>
             </row>
             <row>
-              <cell><m>\geneuro 1500</m></cell>
-              <cell><m>\dollar2045.00</m></cell>
+              <cell>€<m> 1500</m></cell>
+              <cell><m>$2045.00</m></cell>
             </row>
           </tabular>
         </solution>
@@ -990,7 +974,7 @@
       <exercise>
         <statement>
           <p>
-            A flooring store wants to promote a sale in which they will install any amount of carpeting for just <m>\dollar75</m>
+            A flooring store wants to promote a sale in which they will install any amount of carpeting for just <m>$75</m>
             (plus the cost of the carpeting).
             During this sale,
             for their most popular carpet style the cost to carpet <m>x</m> square feet can be found using the formula <m>y=3.98x+75</m>.
@@ -1015,8 +999,8 @@
               <cell><m>h</m></cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>0.0</m> seconds</cell>
@@ -1059,6 +1043,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

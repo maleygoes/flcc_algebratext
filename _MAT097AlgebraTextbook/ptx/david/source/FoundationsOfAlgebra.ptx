@@ -1,10 +1,10 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="FoundationsOfAlgebra">
+<chapter xmlns:ns0="http://www.w3.org/2001/XInclude" xml:id="FoundationsOfAlgebra">
   <title>Foundations of Algebra</title>
-  <xi:include  href="AlgebraicExpressions.ptx"/>
-  <xi:include  href="Distribution.ptx"/>
-  <xi:include  href="AlgebraicExpressionsExponents.ptx"/>
-  <xi:include  href="NegativeExponents.ptx"/>
-  <xi:include  href="CommonFactor.ptx"/>
-  <xi:include  href="SecondDegreeFactor.ptx"/>
-  <xi:include  href="FoundationsOfAlgebraReview.ptx"/>
+  <ns0:include href="AlgebraicExpressions.ptx" />
+  <ns0:include href="Distribution.ptx" />
+  <ns0:include href="AlgebraicExpressionsExponents.ptx" />
+  <ns0:include href="NegativeExponents.ptx" />
+  <ns0:include href="CommonFactor.ptx" />
+  <ns0:include href="SecondDegreeFactor.ptx" />
+  <ns0:include href="FoundationsOfAlgebraReview.ptx" />
 </chapter>

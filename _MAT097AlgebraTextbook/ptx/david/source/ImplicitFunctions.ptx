@@ -435,7 +435,7 @@
     <title>Exercises</title>
     <subsubsection>
       <title>Implicit Functions:</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             In the formula <m>r = 5s - 3</m> which is the more natural choice for the input variable,
@@ -541,10 +541,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Rewriting Implicit Functions in Explicit Form</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             The equation <m>6y - 5x = 30</m> implicitly defines <m>y</m> as a function of <m>x</m>.
@@ -659,7 +659,7 @@
       </exercise>
       <exercise>
         <statement>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 In the equation <m>x^2 + y = 5</m>,
@@ -690,7 +690,7 @@
       </exercise>
       <exercise>
         <statement>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Suppose <m>3x^2 = 5y^2 - 8</m>.
@@ -707,10 +707,10 @@
           </ol>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Switching Input and Output Variables</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             The equation <m>w = 80 - 2l</m> gives <m>w</m> as a function of <m>l</m>.
@@ -761,15 +761,15 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             In which of the following equations is <m>y</m> a function of <m>x</m>?
             How do you know?
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>x - 2y = 3x - y + 2</m>
@@ -821,7 +821,7 @@
         <statement>
           <p>
             Suppose <m>2T = 3(P - 7)</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Is <m>T</m> a function of <m>P</m>?
@@ -845,7 +845,7 @@
           <p>
             A club is planning a field trip to Washington D.C. The total cost of the trip is a function of the number of members who will be going,
             and is given by the formula <m>C(x) = 1850 + 475x</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Let <m>K</m> be a variable which represents the cost of the trip.
@@ -877,7 +877,7 @@
             A movie theater operator has hired a business consultant to help determine price strategy.
             The consultant developed a model which projects the theatre's monthly profits as a function of the regular adult ticket price.
             Suppose her model uses the function <m>p(t) = 800(-t^2 + 20t - 64)</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Rewrite this function formula as an equation with the variable <m>R</m> used to represent projected monthly profit.
@@ -931,6 +931,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

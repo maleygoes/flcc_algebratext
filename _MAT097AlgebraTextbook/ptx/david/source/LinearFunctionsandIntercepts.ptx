@@ -52,7 +52,7 @@
     <example xml:id="LinearFunctionsandInterceptsExample1">
       <statement>
         <p>
-          A landscaper sells firewood for <m>\dollar75</m> per face cord<fn>
+          A landscaper sells firewood for <m>$75</m> per face cord<fn>
           A face cord is a unit of volume commonly used for firewood;
           one face cord is a stacked wood pile measuring 4 feet high, 8 feet wide,
           and 16 inches in depth.
@@ -63,7 +63,7 @@
     </example>
     <p>
       Since the price changes at a constant rate,
-      this is a linear function with slope <m>\dollar75</m> per face cord.
+      this is a linear function with slope <m>$75</m> per face cord.
       Applying the same logic we used in the water pumping discussion above,
       it stands to reason that the cost of a load of firewood will be calculated by multiplying this slope by the number of face cords,
       so the function's formula will be
@@ -132,15 +132,15 @@
       <statement>
         <p>
           A landscaper sells firewood delivered to your home for
-          <m>\dollar75</m> per face cord plus a <m>\dollar60</m> delivery charge.
+          <m>$75</m> per face cord plus a <m>$60</m> delivery charge.
           Find a formula for the price for a load of firewood as a function of the number of face cords.
         </p>
       </statement>
     </example>
     <p>
       Following the reasoning we used in the pool-filling example above we can see that the price would be calculated by multiplying the slope of
-      <m>\dollar75</m> per face cord by the number of face cords,
-      and then adding the <m>\dollar60</m> delivery charge.
+      <m>$75</m> per face cord by the number of face cords,
+      and then adding the <m>$60</m> delivery charge.
       So a formula for this function would be:
       <me>
         g(x)=75x+60
@@ -185,7 +185,7 @@
     </p>
     <figure>
       <caption>Graph showing <m>(0,800)</m></caption>
-      <image width="92.5%" source="images/Figure01.png"/>
+      <image width="92.5%" source="images/Figure01.png" />
     </figure>
     <p>
       Notice that this point lies on the output axis
@@ -195,7 +195,7 @@
     </p>
     <figure>
       <caption>Graph of <m>g(x)=20x+800</m></caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       we can see that this point can be thought of as the place where the graph intersects the vertical axis (i.e. the output axis).
@@ -216,7 +216,7 @@
       <q>starting point</q>
       for the function,
       and we know from looking at this example before that the price starts at
-      <m>\dollar60</m> for delivery and then we add on the cost for the amount of firewood ordered.
+      <m>$60</m> for delivery and then we add on the cost for the amount of firewood ordered.
       Using that logic, we know that the vertical intercept is 60.
     </p>
     <p>
@@ -386,9 +386,9 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Example</cell>
@@ -396,9 +396,9 @@
         <cell>Vertical Intercept</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Second pool filling example</cell>
@@ -406,9 +406,9 @@
         <cell>800</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Delivered Firewood (<xref ref="LinearFunctionsandInterceptsExample3">Example</xref>)</cell>
@@ -416,9 +416,9 @@
         <cell>60</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><xref ref="LinearFunctionsandInterceptsExample4">Example</xref></cell>
@@ -426,9 +426,9 @@
         <cell>-17</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Insulin Dose (<xref ref="LinearFunctionsandInterceptsExample5">Example</xref></cell>
@@ -436,9 +436,9 @@
         <cell>18</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -531,15 +531,15 @@
       The slope is the rate of change,
       with units in output units per input unit.
       So, since the output is cost in dollars and the input is days,
-      the slope is <m>\dollar27.50</m> per day.
-      The company charges <m>\dollar27.50</m> per day to rent the tamper.
+      the slope is <m>$27.50</m> per day.
+      The company charges <m>$27.50</m> per day to rent the tamper.
     </p>
     <p>
       The vertical intercept is the base, or starting point,
       and since it is added in as part of the formula to get the output,
       it must be in the output units.
-      So the vertical intercept is <m>\dollar15</m>.
-      The company starts with a basic charge of <m>\dollar15</m> to rent the tamper,
+      So the vertical intercept is <m>$15</m>.
+      The company starts with a basic charge of <m>$15</m> to rent the tamper,
       regardless of how long it is kept out. }
     </p>
     <p>
@@ -697,7 +697,7 @@
           (in kilowatt-hours).
           The formula used to determine his bill is <m>f(x)=0.1x+12.5</m>.
           Find and interpret
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 the slope,
@@ -717,19 +717,19 @@
         </p>
       </statement>
     </example>
-    <ol marker="labelalph">
+    <ol marker="a">
       <li>
         <p>
           The slope can be seen from the fact that the formula is in slope-intercept form.
           Its units are, as always, output units per input unit.
-          So the slope is <m>\dollar0.10</m> per kilowatt hour.
+          So the slope is <m>$0.10</m> per kilowatt hour.
           The slope represents how much he pays for each additional kilowatt hour of electricity used.
         </p>
       </li>
       <li>
         <p>
           The vertical intercept can also be seen from the slope-intercept form.
-          It is <m>\dollar12.50</m>.
+          It is <m>$12.50</m>.
           This would be his bill is his usage were 0 kilowatt hours.
           So this is a flat rate charged regardless of usage,
           which he pays just to have electric service to his house.
@@ -746,8 +746,8 @@
           </md>
           Since the input to this function is electricity usage measured in kilowatt-hours,
           this horizontal intercept would be interpreted to be <m>-125</m> kilowatt hours.
-          This would happen if his bill were <m>\dollar0</m>.
-          So, the horizontal intercept is telling us that in order for Jaye to have a <m>\dollar0</m> electric bill,
+          This would happen if his bill were <m>$0</m>.
+          So, the horizontal intercept is telling us that in order for Jaye to have a <m>$0</m> electric bill,
           he would have to use negative 125 kilowatt-hours of electricity.
           For most people, this makes no sense at all.
           You cannot use negative electricity!
@@ -777,11 +777,11 @@
     <title>Exercises</title>
     <subsubsection>
       <title>Vertical Intercept</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Determine the vertical intercept for each of the following linear functions:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(x) = 3x + 5</m>
@@ -822,7 +822,7 @@
         <statement>
           <p>
             Find the vertical intercept for each of the following linear functions:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>h(x) = \frac{7}{3}x + 8</m>
@@ -953,7 +953,7 @@
           <p>
             The equation <m>s = 2t + 5</m> naturally defines <m>s</m> as a function of <m>t</m>.
             Which of the following statements are true and which are false?
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   The vertical intercept is 5.
@@ -998,7 +998,7 @@
           <p>
             The equation <m>p = 3x - 7</m> defines <m>p</m> as a function of <m>x</m>.
             Which statements are true and which are false?
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   The vertical intercept is 7.
@@ -1038,14 +1038,14 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Slope-Intercept Form</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find the slope and vertical intercept for each of the following linear functions:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(x) = 3x - 24</m>
@@ -1097,7 +1097,7 @@
           <p>
             Each of the functions given below is linear.
             Determine each function's slope and vertical intercept.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(x) = 9x + 27</m>
@@ -1134,7 +1134,7 @@
             For the linear ones, find the slope and vertical intercept.
             For the non-linear ones,
             explain how you know that the function is not linear.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(x) = 100 + 2(x - 5) - 3(x + 10) - 4x</m>
@@ -1196,7 +1196,7 @@
             If the function is linear, find the slope and vertical intercept.
             If the function is not linear,
             explain how you know that it is not.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>g(x) = 2x - 7(2 - x)</m>
@@ -1270,15 +1270,15 @@
             Yes, it is a linear function
           </p>
           <p>
-            Slope: <m>30</m>; The cost to rent the kayak is increasing at <m>\dollar30</m> per hour.
+            Slope: <m>30</m>; The cost to rent the kayak is increasing at <m>$30</m> per hour.
             Or, in simpler terms, there is a charge of
-            <m>\dollar30</m> per hour to rent the kayak.
+            <m>$30</m> per hour to rent the kayak.
           </p>
           <p>
             Vertical Intercept: <m>15</m>; When you first rent the kayak,
-            there is a <m>\dollar15</m> charge.
+            there is a <m>$15</m> charge.
             Or, in simpler terms, there is a flat fee charge of
-            <m>\dollar15</m> in addition to the hourly rate.
+            <m>$15</m> in addition to the hourly rate.
           </p>
         </solution>
       </exercise>
@@ -1295,10 +1295,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Horizontal Intercept</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find the horizontal intercept for <m>f(t) = 7t - 84</m>.
@@ -1385,10 +1385,10 @@
           </p>
         </solution>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find the (a) slope, (b) vertical intercept,
@@ -1408,7 +1408,7 @@
         </statement>
         <solution>
           <p>
-            <m>14.29</m>; This would be the number of visits after which his card balance would reach <m>\dollar0</m>.
+            <m>14.29</m>; This would be the number of visits after which his card balance would reach <m>$0</m>.
             Since he cannot make a fractional visit,
             we would interpret this to mean that his card will allow him 14 visits before it is exhausted.
           </p>
@@ -1439,7 +1439,7 @@
           <p>
             <m>0</m>; The rocks speed when it was dropped was <m>0</m> feet per second.
             In other words,
-            the rock was at rest when it began to fall <mdash/> it was dropped rather than thrown downward.
+            the rock was at rest when it began to fall <mdash /> it was dropped rather than thrown downward.
           </p>
         </solution>
       </exercise>
@@ -1448,7 +1448,7 @@
           <p>
             At the Tastee Lard Bakery,
             the price of an order for <m>x</m> dozen donuts is <m>3.25 + 5.75x</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   What is the slope of this function,
@@ -1501,7 +1501,7 @@
             According to an exercise science textbook,
             the ideal heart rate for a cardio workout is a linear function of your age.
             The formula for ideal heart rate as a function of age is <m>h(a) = 176 - 0.8a</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Find and interpret the vertical intercept of this function.
@@ -1541,12 +1541,12 @@
         <statement>
           <p>
             Boyan Sea Cruises normally charges
-            <m>\dollar2500</m> for a 7 day Caribbean cruise,
+            <m>$2500</m> for a 7 day Caribbean cruise,
             but it offers a discount for customers who refer other people to the cruise line.
             If you refer <m>x</m> people who also take the cruise,
             you will pay <m>2500 - 250x</m> dollars for your own cruise.
             Find and interpret
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   the slope,
@@ -1580,18 +1580,18 @@
         <solution>
           <p>
             Slope: <m>3.2</m>; Her profits increase by
-            <m>\dollar3.20</m> for each face painting that she does.
+            <m>$3.20</m> for each face painting that she does.
           </p>
           <p>
             Vertical Intercept: <m>-80</m>; Her profits would be <m>$-80</m>,
             or in other words she would have a loss of
-            <m>\dollar80</m> if she did no face painting.
+            <m>$80</m> if she did no face painting.
             This probably represents how much it costs her for the booth rental, travel,
             supplies, etc.
           </p>
           <p>
             c. Horizontal Intercept:
-            <m>25</m>; When she does 25 face paintings her profit is <m>\dollar0</m>.
+            <m>25</m>; When she does 25 face paintings her profit is <m>$0</m>.
             In plainer terms this means that she needs to do 25 face paintings to break even.
           </p>
         </solution>
@@ -1601,22 +1601,22 @@
           <p>
             Sid and Nancy are trying to make sense of their electric bill.
             The electric company charges them
-            <m>\dollar10</m> each month for providing electric service,
+            <m>$10</m> each month for providing electric service,
             regardless of how much electricity they use,
-            and then <m>\dollar0.10</m> per kilowatt hour used.
+            and then <m>$0.10</m> per kilowatt hour used.
           </p>
           <p>
             Nancy says that their electric bill is a linear function of their electric usage,
-            because the rate per kilowatt-hour is always the same <m>\dollar0.10</m>.
+            because the rate per kilowatt-hour is always the same <m>$0.10</m>.
             Since the rate per kilowatt-hour is always the same, the function is linear.
           </p>
           <p>
             Sid disagrees.
-            Sid calculates that if they use 100 kilowatt-hours they would pay <m>\dollar20</m>,
-            and <m>\dollar20</m> divided by 100 kilowatt hours is <m>\dollar0.20</m> per kilowatt-hour.
+            Sid calculates that if they use 100 kilowatt-hours they would pay <m>$20</m>,
+            and <m>$20</m> divided by 100 kilowatt hours is <m>$0.20</m> per kilowatt-hour.
             But if they use, say, 400 kilowatt-hours,
-            their bill would be <m>\dollar50</m>,
-            and <m>\dollar50</m> divided by 400 kilowatt-hours works out to <m>\dollar0.125</m> per kilowatt-hour.
+            their bill would be <m>$50</m>,
+            and <m>$50</m> divided by 400 kilowatt-hours works out to <m>$0.125</m> per kilowatt-hour.
             So the rate per kilowatt hour is not always the same,
             and so it's not a linear function after all.
           </p>
@@ -1640,6 +1640,6 @@
           </p>
         </solution>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

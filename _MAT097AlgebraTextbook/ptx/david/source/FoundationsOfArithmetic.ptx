@@ -1,7 +1,7 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="FoundationsOfArithmetic">
+<chapter xmlns:ns0="http://www.w3.org/2001/XInclude" xml:id="FoundationsOfArithmetic">
   <title>Foundations of Arithmetic</title>
-  <xi:include  href="OrderofOperations.ptx"/>
-  <xi:include  href="ArithmeticwithFractions.ptx"/>
-  <xi:include  href="AlgebraicSubstitution.ptx"/>
-  <xi:include  href="FoundationOfArithmeticReviewQuestions.ptx"/>
+  <ns0:include href="OrderofOperations.ptx" />
+  <ns0:include href="ArithmeticwithFractions.ptx" />
+  <ns0:include href="AlgebraicSubstitution.ptx" />
+  <ns0:include href="FoundationOfArithmeticReviewQuestions.ptx" />
 </chapter>

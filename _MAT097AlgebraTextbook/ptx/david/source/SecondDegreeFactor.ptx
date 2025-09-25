@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+
 <section xml:id="SecondDegreeFactor">
   <title>Factoring: Second Degree Expression</title>
   <introduction>
@@ -32,13 +34,13 @@
               <idx><h>Factor</h><h>Second Degree</h></idx> <em><em>Factoring Second Degree Expressions of the Form <m>x^2+bx+c</m></em></em>
           <ul>
             <li>
-              <title><m>\cdot</m></title>
+              
               <p>
                 Consider all the pairs of integers whose product is <m>c</m>
               </p>
             </li>
             <li>
-              <title><m>\cdot</m></title>
+              
               <p>
                 If the sum of any of the pairs is <m>b</m>,
                 then the expression can be factored to
@@ -46,7 +48,7 @@
               </p>
             </li>
             <li>
-              <title><m>\cdot</m></title>
+              
               <p>
                 If none of the pairs sum to <m>b</m>,
                 then the expression cannot be factored using integers.
@@ -129,9 +131,9 @@
         <cell>Product</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-30,1</m></cell>
@@ -139,9 +141,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-15,2</m></cell>
@@ -149,9 +151,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>\textbf{-10,3}</m></cell>
@@ -159,9 +161,9 @@
         <cell><m>\textbf{-30}</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-6,5</m></cell>
@@ -169,9 +171,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-5,6</m></cell>
@@ -179,9 +181,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-3,10</m></cell>
@@ -189,9 +191,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-2,15</m></cell>
@@ -199,9 +201,9 @@
         <cell><m>-30</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>-1,30</m></cell>
@@ -280,7 +282,7 @@
           <mrow>\amp</mrow>
           <mrow>\amp  = x^2-25</mrow>
         </md>
-        }  Notice that the pair of integers we used were the same number with opposite signs.  This caused the middle term to simplify to $0$ when combining like terms.  Also note that multiplying a number by itself is \quotes{squaring} that number ($5 \cdot 5 = 25$) giving us a product that is a perfect square!  When we have a second degree expression in the form $a^2-b^2$ we can refer to that as the \textbf{difference of squares} \knownindex{\lt h>Factor\lt /h>\lt h>Difference of Squares\lt /h>} and factor into $(a+b)(a-b)$. This pattern requires subtraction in the original expression because that is how our middle terms were eliminated when combined.
+        }  Notice that the pair of integers we used were the same number with opposite signs.  This caused the middle term to simplify to $0$ when combining like terms.  Also note that multiplying a number by itself is \quotes{squaring} that number ($5 \cdot 5 = 25$) giving us a product that is a perfect square!  When we have a second degree expression in the form $a^2-b^2$ we can refer to that as the \textbf{difference of squares} \knownindex{\lt h&gt;Factor\lt /h&gt;\lt h&gt;Difference of Squares\lt /h&gt;} and factor into $(a+b)(a-b)$. This pattern requires subtraction in the original expression because that is how our middle terms were eliminated when combined.
         <example xml:id="SecondDegreeFactorExample7">
           <statement>
             <p>
@@ -307,10 +309,8 @@
   </introduction>
   <subsection>
     <title>Exercises</title>
-    <p>
-      \begin{tasks}[label=](2) \task
-    </p>
-    <exercise>
+    
+    <exercises><exercise>
       <statement>
         <p>
           <m>x^2+5x+6</m>
@@ -322,9 +322,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -332,9 +330,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -347,9 +343,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -357,9 +351,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -372,9 +364,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -382,9 +372,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -397,9 +385,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -407,9 +393,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -422,9 +406,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -432,9 +414,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -447,9 +427,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -457,9 +435,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -472,9 +448,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -482,9 +456,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -497,9 +469,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -507,9 +477,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -522,9 +490,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -532,9 +498,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -547,9 +511,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -557,9 +519,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -572,9 +532,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -582,9 +540,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -597,9 +553,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -607,9 +561,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -622,9 +574,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -632,9 +582,7 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -647,9 +595,7 @@
         </p>
       </solution>
     </exercise>
-    <p>
-      \task
-    </p>
+    
     <exercise>
       <statement>
         <p>
@@ -657,8 +603,6 @@
         </p>
       </statement>
     </exercise>
-    <p>
-      \end{tasks}
-    </p>
-  </subsection>
+    
+  </exercises></subsection>
 </section>

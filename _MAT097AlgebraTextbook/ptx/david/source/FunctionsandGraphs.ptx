@@ -46,11 +46,11 @@
         <cell><m>3</m></cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>f(x)</m></cell>
@@ -90,12 +90,12 @@
             <cell>1</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
+            <cell />
+            <cell />
+            <cell />
+            <cell />
           </row>
           <row>
             <cell><m>g(x)</m></cell>
@@ -193,13 +193,13 @@
         <cell>5</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>f(x)</cell>
@@ -251,11 +251,11 @@
     </p>
     <figure>
       <caption>A visualization of all real numbers</caption>
-      <image width="73%" source="images/Figure01.png"/>
+      <image width="73%" source="images/Figure01.png" />
     </figure>
     <figure>
       <caption>Descartes: He thought, therefore he was. Source: wikipedia.org</caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       Descartes' innovation was to draw two number lines,
@@ -282,7 +282,7 @@
     </p>
     <figure>
       <caption>A set of coordinate axes.</caption>
-      <image width="92.5%" source="images/Figure03.png"/>
+      <image width="92.5%" source="images/Figure03.png" />
     </figure>
     <p>
       Any coordinate pair can be represented as a point in this plane.
@@ -294,7 +294,7 @@
     </p>
     <figure>
       <caption>The point <m>(3,-2)</m> marked on a set of axes.</caption>
-      <image width="92.5%" source="images/Figure04.png"/>
+      <image width="92.5%" source="images/Figure04.png" />
     </figure>
     <p>
       Now, we can represent any numerical table as a collection of points in the plane.
@@ -303,7 +303,7 @@
     </p>
     <figure>
       <caption>Some input-output pairs for <m>f(x)=2x</m>.</caption>
-      <image width="92.5%" source="images/Figure05.png"/>
+      <image width="92.5%" source="images/Figure05.png" />
     </figure>
     <p>
       Now here's the infinitely clever part.
@@ -314,7 +314,7 @@
     </p>
     <figure>
       <caption>The line formed by input-output pairs for <m>f(x)=2x</m>.</caption>
-      <image width="92.5%" source="images/Figure06.png"/>
+      <image width="92.5%" source="images/Figure06.png" />
     </figure>
     <p>
       Note that for the time being,
@@ -341,14 +341,14 @@
         <cell>3</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
+        <cell />
       </row>
       <row>
         <cell><m>g(x)</m></cell>
@@ -366,7 +366,7 @@
     </p>
     <figure>
       <caption>Some of the input-output pairs for the function <m>g(x)=x^2</m>.</caption>
-      <image width="92.5%" source="images/Figure07.png"/>
+      <image width="92.5%" source="images/Figure07.png" />
     </figure>
     <p>
       which clearly can't be made to fit any straight line.
@@ -375,7 +375,7 @@
     </p>
     <figure>
       <caption>The shape formed by the input-output pairs for <m>g(x)=x^2</m>.</caption>
-      <image width="92.5%" source="images/Figure08.png"/>
+      <image width="92.5%" source="images/Figure08.png" />
     </figure>
     <p>
       Even though that's not a straight line,
@@ -409,7 +409,7 @@
     </p>
     <figure>
       <caption>The quadrants of the Cartesian Plane.</caption>
-      <image width="92.5%" source="images/Figure09.png"/>
+      <image width="92.5%" source="images/Figure09.png" />
     </figure>
     <p>
       Quadrant I is called the <em>first quadrant</em>,
@@ -428,7 +428,7 @@
     </p>
     <figure>
       <caption>The location of <m>(-3,1)</m> in the Cartesian Plane</caption>
-      <image width="92.5%" source="images/Figure10.png"/>
+      <image width="92.5%" source="images/Figure10.png" />
     </figure>
     <p>
       This point lies in the second quadrant (i.e.
@@ -449,7 +449,7 @@
     </p>
     <figure>
       <caption>The location of <m>(0,-2)</m> in the Cartesian Plane</caption>
-      <image width="92.5%" source="images/Figure11.png"/>
+      <image width="92.5%" source="images/Figure11.png" />
     </figure>
     <p>
       This point does not lie in any quadrant.
@@ -479,7 +479,7 @@
     </p>
     <figure>
       <caption>Graph of water in the tub as a function of time</caption>
-      <image width="92.5%" source="images/Figure12.png"/>
+      <image width="92.5%" source="images/Figure12.png" />
     </figure>
     <p>
       Now, we can't put numbers on this graph because we don't have that information;
@@ -530,8 +530,8 @@
         <cell>Amount (grams)</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>0</cell>
@@ -554,14 +554,14 @@
       Roughly plotting these points:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure13.png"/>
+      <image width="92.5%" source="images/Figure13.png" />
     </figure>
     <p>
       gives us a sense of what the graph must look like.
       Connecting these dots into a smooth shape and labeling we should end up with a graph something like this:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure14.png"/>
+      <image width="92.5%" source="images/Figure14.png" />
     </figure>
     <p>
       It is not necessary and probably not even desirable to show all the plotted points specifically labeled;
@@ -569,7 +569,7 @@
       A graph such as this would be a good choice:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure15.png"/>
+      <image width="92.5%" source="images/Figure15.png" />
     </figure>
     <p>
       Graphs can take on all sorts of shapes.
@@ -577,7 +577,7 @@
       here is graph for the closing price of the Dow Jones Industrial Average (a reflection of the US stock market) as a function of time over the years 2008-2009:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure16.png"/>
+      <image width="92.5%" source="images/Figure16.png" />
     </figure>
     <p>
       And of course wilder shapes are possible.
@@ -588,7 +588,7 @@
     </p>
     <figure>
       <caption>Could this be a graph of a function?</caption>
-      <image width="92.5%" source="images/Figure17.png"/>
+      <image width="92.5%" source="images/Figure17.png" />
     </figure>
     <p>
       This is a nice, smooth, geometrically pretty shape.
@@ -630,7 +630,7 @@
     </p>
     <figure>
       <caption>Drawing a vertical line shows how the input value we've drawn it through has two outputs</caption>
-      <image width="92.5%" source="images/Figure18.png"/>
+      <image width="92.5%" source="images/Figure18.png" />
     </figure>
     <p>
       The observation we are making here is sometimes referred to as the vertical line test.
@@ -700,7 +700,7 @@
       <q>X</q>. The resulting screen should look like this:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure19.png"/>
+      <image width="92.5%" source="images/Figure19.png" />
     </figure>
     <p>
           <idx><h>Calculator:Window Settings</h></idx> <em>Step 2: Set the window.</em> The Cartesian plane extends out to infinity in all directions, and many graphs do as well.
@@ -713,7 +713,7 @@
       and it will take you to a screen that should look like this (though the specific numbers you see may not be the same):
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure20.png"/>
+      <image width="92.5%" source="images/Figure20.png" />
     </figure>
     <p>
       The
@@ -754,7 +754,7 @@
       we would want the following settings:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure21.png"/>
+      <image width="92.5%" source="images/Figure21.png" />
     </figure>
     <p>
       <em>Step 3: Get the graph.</em>
@@ -762,7 +762,7 @@
       <q>GRAPH</q>. Hit that key now and you should see this:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure22.png"/>
+      <image width="92.5%" source="images/Figure22.png" />
     </figure>
     <p>
           <idx><h>Calculator:Zoom</h></idx>
@@ -772,7 +772,7 @@
       <q>6: ZStandard</q>:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure23.png"/>
+      <image width="92.5%" source="images/Figure23.png" />
     </figure>
     <p>
       This will take you directly to the graph in the standard window,
@@ -809,7 +809,7 @@
       and the input and output values of its coordinates:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure24.png"/>
+      <image width="92.5%" source="images/Figure24.png" />
     </figure>
     <p>
       If you don't see the coordinate values, hit
@@ -820,7 +820,7 @@
       ) and make sure your settings are like this:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure25.png"/>
+      <image width="92.5%" source="images/Figure25.png" />
     </figure>
     <p>
       You can now move around to different points on the graph by using the right and left directional keys in the upper right portion of your calculator.
@@ -837,7 +837,7 @@
       ) in the top row to get this menu:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure26.png"/>
+      <image width="92.5%" source="images/Figure26.png" />
     </figure>
     <p>
       Select
@@ -845,7 +845,7 @@
       and you'll be returned to the graph with a screen that looks like this:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure27.png"/>
+      <image width="92.5%" source="images/Figure27.png" />
     </figure>
     <p>
       Now you can enter the input (<m>x</m>) value you want to visit.
@@ -853,7 +853,7 @@
       to visit the point that goes with <m>x=-3</m> we get:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure28.png"/>
+      <image width="92.5%" source="images/Figure28.png" />
     </figure>
     <example xml:id="FunctionsandGraphsExample8">
       <statement>
@@ -870,17 +870,17 @@
       so we need to rewrite that formula replacing the <m>t</m> with an X:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure29.png"/>
+      <image width="92.5%" source="images/Figure29.png" />
     </figure>
     <p>
       Now, either directly adjusting the window setting to the standard window and hitting
       <q>GRAPH</q>, or just using
       <q>ZOOM</q>
-      <ndash/>>
+      <ndash />&gt;
       <q>6: ZStandard</q>, we get:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure30.png"/>
+      <image width="92.5%" source="images/Figure30.png" />
     </figure>
     <p>
       Then using
@@ -888,14 +888,14 @@
       <q>TRACE</q>
       (that is,
       <q>CALC</q>
-      ) <ndash/>>
+      ) <ndash />&gt;
       <q>1: value</q>
       and entering
       <q>X=2</q>
       we get:
     </p>
     <figure>
-      <image width="92.5%" source="images/Figure31.png"/>
+      <image width="92.5%" source="images/Figure31.png" />
     </figure>
     <p>
       So, we conclude that <m>h(2)=1.6666667</m> which we would either recognize as
@@ -906,19 +906,19 @@
     <title>Exercises</title>
     <subsubsection>
       <title>Coordinates</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Rewrite the function given in the table below as a set of coordinate pairs.
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>x</m></cell>
@@ -929,12 +929,12 @@
               <cell>12</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>g(x)</m></cell>
@@ -945,12 +945,12 @@
               <cell>0</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
           </tabular>
         </statement>
@@ -967,12 +967,12 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>t</m></cell>
@@ -983,12 +983,12 @@
               <cell>3</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>h(t)</m></cell>
@@ -999,12 +999,12 @@
               <cell>-1</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
           </tabular>
         </statement>
@@ -1145,10 +1145,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Graphs</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Use your calculator to create a table of values for the function <m>f(x)=(x+1)(x-1)</m> for the inputs
@@ -1172,10 +1172,10 @@
             \end{array}
           </me>
           <figure>
-            <image width="92.5%" source="images/Answer15a.png"/>
+            <image width="92.5%" source="images/Answer15a.png" />
           </figure>
           <figure>
-            <image width="92.5%" source="images/Answer15b.png"/>
+            <image width="92.5%" source="images/Answer15b.png" />
           </figure>
         </solution>
       </exercise>
@@ -1194,7 +1194,7 @@
           <p>
             Sketch the location of each of the following points in the Cartesian plan,
             and state the quadrant in which each is located.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>(2,1)</m>
@@ -1220,12 +1220,12 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   First quadrant
                   <figure>
-                    <image width="92.5%" source="images/Answer17a.png"/>
+                    <image width="92.5%" source="images/Answer17a.png" />
                   </figure>
                 </p>
               </li>
@@ -1233,7 +1233,7 @@
                 <p>
                   Second quadrant
                   <figure>
-                    <image width="92.5%" source="images/Answer17b.png"/>
+                    <image width="92.5%" source="images/Answer17b.png" />
                   </figure>
                 </p>
               </li>
@@ -1241,7 +1241,7 @@
                 <p>
                   Fourth quadrant
                   <figure>
-                    <image width="92.5%" source="images/Answer17c.png"/>
+                    <image width="92.5%" source="images/Answer17c.png" />
                   </figure>
                 </p>
               </li>
@@ -1249,7 +1249,7 @@
                 <p>
                   none, between first and second quadrants
                   <figure>
-                    <image width="92.5%" source="images/Answer17d.png"/>
+                    <image width="92.5%" source="images/Answer17d.png" />
                   </figure>
                 </p>
               </li>
@@ -1262,7 +1262,7 @@
           <p>
             Sketch the location of each of the following points in the Cartesian plan,
             and state the quadrant in which each is located.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>(-3,1)</m>
@@ -1293,7 +1293,7 @@
             Sketch a possible graph for each of the functions described.
             Label your axes, and, if available,
             include any other relevant information in your graph as well.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   the remaining balance on a mortgage as a function of time as the loan is being paid
@@ -1315,25 +1315,25 @@
         <solution>
           <p>
             Possible graphs, answers will vary
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <figure>
-                    <image width="92.5%" source="images/Answer19a.png"/>
+                    <image width="92.5%" source="images/Answer19a.png" />
                   </figure>
                 </p>
               </li>
               <li>
                 <p>
                   <figure>
-                    <image width="92.5%" source="images/Answer19b.png"/>
+                    <image width="92.5%" source="images/Answer19b.png" />
                   </figure>
                 </p>
               </li>
               <li>
                 <p>
                   <figure>
-                    <image width="92.5%" source="images/Answer19c.png"/>
+                    <image width="92.5%" source="images/Answer19c.png" />
                   </figure>
                 </p>
               </li>
@@ -1347,7 +1347,7 @@
             Sketch a possible graph for each of the functions described.
             Label your axes, and, if available,
             include any other relevant information in your graph as well.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   the height of a ball as a function of time since it was thrown upward
@@ -1372,7 +1372,7 @@
           <p>
             For each of the given scenarios,
             make a reasonable sketch of what the graph of noise in the college's basketball area as function of time might look like:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Everyone was excited at the start of the game,
@@ -1418,7 +1418,7 @@
           <p>
             For each of the given scenarios,
             make a reasonable sketch of what the graph of Zarofire Systems' stock price might look like as a function of time:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   The stock began the year at a price of $2 per share,
@@ -1462,9 +1462,9 @@
           </p>
           <tabular>
             <row>
-              <cell>a. <image width="60%" source="images/Question23a.png"/></cell>
-              <cell>b. <image width="60%" source="images/Question23b.png"/></cell>
-              <cell>c. <image width="60%" source="images/Question23c.png"/></cell>
+              <cell>a. <image width="60%" source="images/Question23a.png" /></cell>
+              <cell>b. <image width="60%" source="images/Question23b.png" /></cell>
+              <cell>c. <image width="60%" source="images/Question23c.png" /></cell>
             </row>
           </tabular>
         </statement>
@@ -1482,17 +1482,17 @@
           </p>
           <tabular>
             <row>
-              <cell>a. <image width="60%" source="images/Question24a.png"/></cell>
-              <cell>b. <image width="60%" source="images/Question24b.png"/></cell>
-              <cell>c. <image width="60%" source="images/Question24c.png"/></cell>
+              <cell>a. <image width="60%" source="images/Question24a.png" /></cell>
+              <cell>b. <image width="60%" source="images/Question24b.png" /></cell>
+              <cell>c. <image width="60%" source="images/Question24c.png" /></cell>
             </row>
           </tabular>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Graphing Calculator</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Use your calculator to obtain a graph for
@@ -1562,10 +1562,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             If possible,
@@ -1631,7 +1631,7 @@
             Here is one possibility:
           </p>
           <figure>
-            <image width="92.5%" source="images/Answer35.png"/>
+            <image width="92.5%" source="images/Answer35.png" />
           </figure>
         </solution>
       </exercise>
@@ -1658,7 +1658,7 @@
             Here is one possible graph:
           </p>
           <figure>
-            <image width="92.5%" source="images/Answer37.png"/>
+            <image width="92.5%" source="images/Answer37.png" />
           </figure>
         </solution>
       </exercise>
@@ -1681,7 +1681,7 @@
             The graph
           </p>
           <figure>
-            <image width="92.5%" source="images/Answer39.png"/>
+            <image width="92.5%" source="images/Answer39.png" />
           </figure>
         </solution>
       </exercise>
@@ -1705,7 +1705,7 @@
             The graph
           </p>
           <figure>
-            <image width="92.5%" source="images/Answer41.png"/>
+            <image width="92.5%" source="images/Answer41.png" />
           </figure>
           <p>
             <m>h(8.2)=-7.3</m>, <m>h(0)=5</m>, and <m>h(-9.6)=19.4</m>
@@ -1748,12 +1748,12 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Fertilizer (pounds)</cell>
@@ -1764,12 +1764,12 @@
               <cell>4</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Expected Yield (bushels)</cell>
@@ -1780,18 +1780,18 @@
               <cell>5</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
           </tabular>
           <p>
             Let <m>x</m> be the amount of fertilizer applied,
             and let <m>f(x)</m> be the expected yield.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Sketch a graph of this function by plotting the points for the data given in the table and making a reasonable guess about the shape of the graph based on these points.
@@ -1838,7 +1838,7 @@
           <p>
             Which of the following shapes could be the graph of a function?
             Explain your reasoning.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   a circle
@@ -1878,7 +1878,7 @@
           <p>
             Which of the following upper-case letters could be the shape of the graph of a function?
             Explain your reasoning.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   V
@@ -1953,6 +1953,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

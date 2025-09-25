@@ -35,16 +35,15 @@ IIIII}
 \usetikzlibrary{through,intersections,decorations,shadows,fadings}
 \usepackage{pgfplots}
 </latex-image-preamble>
+
+<rename element="algorithm">Example</rename>
   </docinfo>
   <book>
-    <title>\textbf{\huge{Algebra and Introduction to Functions}} \\ Finger Lakes Community College \\ Text for MAT 097 \\ Fall 2024 Edition</title>
+    <title>Algebra and Introduction to Functions</title>
     <frontmatter>
       <titlepage>
         <author>
-          <personname>\textsc{FLCC Mathematics Department}</personname>
-        </author>
-        <author>
-          <personname>\textsc{FLCC Mathematics Department}</personname>
+          <personname>FLCC Mathematics Department</personname>
         </author>
       </titlepage>
     </frontmatter>

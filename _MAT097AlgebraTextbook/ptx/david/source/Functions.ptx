@@ -115,7 +115,7 @@
           needed to cover an athletic field can be determined based on the area
           (in square feet).
           Let <m>y</m> represent the amount of grass seed and let <m>A</m> represent the area.
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 State the input variable and quantity.
@@ -143,7 +143,7 @@
         </p>
       </statement>
     </example>
-    <ol marker="labelalph">
+    <ol marker="a">
       <li>
         <p>
           The relationship described here says that we are going to determine the amount of seed based on the area.
@@ -203,7 +203,7 @@
           The Fahrenheit temperature <m>F</m> can be calculated for any temperature in Celsius,
           <m>C</m>.
           Let the function which calculates this be called <m>T</m>.
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 State the input variable and quantity.
@@ -240,7 +240,7 @@
       <me>
         C \rightarrow T \rightarrow F
       </me>
-      <ol marker="labelalph">
+      <ol marker="a">
         <li>
           <p>
             The input quantity is degrees Celsius,
@@ -412,10 +412,10 @@
     </example>
     <p>
       The sales tax is <m>7.5 \%</m> of
-      <m>\dollar800</m> which would be <m>(0.075)(\dollar800) = \dollar60</m>.
-      So the total price would be <m>\dollar800 + \dollar60 = \dollar860</m>.
+      <m>$800</m> which would be <m>(0.075)($800) = $60</m>.
+      So the total price would be <m>$800 + $60 = $860</m>.
       So, in answer to the question,
-      the price including tax is <m>\dollar860</m>.
+      the price including tax is <m>$860</m>.
       In function notation we would write <m>f(800)=860</m>.
     </p>
     <p>
@@ -461,7 +461,7 @@
       Functions can also be defined using a table which lists inputs and gives their corresponding outputs.
       We don't need to know what the rationale
       (if any)
-      was for assigning any particular input its output <mdash/> we only need to be able to determine what the output is.
+      was for assigning any particular input its output <mdash /> we only need to be able to determine what the output is.
     </p>
     <p>
       One common example of a table-defined function might be US Social Security numbers.
@@ -491,24 +491,24 @@
             <cell>Fine</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell><m>70</m> mph</cell>
-            <cell><m>\dollar45</m></cell>
+            <cell><m>$45</m></cell>
           </row>
           <row>
             <cell><m>75</m> mph</cell>
-            <cell><m>\dollar55</m></cell>
+            <cell><m>$55</m></cell>
           </row>
           <row>
             <cell><m>80</m> mph</cell>
-            <cell><m>\dollar65</m></cell>
+            <cell><m>$65</m></cell>
           </row>
           <row>
             <cell><m>85</m> mph</cell>
-            <cell><m>\dollar75</m></cell>
+            <cell><m>$75</m></cell>
           </row>
         </tabular>
         <p>
@@ -518,7 +518,7 @@
       </statement>
     </example>
     <p>
-      Reading the table we can see that the fine is <m>\dollar65</m>.
+      Reading the table we can see that the fine is <m>$65</m>.
       In function notation we would write <m>f(80)=65</m>.
     </p>
     <p>
@@ -531,14 +531,14 @@
       For example,
       suppose you want to know the fine for going <m>90</m> mph.
       There is no way to tell this from the given table.
-      It seems that for every <m>5</m> mph increase in speed the fine goes up <m>\dollar10</m>,
-      so it might be reasonable to guess the fine would be <m>\dollar85</m>.
+      It seems that for every <m>5</m> mph increase in speed the fine goes up <m>$10</m>,
+      so it might be reasonable to guess the fine would be <m>$85</m>.
       But that is only a guess.
-      It could also be that the maximum fine for speeding is <m>\dollar75</m>,
+      It could also be that the maximum fine for speeding is <m>$75</m>,
       so that might be the fine for a <m>90</m> mph speed.
       Or, maybe the state has an extra fine tacked on for really excessive speeds,
-      making the fine for <m>90</m> mph <m>\dollar100</m>,
-      or <m>\dollar150</m>, or <m>\dollar250</m>?
+      making the fine for <m>90</m> mph <m>$100</m>,
+      or <m>$150</m>, or <m>$250</m>?
       There just is no way of knowing for sure.
       Based on this table,
       you cannot determine the fine for a <m>90 mph</m> speed.
@@ -606,7 +606,7 @@
       More formally we could write this as <m>\{ x \vert x \text{ is a U.S. State }  \}</m>.
       The range would be the set of all U.S. state capitals;
       formally <m>\{ y \vert y \text{ is a U.S. state capital } \}</m>.
-      Note that the letters used in the formal set descriptions don't matter <mdash/> the domain could also have been written
+      Note that the letters used in the formal set descriptions don't matter <mdash /> the domain could also have been written
       <m>\{ t \vert t \text{ is a U.S. State }  \}</m> or using any other letter.
       (You should ask your instructor whether or not you are expected to write domains and ranges in formal set-builder notation or can just give a verbal description.)
     </p>
@@ -897,7 +897,7 @@
       <p>
         Each of the following relationships can be represented by a function.
         For each relationship
-        <ol marker="labelalph">
+        <ol marker="a">
           <li>
             <p>
               state the input variable and quantity,
@@ -927,7 +927,7 @@
           </li>
         </ol>
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             The price <m>P</m> for a shipment of <m>x</m> gallons of paint can be determined using a function called <m>f</m>.
@@ -935,7 +935,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>x</m>, gallons of paint
@@ -977,7 +977,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>t</m>, number of kids
@@ -1018,7 +1018,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>G</m>, gallons of gasoline
@@ -1061,7 +1061,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>t</m>, seconds since launch
@@ -1104,7 +1104,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>Q</m>, number of questions
@@ -1137,11 +1137,11 @@
           </p>
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         In each of the following problems,
         two variables and the quantities they represent are given,
         and an equation relating these variables with a function is also given.
-        <ol marker="labelalph">
+        <ol marker="a">
           <li>
             <p>
               state the input variable and quantity,
@@ -1165,7 +1165,7 @@
           </li>
         </ol>
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>h</m> is the number of minutes needed to walk to school at a given pace,
@@ -1174,7 +1174,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>d</m>, miles to school
@@ -1212,7 +1212,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>B</m>, balance
@@ -1249,7 +1249,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>m</m>, speed
@@ -1287,7 +1287,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>m</m>, velocity
@@ -1325,7 +1325,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>C</m>, amount borrowed
@@ -1355,20 +1355,20 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Functions and Formulas</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             The annual property tax on residential property in the Town of Townsville is calculated using the function <m>f(x)=0.018x+75</m>,
             where <m>x</m> is the property's assessed value.
-            Use this function to determine the annual property tax on a home assessed at <m>\dollar175,000</m>.
+            Use this function to determine the annual property tax on a home assessed at <m>$175,000</m>.
           </p>
         </statement>
         <solution>
           <p>
-            <m>\dollar3,225</m>
+            <m>$3,225</m>
           </p>
         </solution>
       </exercise>
@@ -1377,7 +1377,7 @@
           <p>
             The annual property tax on residential property in the Village of Villageport is calculated using the function
             <m>f(x)=0.021x+350</m> where <m>x</m> is the property's assessed value.
-            Use this function to determine the annual property tax on a home assessed at <m>\dollar154,000</m>.
+            Use this function to determine the annual property tax on a home assessed at <m>$154,000</m>.
           </p>
         </statement>
       </exercise>
@@ -1481,10 +1481,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Functions Defined Verbally</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Let <m>r</m> be the rule that rounds each real number <m>x</m> to the nearest whole integer.
@@ -1494,7 +1494,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>r(0.54) = 1</m>
@@ -1533,7 +1533,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>a(\text{ bicycle } )=\text{b}</m>
@@ -1562,7 +1562,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Function Defined by Tables</title>
       <p>
@@ -1576,27 +1576,27 @@
           <cell>Price (includes soup, eggroll, or can of soda)</cell>
         </row>
         <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
+          <cell />
+          <cell />
         </row>
         <row>
           <cell>Beef with broccoli</cell>
-          <cell><m>\dollar7.95</m></cell>
+          <cell><m>$7.95</m></cell>
         </row>
         <row>
           <cell>Kung pao chicken</cell>
-          <cell><m>\dollar6.95</m></cell>
+          <cell><m>$6.95</m></cell>
         </row>
         <row>
           <cell>Shrimp with lobster sauce</cell>
-          <cell><m>\dollar8.95</m></cell>
+          <cell><m>$8.95</m></cell>
         </row>
         <row>
           <cell>Szechuan tofu</cell>
-          <cell><m>\dollar7.50</m></cell>
+          <cell><m>$7.50</m></cell>
         </row>
       </tabular>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find <m>p(\text{ Szechuan tofu } )</m>,
@@ -1607,7 +1607,7 @@
         <solution>
           <p>
             <m>p(\text{ Szechuan tofu } )=7.50</m>;
-            the price of the Szechuan tofulunch special is <m>\dollar7.50</m>
+            the price of the Szechuan tofulunch special is <m>$7.50</m>
           </p>
         </solution>
       </exercise>
@@ -1620,7 +1620,7 @@
           </p>
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         Answer the following questions based on the table below,
         which gives the weight in pounds at which a <m>35</m> year old man is considered
         <q>obese</q>
@@ -1633,8 +1633,8 @@
           <cell>Weight (pounds)</cell>
         </row>
         <row bottom="minor">
-          <cell></cell>
-          <cell></cell>
+          <cell />
+          <cell />
         </row>
         <row>
           <cell><m>66</m></cell>
@@ -1653,7 +1653,7 @@
           <cell><m>221</m></cell>
         </row>
       </tabular>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find <m>f(70)</m>,
@@ -1677,10 +1677,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Domain and Range</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Let <m>M</m> be the function that assigns to each living human being their legal date of birth
@@ -1801,10 +1801,10 @@
           </p>
         </solution>
       </exercise>
-      <p>,
+      </exercises><p>,
         or <m>[3,\infty)</m>]
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             What is the domain of <m>f(t)=\sqrt{2t-5}</m>?
@@ -1831,7 +1831,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Determining Whether or Not a Rule is a Function</title>
       <p>
@@ -1839,7 +1839,7 @@
         Determine whether or not the given rule is a function.
         Clearly justify your answer.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Let <m>f</m> be the rule that names the biological father of each living human being.
@@ -2008,15 +2008,15 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Suppose <m>f(x)=x^2-3x</m>.
             Calculate:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(3)</m>
@@ -2037,7 +2037,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(3)=0</m>
@@ -2061,7 +2061,7 @@
         <statement>
           <p>
             The cost of roaming data on a cellular plan is a function of the amount of data downloaded.
-            The cost is <m>\dollar15.36</m> per megabyte.
+            The cost is <m>$15.36</m> per megabyte.
             Use this function to determine how much it would cost to download <m>3.5</m> megabytes on this plan.
           </p>
         </statement>
@@ -2073,7 +2073,7 @@
             let <m>d</m> be the amount of data downloaded
             (in megabytes)
             and suppose <m>C=f(d)</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   State the input variable and quantity,
@@ -2099,7 +2099,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>d</m>, The amount of data
@@ -2135,7 +2135,7 @@
               <mrow>\begin{array}{c|cccccc} X \amp  0 \amp  1 \amp  2 \amp  3 \amp  4 \amp  5</mrow>
               <mrow>\hline Y \amp  6 \amp  2 \amp  -1 \amp  4 \amp  7 \amp  2 \end{array}</mrow>
             </md>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Is <m>Y</m> a function of <m>X</m>?
@@ -2153,7 +2153,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>Y</m> is a function of <m>X</m>, Each input (<m>X</m>) has only one output value
@@ -2198,7 +2198,7 @@
           <p>
             Suppose <m>f(x)=8-x^2</m>.
             Calculate:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(3)</m>
@@ -2240,7 +2240,7 @@
             of an electric vehicle,
             let <m>E</m> be the storage capacity of its battery in kilowatt hours,
             and suppose <m>R=g(E)</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   State the input variable and quantity,
@@ -2291,7 +2291,7 @@
               <mrow>\text{ Hill }  \amp  518 \text{ Crestview }</mrow>
               <mrow>\text{ Hill }  \amp  704 \text{ Hauser } \end{array}</mrow>
             </md>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Is agent a function of listing?
@@ -2378,7 +2378,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>h(\text{ Florida } )=30</m>
@@ -2410,7 +2410,7 @@
           <p>
             The mass in kilograms <m>m</m> of an object can be determined based on its weight <m>w</m> in pounds,
             using a function called <m>C</m>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   State the input variable and quantity,
@@ -2441,7 +2441,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   input <m>w</m>, weight in pounds
@@ -2478,7 +2478,7 @@
         <statement>
           <p>
             Suppose <m>H</m> is a function that gives the first name of each student in a class as a function of that student's last name.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Since <m>H</m> is a function,
@@ -2505,7 +2505,7 @@
         </statement>
         <solution>
           <p>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   No two students share the same last name
@@ -2525,7 +2525,7 @@
           <p>
             Suppose <m>f(x)=\frac{2}{3}x-1</m>.
             Find
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>f(0)</m>,
@@ -2563,6 +2563,6 @@
           </p>
         </solution>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

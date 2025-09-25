@@ -34,32 +34,32 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Time (Hours)</cell>
         <cell>Distance Traveled (miles)</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>0</cell>
         <cell>0</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>1</cell>
         <cell>58</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -103,32 +103,32 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Time (Hours)</cell>
         <cell>Distance Traveled (miles)</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>1</cell>
         <cell>58</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>2.5</cell>
         <cell>149.5</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -194,45 +194,45 @@
         </p>
         <tabular>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>Time (hours)</cell>
             <cell>Temperature (<m>\deg F</m>)</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>0</cell>
             <cell>48</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>6</cell>
             <cell>39</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>10</cell>
             <cell>48</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
         </tabular>
         <p>
           Find the average rate of change in the temperature
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 between midnight and 6 a.m.,
@@ -252,7 +252,7 @@
         </p>
       </statement>
     </example>
-    <ol marker="labelalph">
+    <ol marker="a">
       <li>
         <p>
           Following the formula,
@@ -389,32 +389,32 @@
         </p>
         <tabular>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>Gasoline (gallons)</cell>
             <cell>Distance (miles)</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>3.2</cell>
             <cell>108.6</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>7.5</cell>
             <cell>255.8</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
         </tabular>
         <p>
@@ -566,7 +566,7 @@
     </p>
     <p>
       So we would conclude that as usage changes from 720 to 860 kilowatt hours,
-      the bill changes at an average rate of <m>\dollar0.12</m> per kilowatt hour.
+      the bill changes at an average rate of <m>$0.12</m> per kilowatt hour.
     </p>
     <p>
       Calculating the bill for 585 kilowatt hours we get:
@@ -585,7 +585,7 @@
       </md>
     </p>
     <p>
-      So as the usage goes from 860 to 585 kilowatt hours the average rate of change is again <m>\dollar0.12</m> per kilowatt hour. }
+      So as the usage goes from 860 to 585 kilowatt hours the average rate of change is again <m>$0.12</m> per kilowatt hour. }
     </p>
     <p>
       The fact that these two average rates of change are the same could be a coincidence,
@@ -610,7 +610,7 @@
     <title>Exercises</title>
     <subsubsection>
       <title>Average Rate of Change</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Dahlia is running in a marathon.
@@ -622,61 +622,61 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Time</cell>
               <cell>Distance</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>0.0</cell>
               <cell>0.0</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>0.5</cell>
               <cell>4.9</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1.0</cell>
               <cell>9.6</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1.5</cell>
               <cell>14.2</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>2.0</cell>
               <cell>18.1</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <p>
             Find her average speed (rounded to two decimal places):
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   For the first hour of the race.
@@ -725,61 +725,61 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Time</cell>
               <cell>Pages</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>0.0</cell>
               <cell>0</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>0.5</cell>
               <cell>27</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1.0</cell>
               <cell>58</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1.5</cell>
               <cell>83</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>2.0</cell>
               <cell>110</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <p>
             Find her average reading rate:
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   For the first hour.
@@ -814,59 +814,59 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Days</cell>
               <cell>DJIA</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>11</cell>
               <cell>10922</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>12</cell>
               <cell>10948</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>13</cell>
               <cell>10872</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>14</cell>
               <cell>10690</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>15</cell>
               <cell>10624</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 What was the average rate of change
@@ -906,59 +906,59 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Week</cell>
               <cell>Followers</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1</cell>
               <cell>922</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>2</cell>
               <cell>1948</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>3</cell>
               <cell>2872</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>4</cell>
               <cell>4690</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>5</cell>
               <cell>4124</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 What was the average rate of change
@@ -1063,10 +1063,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Interpreting Average Rate of Change</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             The amount of uranium fuel consumed by a nuclear reactor
@@ -1077,32 +1077,32 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Uranium (kg)</cell>
               <cell>Electricity (MWh)</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>70</cell>
               <cell>26,885</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>120</cell>
               <cell>49,660</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <p>
@@ -1131,32 +1131,32 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Phosphate (tons)</cell>
               <cell>Uranium (kg)</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>30,000</cell>
               <cell>6,200</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>50,000</cell>
               <cell>10,400</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <p>
@@ -1227,10 +1227,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Constant vs. Nonconstant Rates of Change</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             After operating for 40 days,
@@ -1266,7 +1266,7 @@
             A caterer's fee for a wedding depends on the number of invited guests.
             She uses the formula <m>C(x) = 35x + 800</m> to set her prices,
             where <m>x</m> is the number of guests.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Laurie and Mike originally planned to invite 80 guests to their wedding,
@@ -1294,10 +1294,10 @@
         </statement>
         <solution>
           <p>
-            a. <m>\dollar35</m> per guest
+            a. <m>$35</m> per guest
           </p>
           <p>
-            b. <m>\dollar35</m> per guest
+            b. <m>$35</m> per guest
           </p>
           <p>
             c. It is reasonable to expect that it would be,
@@ -1311,7 +1311,7 @@
           <p>
             A pharmacist's charge to prepare a topical skin cream is a function of the amount of active ingredient in the cream He uses the formula
             <m>f(x) = 17.50 + 0.12x</m> where <m>x</m> is the amount of active ingredient in milligrams.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   A patient was originally prescribed a 1000 milligram does,
@@ -1348,32 +1348,32 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Crude Oil (barrels)</cell>
               <cell>Gasoline (gallons)</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>1200</cell>
               <cell>21,900</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>800</cell>
               <cell>14,600</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <ol>
@@ -1420,32 +1420,32 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>Coal (tons)</cell>
               <cell>Crude Oil (barrels)</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>750</cell>
               <cell>2150</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>500</cell>
               <cell>1400</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
           <ol>
@@ -1468,16 +1468,16 @@
           </ol>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             I'm driving down the thruway with my cruise control set.
             After 15 minutes I've traveled 18 miles.
             After 25 minutes I've traveled 30 miles.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Find the average rate of change in distance traveled as a function of time over this time interval,
@@ -1621,7 +1621,7 @@
             A political consultant has produced a mathematical model which predicts the number of votes a candidate will receive in the election for West Macedon dogcatcher as a function of money spent on political consulting fees.
             He predicts that the candidate will receive 430 votes if he spends $500,
             but 700 votes if he spends $850.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   What is the average rate of change in this function between these two prediction levels?
@@ -1679,7 +1679,7 @@
             A political consultant has produced a mathematical model which predicts the number of votes a candidate will receive in the South Dakota primary as a function of days spent campaigning in the state.
             He predicts that the candidate will receive 80,000 votes if she spends 12 days campaigning,
             but only 50,000 votes if she spends 7 days campaigning.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   What is the average rate of change in this function between the two prediction levels?
@@ -1739,7 +1739,7 @@
             (This question is a continuation of question #21.) A caterer's fee for a wedding depends on the number of invited guests.
             She uses the formula <m>C(x) = 35x + 800</m> to set her prices,
             where <m>x</m> is the number of guests.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Calculate the caterer's fee for 80 guests.
@@ -1769,6 +1769,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

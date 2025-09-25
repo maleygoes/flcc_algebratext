@@ -47,13 +47,13 @@
       <statement>
         <p>
           Menauhant Publishing Company has a contract that costs them a straight
-          <m>\dollar80</m> per hour for computer support over the phone.
+          <m>$80</m> per hour for computer support over the phone.
           They are considering switching to a new contract that would require them to pay an annual fee of
-          <m>\dollar3,000</m> regardless of how much service they use,
-          but they would then only be charged <m>\dollar50</m> per hour.
+          <m>$3,000</m> regardless of how much service they use,
+          but they would then only be charged <m>$50</m> per hour.
           If they don't need many hours of support,
           the old plan would be cheaper,
-          since even though they'd pay a higher rate per hour they'd avoid the <m>\dollar3,000</m> flat fee.
+          since even though they'd pay a higher rate per hour they'd avoid the <m>$3,000</m> flat fee.
           On the other hand, if they use a lot of hours,
           it would be worth it to pay that fee to get the lower rate.
           How many hours of support would they need to use to break even between the two plans?
@@ -87,7 +87,7 @@
     </p>
     <figure>
       <caption>Graph of <m>f(x)=80x</m> and <m>g(x)=50x+3000</m></caption>
-      <image width="92.5%" source="images/Figure01.png"/>
+      <image width="92.5%" source="images/Figure01.png" />
     </figure>
     <p>
       Running through the calculator Intersect program,
@@ -121,7 +121,7 @@
     </p>
     <figure>
       <caption>Graph in standard window.</caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       The intersection gives us the solution:
@@ -153,10 +153,10 @@
       <statement>
         <p>
           Menauhant Publishing Company has a contract that costs them a straight
-          <m>\dollar80</m> per hour for computer support over the phone.
+          <m>$80</m> per hour for computer support over the phone.
           They are considering switching to a new contract that would require them to pay an annual fee of
-          <m>\dollar3,000</m> regardless of how much service they use,
-          but they would then only be charged <m>\dollar50</m> per hour.
+          <m>$3,000</m> regardless of how much service they use,
+          but they would then only be charged <m>$50</m> per hour.
           How many hours of support would they need to use for the new plan to be cheaper?
         </p>
       </statement>
@@ -177,7 +177,7 @@
     </p>
     <figure>
       <caption>Graph of <m>f(x)=80x</m> and <m>g(X)=50x+3000</m></caption>
-      <image width="92.5%" source="images/Figure03.png"/>
+      <image width="92.5%" source="images/Figure03.png" />
     </figure>
     <p>
       The two lines intersect at <m>x=100</m> but this time we are interested in what happens before and after that intersection as well.
@@ -186,7 +186,7 @@
       so Y1 is the less-steep line.
       Now, since we want Y1 the new plan to be less than Y2, the old plan,
       we want the less-steep line to be below the more-steep one.
-      We can see from the graph that this happens to the right of the intersection – so our inequality is satisfied whenever <m>x>100</m>.
+      We can see from the graph that this happens to the right of the intersection – so our inequality is satisfied whenever <m>x&gt;100</m>.
       (We do not include the intersection itself in our solution since the problem stated that we wanted the new plan to be strictly cheaper than the old plan,
       and at <m>100</m> hours the two plans are equal.)
       So we conclude that this is our solution:
@@ -223,7 +223,7 @@
     </p>
     <figure>
       <caption>Graph showing TRACE</caption>
-      <image width="92.5%" source="images/Figure04.png"/>
+      <image width="92.5%" source="images/Figure04.png" />
     </figure>
     <p>
       So now we can easily tell which side is Y1.
@@ -362,15 +362,15 @@
       <p>
         Round to two decimal places when necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             AAAwesome Car Rentals charges
-            <m>\dollar17.50</m> to rent a subcompact car for a day,
-            plus <m>\dollar0.20</m> per mile.
+            <m>$17.50</m> to rent a subcompact car for a day,
+            plus <m>$0.20</m> per mile.
             BBBetter Auto Rents charges
-            <m>\dollar25.00</m> to rent a similar car for a day,
-            plus <m>\dollar0.12</m> per mile.
+            <m>$25.00</m> to rent a similar car for a day,
+            plus <m>$0.12</m> per mile.
             How many miles would you have to drive for the two agency's total costs to come out the same?
           </p>
         </statement>
@@ -384,10 +384,10 @@
         <statement>
           <p>
             To print a textbook, a printer charges a flat
-            <m>\dollar5.75</m> regardless of its length,
-            plus a charge of <m>\dollar0.02</m> per page.
+            <m>$5.75</m> regardless of its length,
+            plus a charge of <m>$0.02</m> per page.
             A competing printer charges
-            <m>\dollar8.00</m> plus <m>\dollar0.015</m> per page.
+            <m>$8.00</m> plus <m>$0.015</m> per page.
             How many pages would a textbook need to be for the two printers' costs to be the same?
           </p>
         </statement>
@@ -455,21 +455,21 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Graphical Solution of Linear Inequalities</title>
       <p>
         Round to two decimal places when necessary.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             AAAwesome Car Rentals charges
-            <m>\dollar17.50</m> to rent a subcompact car for a day,
-            plus <m>\dollar0.20</m> per mile.
+            <m>$17.50</m> to rent a subcompact car for a day,
+            plus <m>$0.20</m> per mile.
             BBBetter Auto Rents charges
-            <m>\dollar25.00</m> to rent a similar car for a day,
-            plus <m>\dollar0.12</m> per mile.
+            <m>$25.00</m> to rent a similar car for a day,
+            plus <m>$0.12</m> per mile.
             How many miles would you have to drive for AAAwesome to be the less expensive option?
           </p>
         </statement>
@@ -483,10 +483,10 @@
         <statement>
           <p>
             To print a textbook, a printer charges a flat
-            <m>\dollar5.75</m> regardless of its length,
-            plus a charge of <m>\dollar0.02</m> per page.
+            <m>$5.75</m> regardless of its length,
+            plus a charge of <m>$0.02</m> per page.
             A competing printer charges
-            <m>\dollar8.00</m> plus <m>\dollar0.015</m> per page.
+            <m>$8.00</m> plus <m>$0.015</m> per page.
             How many pages would a textbook need to be for the competing printers' costs to be lower?
           </p>
         </statement>
@@ -519,7 +519,7 @@
         <statement>
           <p>
             Solve graphically:
-            <m>4.24x - 1.03(2.02x - 1.79) > 4.24x + 1.03(2.02x - 1.79)</m>
+            <m>4.24x - 1.03(2.02x - 1.79) &gt; 4.24x + 1.03(2.02x - 1.79)</m>
           </p>
         </statement>
         <solution>
@@ -531,7 +531,7 @@
       <exercise>
         <statement>
           <p>
-            Solve graphically: <m>1.07x - 4.12(3.02 - 1.17x) > 5.02 - 4.43x</m>
+            Solve graphically: <m>1.07x - 4.12(3.02 - 1.17x) &gt; 5.02 - 4.43x</m>
           </p>
         </statement>
       </exercise>
@@ -554,10 +554,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Parallel and Perpendicular Lines</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find the formula for the linear function whose graph passes through <m>(3,2)</m> and whose graph is parallel to the graph of <m>f(x) = 2x - 9</m>.
@@ -618,12 +618,12 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Find the equation for the linear function whose graph is a line passing through <m>(-1,3)</m> and which is parallel to the line <m>y = 3x - 4</m>.
@@ -766,15 +766,15 @@
         <statement>
           <p>
             Solve for <m>z</m> rounded to two decimal places if necessary:
-            <m>\frac{2.46z-1.13}{0.65} > 5.12 - 0.11(13.29z - 0.41)</m>.
+            <m>\frac{2.46z-1.13}{0.65} &gt; 5.12 - 0.11(13.29z - 0.41)</m>.
           </p>
         </statement>
         <solution>
           <p>
-            <m>z>1.32</m>
+            <m>z&gt;1.32</m>
           </p>
         </solution>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

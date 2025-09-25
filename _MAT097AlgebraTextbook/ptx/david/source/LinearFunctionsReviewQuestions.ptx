@@ -2,7 +2,7 @@
   <title>Linear Functions Review Questions</title>
   <subsection>
     <title>Slope</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>g(x)</m> is a linear function with
@@ -100,14 +100,14 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Intercepts</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Determine the vertical and horizontal intercepts for each of the linear functions.
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 <m>g(t) = -5t + 20</m>
@@ -221,8 +221,8 @@
       <solution>
         <p>
           Slope: The residents of the town of Williamson are charged an additional
-          <m>\dollar0.005</m> per additional gallon of water used each month.
-          Vertical: The residents of the town of Williamson are charged a monthly fee of <m>\dollar25</m> for water.
+          <m>$0.005</m> per additional gallon of water used each month.
+          Vertical: The residents of the town of Williamson are charged a monthly fee of <m>$25</m> for water.
         </p>
       </solution>
     </exercise>
@@ -236,15 +236,15 @@
       </statement>
       <solution>
         <p>
-          Slope: The cost for a cab ride increase by<m>\dollar1.50</m> for each additional mile.
-          Vertical: It costs <m>\dollar3.00</m> to have the cab pick you up.
+          Slope: The cost for a cab ride increase by<m>$1.50</m> for each additional mile.
+          Vertical: It costs <m>$3.00</m> to have the cab pick you up.
         </p>
       </solution>
     </exercise>
     <exercise>
       <statement>
         <p>
-          For the question above <xref ref="LinearFunctionsReviewExercise5"/>, find the horizontal intercept.
+          For the question above <xref ref="LinearFunctionsReviewExercise5" />, find the horizontal intercept.
           Does that have a realistic meaning here?
         </p>
       </statement>
@@ -254,10 +254,10 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Formula</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Find the equation of a linear function whose slope is
@@ -354,8 +354,8 @@
         <p>
           The cost to refinish a hardwood floor is a linear function of the size of the room,
           in square feet.
-          It costs <m>\dollar700</m> to refinish a room <m>100</m> sq. feet.
-          And <m>\dollar950</m> for a room <m>150</m> sq. feet.
+          It costs <m>$700</m> to refinish a room <m>100</m> sq. feet.
+          And <m>$950</m> for a room <m>150</m> sq. feet.
           Find a formula for this linear function.
         </p>
       </statement>
@@ -365,13 +365,13 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Graphs</title>
     <p>
       Solve the following equations graphically and algebraically.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>2x - 5 = 7x + 6</m>
@@ -431,13 +431,13 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>System of Linear Equations</title>
     <p>
       Solve the system of equations using an algebraic method.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>\begin{cases}6x - 2y = 12 \\ 2x + 2y = 36 \end{cases}</m>
@@ -521,10 +521,10 @@
         </p>
       </solution>
     </exercise>
-    <p>
+    </exercises><p>
       Solve the system of equations using graphically.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>\begin{cases}x + y = 7 \\ x + 2y = 11 \end{cases}</m>
@@ -548,5 +548,5 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
 </section>

@@ -62,8 +62,8 @@
       How can we determine the slope?
       It turns out that we already know how!
       If everyone working for a company makes the same hourly rate,
-      and the average wage is <m>\dollar12.50</m> per hour,
-      then logically it must be that everybody makes the same as the average <mdash/> <m>\dollar12.50</m> per hour.
+      and the average wage is <m>$12.50</m> per hour,
+      then logically it must be that everybody makes the same as the average <mdash /> <m>$12.50</m> per hour.
       By the same sort of logic, if a function always has the same rate of change,
       then that rate of change must be the same as the average rate of change.
       So, if a function is linear we can find its slope by finding its average rate of change.
@@ -134,8 +134,8 @@
             <cell>g(t)</cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell>3</cell>
@@ -236,16 +236,16 @@
       The rate of change here is the slope.
       The units of a rate of change are always
       <q>output units per input unit</q>, and so since the output units are dollars and the input units are square feet,
-      the rate of change is <m>\dollar1.50</m> per square foot.
+      the rate of change is <m>$1.50</m> per square foot.
       In other words, for each additional square foot of area,
-      he raises the price of the job by <m>\dollar1.50</m>. }
+      he raises the price of the job by <m>$1.50</m>. }
     </p>
     <example xml:id="LinearFunctionsandSlopeExample4">
       <statement>
         <p>
           The scientist Galileo Galilei (1564-1642) discovered the principle of
           <q>uniform acceleration</q>
-          <mdash/> that the speed at which a dropped object travels is a linear function of the time since it was dropped.
+          <mdash /> that the speed at which a dropped object travels is a linear function of the time since it was dropped.
           Suppose that at time <m>t=0</m> the speed of a dropped rock is <m>v(0)=0</m> feet per second,
           and after <m>2.5</m> seconds its speed is <m>v(2.5)=80</m> feet per second.
           What is the slope of the function <m>v(t)</m>?
@@ -274,7 +274,7 @@
       Now, in all of the examples we've considered so far,
       we've known the function was linear because the problem specifically said it was linear.
       But could we have known that without specifically being told?
-      Surely the contractor knows that he's pricing jobs using a rate of <m>\dollar1.50</m> per square foot,
+      Surely the contractor knows that he's pricing jobs using a rate of <m>$1.50</m> per square foot,
       but it's not at all certain that he knows that he's using the slope of a linear function.
       And we know for certain that Galileo wasn't thinking about linear functions when he was studying the speed at which objects fall – because the concept of a
       <q>linear function</q>
@@ -322,8 +322,8 @@
         <p>
           An auto insurance company determines its rates for a policy based on the number of points you have on your license.
           They start with a base rate of
-          <m>\dollar600</m> which you would pay regardless of how many points you have,
-          and then they add a fixed dollar surcharge of <m>\dollar80</m> for each point.
+          <m>$600</m> which you would pay regardless of how many points you have,
+          and then they add a fixed dollar surcharge of <m>$80</m> for each point.
           Your insurance rate is a function of how many points you have.
           Is it a linear function?
         </p>
@@ -334,16 +334,16 @@
       and following the
       <q>output units per input unit</q>
       model this rate of change would be measured in dollars per point.
-      From the description it is clear that this rate of change is a constant <m>\dollar80</m> per point,
+      From the description it is clear that this rate of change is a constant <m>$80</m> per point,
       and so the function is indeed linear.
-      In fact, we know that <m>\dollar80</m> per point is its slope.
+      In fact, we know that <m>$80</m> per point is its slope.
     </p>
     <example xml:id="LinearFunctionsandSlopeExample6">
       <statement>
         <p>
           Cattarauqua Ginseng Enterprises sells wholesale premium grade American ginseng at a price of
-          <m>\dollar18</m> per pound for the first <m>100</m> pounds,
-          and then each additional pound over <m>100</m> pounds costs <m>\dollar16</m>.
+          <m>$18</m> per pound for the first <m>100</m> pounds,
+          and then each additional pound over <m>100</m> pounds costs <m>$16</m>.
           Cost is a function of weight.
           Is it a linear function?
         </p>
@@ -353,9 +353,9 @@
       The rate of change would be how quickly the price of your order rises as its weight increases,
       measured in dollars per pound.
       As you add additional pounds to your order,
-      the price rises at a rate of <m>\dollar18</m> per pound.
+      the price rises at a rate of <m>$18</m> per pound.
       But, once you reach <m>100</m> pounds,
-      the price then rises at a rate of <m>\dollar16</m> per pound.
+      the price then rises at a rate of <m>$16</m> per pound.
       So the rate of change itself changes.
       So this function is not linear.
     </p>
@@ -433,8 +433,8 @@
         <cell><m>f(t)</m> (gallons)</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>0</cell>
@@ -463,7 +463,7 @@
     </p>
     <figure>
       <caption>A plot of the values in the table</caption>
-      <image width="92.5%" source="images/Figure01.png"/>
+      <image width="92.5%" source="images/Figure01.png" />
     </figure>
     <p>
       Is this a coincidence?
@@ -501,7 +501,7 @@
     </p>
     <figure>
       <caption>Visualizing slope graphically</caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       We can see the same thing if we look, say,
@@ -518,7 +518,7 @@
     </p>
     <figure>
       <caption>Graph of water in tub vs. time</caption>
-      <image width="92.5%" source="images/Figure03.png"/>
+      <image width="92.5%" source="images/Figure03.png" />
     </figure>
     <p>
       In summary: Slope shows up in a graph as steepness.
@@ -534,7 +534,7 @@
         </p>
         <figure>
           <caption>Graph of water in tub vs. time</caption>
-          <image width="92.5%" source="images/Figure04.png"/>
+          <image width="92.5%" source="images/Figure04.png" />
         </figure>
         <p>
           Could this be a linear function?
@@ -589,7 +589,7 @@
           Which graph goes with which family's pool?
         </p>
         <figure>
-          <image width="92.5%" source="images/Figure05.png"/>
+          <image width="92.5%" source="images/Figure05.png" />
         </figure>
       </statement>
     </example>
@@ -666,7 +666,7 @@
         Where necessary,
         either express your answers as a reduced fraction or a decimal rounded to two decimal places.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>f(x)</m> is a linear function,
@@ -778,40 +778,40 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>x</m></cell>
               <cell><m>g(x)</m></cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>5</cell>
               <cell>8825</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>12</cell>
               <cell>3680</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
             <row>
               <cell>27</cell>
               <cell>-7345</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
             </row>
           </tabular>
         </statement>
@@ -824,11 +824,11 @@
           </p>
           <tabular>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>x</m></cell>
@@ -838,11 +838,11 @@
               <cell>0</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell><m>f(x)</m></cell>
@@ -852,11 +852,11 @@
               <cell>45.7</cell>
             </row>
             <row bottom="minor">
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
           </tabular>
         </statement>
@@ -876,10 +876,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Linear Functions and Mathematical Models</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Kilgore Trout's Literary Review pays published authors based on the length of the stories published.
@@ -894,7 +894,7 @@
         <solution>
           <p>
             <m>\frac{1}{10}=0.1</m>,
-            units are dollars per word so this is best written as <m>\dollar0.10/word</m>.
+            units are dollars per word so this is best written as <m>$0.10/word</m>.
             This represents how much the amount that they pay changes based on the number of words in the article,
             or, in more common terms, how much they pay per word.
           </p>
@@ -983,7 +983,7 @@
           <p>
             Yes, it is linear.
             The amount your tax changes as your income increases is always
-            <m>\dollar0.053</m> tax per dollar or income.
+            <m>$0.053</m> tax per dollar or income.
           </p>
         </solution>
       </exercise>
@@ -1026,39 +1026,28 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Graphs of Linear Functions</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
-          <p>
-            Which of the following could be graphs of linear functions?
-            Justify your answers. \begin{tasks}(2) \task[a.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise23a.png"/>
+            <image width="92.5%" source="images/Exercise23a.png" />
           </figure>
-          <p>
-            \task[b.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise23b.png"/>
+            <image width="92.5%" source="images/Exercise23b.png" />
           </figure>
-          <p>
-            \task[c.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise23c.png"/>
+            <image width="92.5%" source="images/Exercise23c.png" />
           </figure>
-          <p>
-            \task[d.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise23d.png"/>
+            <image width="92.5%" source="images/Exercise23d.png" />
           </figure>
-          <p>
-            \end{tasks}
-          </p>
+          
         </statement>
         <solution>
           <p>
@@ -1077,43 +1066,32 @@
       </exercise>
       <exercise>
         <statement>
-          <p>
-            Which of the following could be graphs of linear functions?
-            Justify your answers. \begin{tasks}(2) \task[a.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise24a.png"/>
+            <image width="92.5%" source="images/Exercise24a.png" />
           </figure>
-          <p>
-            \task[b.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise24b.png"/>
+            <image width="92.5%" source="images/Exercise24b.png" />
           </figure>
-          <p>
-            \task[c.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise24c.png"/>
+            <image width="92.5%" source="images/Exercise24c.png" />
           </figure>
-          <p>
-            \task[d.]
-          </p>
+          
           <figure>
-            <image width="92.5%" source="images/Exercise24d.png"/>
+            <image width="92.5%" source="images/Exercise24d.png" />
           </figure>
-          <p>
-            \end{tasks}
-          </p>
+          
         </statement>
       </exercise>
-      <p>
+      </exercises><p>
         25-38: if the answer is not a whole number,
         express your answer either as a decimal
         (rounded to two decimal places as needed)
         or a reduced fraction.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Find the slope of the linear function whose graph passes through the points <m>(0,2)</m> and <m>(3,14)</m>.
@@ -1294,7 +1272,7 @@
       </exercise>
       <exercise>
         <statement>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Find the slope of the linear function whose graph passes through (2,11) and (2,5).
@@ -1326,10 +1304,10 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Suppose I've used my graphing calculator to create a table for the linear function <m>w(t)</m>.
@@ -1337,7 +1315,7 @@
             What is the function's slope?
           </p>
           <figure>
-            <image width="92.5%" source="images/Exercise43.png"/>
+            <image width="92.5%" source="images/Exercise43.png" />
           </figure>
         </statement>
         <solution>
@@ -1353,7 +1331,7 @@
             How do you know?
           </p>
           <figure>
-            <image width="92.5%" source="images/Exercise44.png"/>
+            <image width="92.5%" source="images/Exercise44.png" />
           </figure>
         </statement>
       </exercise>
@@ -1364,7 +1342,7 @@
             How do you know?
           </p>
           <figure>
-            <image width="92.5%" source="images/Exercise45.png"/>
+            <image width="92.5%" source="images/Exercise45.png" />
           </figure>
         </statement>
         <solution>
@@ -1468,7 +1446,7 @@
             The company brochure states that the standard minimum order is 50 shirts for which the charge is $175.
             The brochure also states that
             <q>for larger orders, add $50 for each 25 additional shirts</q>.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   The cost of an order is a function of the number of shirts ordered above the minimum order.
@@ -1599,6 +1577,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>

@@ -5,7 +5,7 @@
     <p>
       Each of the following relationships can be represented by a function.
       For each relationship
-      <ol marker="labelalph">
+      <ol marker="a">
         <li>
           <p>
             state the input variable and quantity,
@@ -19,7 +19,7 @@
         <li>
           <p>
             describe the relationship as a function using the phrasing
-            <q><fillin/> is a function of <fillin/></q>
+            <q><fillin /> is a function of <fillin /></q>
             using both the variables and the quantities they represent, and
           </p>
         </li>
@@ -33,7 +33,7 @@
     <p>
       You may find it helpful to draw a function diagram.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The price <m>P</m> for a gallon of gas can be determined by the number of days since a significant world event,
@@ -43,7 +43,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Number of days since significant world event, <m>D</m>
@@ -80,7 +80,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Age of newborn in weeks, <m>w</m>
@@ -117,7 +117,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Days since new variant emerges, <m>d</m>
@@ -153,7 +153,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Number of products sold, <m>s</m>
@@ -189,7 +189,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Size of scarf, <m>s</m>
@@ -225,7 +225,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Distance you are driving, <m>d</m>
@@ -251,11 +251,11 @@
         </p>
       </solution>
     </exercise>
-    <p>
+    </exercises><p>
       In each of the following problems,
       two variables and the quantities they represent are given,
       and an equation relating these variables with a function is also given.
-      <ol marker="labelalph">
+      <ol marker="a">
         <li>
           <p>
             State the input variable and quantity,
@@ -269,12 +269,12 @@
         <li>
           <p>
             describe the relationship using both the variables and the quantities they represent using the phrasing
-            <q><fillin/> a function of <fillin/></q>.
+            <q><fillin /> a function of <fillin /></q>.
           </p>
         </li>
       </ol>
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>m</m> is the number of minutes needed to commute to campus,
@@ -283,7 +283,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Distance to campus in miles, <m>d</m>
@@ -313,7 +313,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Amount of money needed in dollars, <m>d</m>
@@ -345,7 +345,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Credit score, <m>C</m>
@@ -376,7 +376,7 @@
       </statement>
       <solution>
         <p>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 Input: Wind speed, <m>w</m>
@@ -397,10 +397,10 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Functions and Formulas</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           If <m>f(x) = 5x - 10</m>, find <m>f(3)</m>.
@@ -501,8 +501,8 @@
       <statement>
         <p>
           The amount of federal income tax an individual making less than
-          <m>\dollar9,950</m> pays can be calculated by the function <m>t(I) = 0.10I</m>.
-          Use the function to determine the federal income tax for someone who made <m>\dollar5,000</m>.
+          <m>$9,950</m> pays can be calculated by the function <m>t(I) = 0.10I</m>.
+          Use the function to determine the federal income tax for someone who made <m>$5,000</m>.
         </p>
       </statement>
       <solution>
@@ -511,7 +511,7 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Determining Whether or Not a Rule is a Function</title>
     <p>
@@ -519,7 +519,7 @@
       Determine whether or not the given rule is a function.
       Clearly justify your answer.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Let <m>u</m> be the rule that assigns the UPC code to each item for sale in Wegmans.
@@ -616,10 +616,10 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Domain and Range</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Let <m>g</m> be the rule that gives the birthday of each living person born in the United States.
@@ -736,10 +736,10 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Functions and Graphs</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Rewrite the function given below as a set of coordinate pairs.
@@ -758,7 +758,7 @@
         <p>
           For the following function notation,
           rewrite as a coordinate pair:
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 <m>g(3) = 5</m>
@@ -795,7 +795,7 @@
         <p>
           For the following coordinate pairs,
           rewrite using function notation, assume <m>f(x)</m>:
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 <m>(3,7)</m>
@@ -847,8 +847,8 @@
             <cell><m>f(x)</m></cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell><m>-8</m></cell>
@@ -884,7 +884,7 @@
           </row>
         </tabular>
         <p>
-          <image width="92.5%" source="images/Question39Figure01.png"/>
+          <image width="92.5%" source="images/Question39Figure01.png" />
         </p>
       </solution>
     </exercise>
@@ -905,8 +905,8 @@
             <cell><m>f(x)</m></cell>
           </row>
           <row bottom="minor">
-            <cell></cell>
-            <cell></cell>
+            <cell />
+            <cell />
           </row>
           <row>
             <cell><m>-4</m></cell>
@@ -930,7 +930,7 @@
           </row>
         </tabular>
         <p>
-          <image width="92.5%" source="images/Question40Figure01.png"/>
+          <image width="92.5%" source="images/Question40Figure01.png" />
         </p>
       </solution>
     </exercise>
@@ -938,7 +938,7 @@
       <statement>
         <p>
           In which quadrant do each of the following coordinate pairs lie:
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 <m>(-1,4)</m>
@@ -1032,7 +1032,7 @@
         <p>
           Sketch a possible graph for the following scenarios,
           labeling axes and any other important information:
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 The amount of snowfall as a function of time during a blizzard.
@@ -1067,9 +1067,9 @@
         </p>
         <tabular>
           <row>
-            <cell>a. <image width="60%" source="images/Question48Figure01.png"/></cell>
-            <cell>b. <image width="60%" source="images/Question48Figure02.png"/></cell>
-            <cell>c. <image width="60%" source="images/Question48Figure03.png"/></cell>
+            <cell>a. <image width="60%" source="images/Question48Figure01.png" /></cell>
+            <cell>b. <image width="60%" source="images/Question48Figure02.png" /></cell>
+            <cell>c. <image width="60%" source="images/Question48Figure03.png" /></cell>
           </row>
         </tabular>
       </statement>
@@ -1081,7 +1081,7 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Solve Graphically</title>
     <p>
@@ -1090,7 +1090,7 @@
       Equations many have more than one solution.
       Round your answers to two decimal places if necessary.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           <m>5a - 15 = 70 - 2a</m>
@@ -1198,14 +1198,14 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Function Models</title>
     <p>
       For the following,
       evaluate and state your answers in ordinary English.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The cost to print a textbook is a function of the length
@@ -1216,7 +1216,7 @@
       </statement>
       <solution>
         <p>
-          <m>c(400)=46.50</m>; The total cost to print a <m>400</m> page textbook is <m>\dollar46.50</m>.
+          <m>c(400)=46.50</m>; The total cost to print a <m>400</m> page textbook is <m>$46.50</m>.
         </p>
       </solution>
     </exercise>
@@ -1226,12 +1226,12 @@
           You are on salary and get paid a set amount per week for working <m>40</m> hours,
           and on top of that get paid a certain dollar amount for each hour you work over <m>40</m> hours.
           Your weekly take home pay can be calculated using the function <m>p(h) = 600 + 25(h-40)</m>.
-          How many hours did you work if your weekly take home pay was <m>\dollar975.00</m>?
+          How many hours did you work if your weekly take home pay was <m>$975.00</m>?
         </p>
       </statement>
       <solution>
         <p>
-          <m>h=55 hours</m>; If you got paid <m>\dollar975</m> dollars,
+          <m>h=55 hours</m>; If you got paid <m>$975</m> dollars,
           then you worked <m>55</m> hours that week.
         </p>
       </solution>
@@ -1250,10 +1250,10 @@
         </p>
       </solution>
     </exercise>
-    <p>
+    </exercises><p>
       Give an interpretation in ordinary English for the following information given in function notation:
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The cost to host my child's birthday party at a bowling alley is a function of the number of children she invites.
@@ -1263,7 +1263,7 @@
       <solution>
         <p>
           If <m>9</m> children are invited,
-          then the cost is <m>\dollar150.00</m>
+          then the cost is <m>$150.00</m>
         </p>
       </solution>
     </exercise>
@@ -1294,14 +1294,14 @@
         </p>
       </solution>
     </exercise>
-    <p>
+    </exercises><p>
       Express the following information using function notation.
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The amount due for this monthly cell phone plan is a function <m>f</m> of the number of minutes the customer used.
-          <m>\dollar45.90</m> was due when <m>120</m> minutes were used.
+          <m>$45.90</m> was due when <m>120</m> minutes were used.
         </p>
       </statement>
       <solution>
@@ -1328,7 +1328,7 @@
       <statement>
         <p>
           The cost to purchase a large pizza is a function <m>c</m> of how many toppings you add.
-          I added <m>4</m> toppings and my pizza cost <m>\dollar27.00</m>.
+          I added <m>4</m> toppings and my pizza cost <m>$27.00</m>.
         </p>
       </statement>
       <solution>
@@ -1337,10 +1337,10 @@
         </p>
       </solution>
     </exercise>
-    <p>
+    </exercises><p>
       For the following scenarios give the relevant domain and relevant range:
     </p>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The amount of rain in my rain barrel, in inches,
@@ -1370,7 +1370,7 @@
     <exercise>
       <statement>
         <p>
-          A girl scout is selling cookies for <m>\dollar5</m> a box.
+          A girl scout is selling cookies for <m>$5</m> a box.
           Her profits for selling <m>c</m> number of boxes can be calculated using the function <m>g(c) = 5c - 20</m>.
           Give a reasonable relevant domain and relevant range for this function.
         </p>
@@ -1382,10 +1382,10 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Implicit Functions</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           Solve the equation <m>3x - 5y = 7</m> explicitly for <m>y</m>.
@@ -1461,17 +1461,17 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
   <subsection>
     <title>Rates of Change</title>
-    <exercise>
+    <exercises><exercise>
       <statement>
         <p>
           The table below gives average price of a gallon of gas in NYS in January of each year.
           <me>
             \begin{array}{c|c} \hline \text{ Year }  \amp  \text{ Price per gallon }  \\ \hline 2015 \amp  2.51 \\ 2019 \amp  2.44 \\ 2021 \amp  2.35 \\ 2022 \amp  3.42 \\ \hline \end{array}
           </me>
-          <ol marker="labelalph">
+          <ol marker="a">
             <li>
               <p>
                 What is the average rate of change (AROC) from 2015 to 2022?
@@ -1497,10 +1497,10 @@
       </statement>
       <solution>
         <p>
-          a. <m>\dollar0.13 / year</m> b.
+          a. <m>$0.13 / year</m> b.
           <m>$-.07/year</m> c.
           <m>-0.05/year</m> d.
-          Between 2015 and 2022 the price of a gallon of gasoline dropped an average of <m>\dollar0.03</m> per year.
+          Between 2015 and 2022 the price of a gallon of gasoline dropped an average of <m>$0.03</m> per year.
         </p>
       </solution>
     </exercise>
@@ -1561,17 +1561,17 @@
           A pizza place offers a special on a large cheese pizza plus extra per topping added.
           I ordered a large pizza with <m>2</m> toppings and the total
           (before tax)
-          was <m>\dollar17</m>.
+          was <m>$17</m>.
           My sister ordered a large pizza with <m>4</m> toppings and her total
           (before tax)
-          was <m>\dollar19</m>.
+          was <m>$19</m>.
           Find the average rate of change in cost as a function of the number of toppings ordered on the pizza.
           Do you expect this rate to remain constant?
         </p>
       </statement>
       <solution>
         <p>
-          <m>\dollar1.00</m>/topping; yes
+          <m>$1.00</m>/topping; yes
         </p>
       </solution>
     </exercise>
@@ -1640,5 +1640,5 @@
         </p>
       </solution>
     </exercise>
-  </subsection>
+  </exercises></subsection>
 </section>

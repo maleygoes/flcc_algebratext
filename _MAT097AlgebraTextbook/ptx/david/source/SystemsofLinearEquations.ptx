@@ -119,10 +119,10 @@
       <statement>
         <p>
           Menauhant Publishing Company has a contract that costs them a straight
-          <m>\dollar80</m> per hour for computer support over the phone.
+          <m>$80</m> per hour for computer support over the phone.
           They are considering switching to a new contract that would require them to pay an annual fee of
-          <m>\dollar3,000</m> regardless of how much service they use,
-          but they would then only be charged <m>\dollar50</m> per hour.
+          <m>$3,000</m> regardless of how much service they use,
+          but they would then only be charged <m>$50</m> per hour.
         </p>
       </statement>
     </example>
@@ -170,7 +170,7 @@
     </p>
     <figure>
       <caption>graph of <m>y=80x</m> and <m>y=50x+3000</m></caption>
-      <image width="92.5%" source="images/Figure01.png"/>
+      <image width="92.5%" source="images/Figure01.png" />
     </figure>
     <p>
       (For discussion of how to find the appropriate window settings,
@@ -179,7 +179,7 @@
     <p>
       The solution to this system is <m>x=100</m> and <m>y=8000</m>.
       That is, the break even between these two contracts is <m>100</m> hours of computer support,
-      costing <m>\dollar8000</m>. }
+      costing <m>$8000</m>. }
     </p>
     <p>
       Solving a linear system graphically is basically the same as solving a linear equation graphically.
@@ -231,7 +231,7 @@
     </p>
     <figure>
       <caption>Graph to solve system</caption>
-      <image width="92.5%" source="images/Figure02.png"/>
+      <image width="92.5%" source="images/Figure02.png" />
     </figure>
     <p>
       And so we see that the intersection occurs at <m>(6,0)</m> and so conclude that this system's simultaneous solution is <m>x=6</m> and <m>y=0</m>. }
@@ -302,40 +302,40 @@
     </p>
     <tabular>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>If the graphs:</cell>
         <cell>Then the linear system has:</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Have one intersection</cell>
         <cell>One unique solution</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Are parallel lines</cell>
         <cell>No solutions</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
       <row>
         <cell>Are the same line</cell>
         <cell>Infinitely many solutions</cell>
       </row>
       <row bottom="minor">
-        <cell></cell>
-        <cell></cell>
+        <cell />
+        <cell />
       </row>
     </tabular>
     <p>
@@ -646,7 +646,7 @@
       and <m>7</m> to its right:
     </p>
     <tabular>
-      {c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c}
+      {c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c}
       &amp; 5x &amp;+ &amp; 2y &amp; = &amp; 1
       + &amp; (3x &amp;- &amp; 2y) &amp; &amp; +7
       \hline
@@ -699,7 +699,7 @@
       and the right side of the bottom to the right side of the top to get:
     </p>
     <tabular>
-      {c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c}
+      {c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c}
       &amp; 2p &amp; + &amp; 7q &amp; = &amp; 9
       + &amp; (-2p &amp; - &amp; 6y) &amp; &amp; (-10)
       \hline
@@ -797,7 +797,7 @@
       and now we add the corresponding sides of the system to get:
     </p>
     <tabular>
-      {c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c@{<nbsp/>}c}
+      {c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c@{<nbsp />}c}
       &amp; 40p &amp; - &amp; 56q &amp; = &amp; 112
       + &amp; 84p &amp; + &amp; 56q) &amp; &amp; -112
       \hline
@@ -930,14 +930,14 @@
     <title>Exercises</title>
     <subsubsection>
       <title>Linear Systems and their Solutions</title>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Determine whether or not each of the given input-output pairs is a solution to the linear system.
             <me>
               \begin{cases}x+3y=5\\x-2y=0 \end{cases}
             </me>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>x=5</m>, <m>y=0</m>
@@ -974,7 +974,7 @@
             <me>
               \begin{cases}2x+3y=11\\x-5y=25 \end{cases}
             </me>
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>x=10</m>, <m>y=3</m>
@@ -1003,13 +1003,13 @@
         <statement>
           <p>
             Ticket prices for a play cost
-            <m>\dollar15</m> for kids under 12 and <m>\dollar25</m> for everyone else.
-            Two hundred tickets were sold for a total of <m>\dollar4200</m>.
+            <m>$15</m> for kids under 12 and <m>$25</m> for everyone else.
+            Two hundred tickets were sold for a total of <m>$4200</m>.
             Let <m>k</m> be the number of kids' tickets and let <m>a</m> be the number of regular tickets sold.
             Based on this information,
             the number of tickets sold must satisfy the equations <m>k+a=200</m> and <m>15k+25a=4200</m>.
             Which of the following could be the number of each type ticket sold?
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>50</m> kids tickets and <m>150</m> regular
@@ -1043,13 +1043,13 @@
         <statement>
           <p>
             Ticket prices for a play cost
-            <m>\dollar10</m> for kids under <m>12</m> and <m>\dollar25</m> for everyone else.
-            Two hundred tickets were sold for a total of <m>\dollar3500</m>.
+            <m>$10</m> for kids under <m>12</m> and <m>$25</m> for everyone else.
+            Two hundred tickets were sold for a total of <m>$3500</m>.
             Let <m>k</m> be the number of kids' tickets and let <m>a</m> be the number of regular tickets sold.
             Based on this information,
             the number of tickets sold must satisfy the equations <m>k+a=200</m> and <m>10k+25a=3500</m>.
             Which of the following could be the number of each type ticket sold?
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   <m>50</m> kids tickets at <m>150</m> regular
@@ -1074,7 +1074,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving Linear Systems Graphically</title>
       <p>
@@ -1082,7 +1082,7 @@
         When necessary,
         express your final answers either with fractions in lowest terms or decimals rounded to two places.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>\begin{cases}y=3x+2\\y=5x-2 \end{cases}</m>
@@ -1158,7 +1158,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving Linear Systems by Substitution</title>
       <p>
@@ -1166,7 +1166,7 @@
         When necessary,
         express your final answers either with fractions in lowest terms or decimals rounded to two places.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>\begin{cases}3x-7y=2\\y=2x-5 \end{cases}</m>
@@ -1242,7 +1242,7 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Solving Linear Systems by Elimination</title>
       <p>
@@ -1250,7 +1250,7 @@
         When necessary,
         express your final answers either with fractions in lowest terms or decimals rounded to two places.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>\begin{cases}3x-5y=11\\4x+5y=3 \end{cases}</m>
@@ -1345,14 +1345,14 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Strategies for Solving Linear Systems</title>
       <p>
         Decide which solution method you feel would be the best approach to solving each of the following linear systems.
         You do not need to actually solve them.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             <m>\begin{cases}3x+2y=11\\2x-7y=9 \end{cases}</m>
@@ -1482,7 +1482,7 @@
           </p>
         </solution>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
     <subsubsection>
       <title>Grab Bag</title>
       <p>
@@ -1491,7 +1491,7 @@
         When necessary,
         express your final answers either with fractions in lowest terms or decimals rounded to two places.
       </p>
-      <exercise>
+      <exercises><exercise>
         <statement>
           <p>
             Solve <m>\begin{cases}3t-11p=22\\6t-5p=10 \end{cases}</m>
@@ -1559,7 +1559,7 @@
             An
             <q>Analyst Pack</q>
             includes <m>12</m> spreadsheet and <m>8</m> word processing licenses.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Let <m>P</m> be the number of Professional Packs he buys,
@@ -1596,7 +1596,7 @@
             He has two types of food to eat for lunch.
             Each serving of B-B-Q pork rinds contains <m>5</m> grams of fat and <m>2</m> gram of protein.
             Each Teriyaki Turkey Jurkey Stick contains <m>2</m> grams of fat at <m>6</m> grams of protein.
-            <ol marker="labelalph">
+            <ol marker="a">
               <li>
                 <p>
                   Let <m>P</m> be the number of servings of pork rinds he will eat,
@@ -1659,6 +1659,6 @@
           </p>
         </statement>
       </exercise>
-    </subsubsection>
+    </exercises></subsubsection>
   </subsection>
 </section>
