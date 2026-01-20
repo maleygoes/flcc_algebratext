@@ -1,0 +1,213 @@
+<section xml:id="sec-laplace-discontinuous-forcing">
+  <title>Laplace Transform: Non-homogeneous ODEs and Discontinuous Forcing Functions</title>
+
+  <p>
+    Recall the Morphine Administration problem:
+    <me>
+      u' = -ku(t) + r(t)
+    </me>
+    where a dose changes at <m>t=12</m>.
+    <me>
+      r(t) = \begin{cases} 1.5 &amp; 0 \le t \le 12 \\ 2.08 &amp; t \gt 12 \end{cases}
+    </me>
+    To handle this, we need a new approach to piecewise functions.
+  </p>
+
+  <definition xml:id="def-heaviside-function">
+    <title>Heaviside Function</title>
+    <statement>
+      <p>
+        The Heaviside function (or unit step function), denoted <m>H(t)</m>, is defined as:
+        <me>
+          H(t) = \begin{cases} 0 &amp; t \le 0 \\ 1 &amp; t \gt 0 \end{cases}
+        </me>
+        This acts as a switch that goes from OFF to ON at <m>t=0</m>. A shifted Heaviside function <m>H(t-c)</m> turns on at <m>t=c</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <statement>
+      <p>
+        Express the following piecewise function <m>\phi(t)</m> in Heaviside notation:
+        <me>
+          \phi(t) = \begin{cases} 0 &amp; 0 \lt t \lt 3 \\ 9 &amp; 3 \lt t \lt 7 \\ 0 &amp; t \gt 7 \end{cases}
+        </me>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We want the function to be "on" (value 9) between <m>t=3</m> and <m>t=7</m>.
+        <me>
+          \phi(t) = 9[H(t-3) - H(t-7)]
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Express <m>q(t)</m> in Heaviside notation:
+        <me>
+          q(t) = \begin{cases} 0 &amp; 0 \le t \lt 3 \\ t^4 &amp; 3 \le t \lt 6 \\ \sin t &amp; 6 \le t \lt 8 \\ e^{-t} &amp; t \ge 8 \end{cases}
+        </me>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We construct the function by turning terms on and off at the boundaries:
+        <md>
+          <mrow>q(t) =\amp\ t^4(H(t-3) - H(t-6))</mrow>
+          <mrow>\amp + \sin t(H(t-6) - H(t-8))</mrow>
+          <mrow>\amp + e^{-t}(H(t-8))</mrow>
+        </md>
+      </p>
+      <p>
+        Insight: If <m>a \lt b</m>, then <m>H(t-a) - H(t-b) = 1</m> if <m>a \le t \le b</m> and <m>0</m> otherwise.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Returning to the Morphine problem, we can rewrite <m>r(t)</m> using Heaviside notation:
+    <me>
+      r(t) = \begin{cases} 1.5 &amp; 0 \le t \le 12 \\ 2.08 &amp; t \gt 12 \end{cases}
+    </me>
+    <md>
+      <mrow>r(t) \amp= 1.5(H(t) - H(t-12)) + 2.08 H(t-12)</mrow>
+      <mrow>\amp= 1.5H(t) - 1.5H(t-12) + 2.08H(t-12)</mrow>
+      <mrow>\amp= 1.5H(t) + 0.58H(t-12)</mrow>
+    </md>
+    Assuming <m>t > 0</m>, <m>H(t) = 1</m>, so <m>r(t) = 1.5 + 0.58H(t-12)</m>. To solve the ODE, we need to find the Laplace transform of terms like <m>H(t-c)</m>.
+  </p>
+
+  <subsection xml:id="subsec-shifting-theorems">
+    <title>Laplace Transforms of Heaviside Functions</title>
+    
+    <p>
+      A natural question is: what is <m>\mathcal{L}(H(t-c))</m>?
+      <md>
+        <mrow>\mathcal{L}(H(t-c)) \amp= \int_0^\infty e^{-st} H(t-c) \, dt = \int_c^\infty e^{-st} \, dt</mrow>
+        <mrow>\amp= \left[ \frac{-e^{-st}}{s} \right]_c^\infty = \frac{e^{-cs}}{s}</mrow>
+      </md>
+      Note also that <m>\mathcal{L}(H(t)) = \frac{1}{s}</m>.
+    </p>
+
+    <theorem xml:id="thm-shifting-theorems">
+      <title>Shifting Theorems</title>
+      <statement>
+        <p>
+          <term>1st Shifting Theorem (s-domain shift):</term>
+          <me>
+            \mathcal{L}(e^{at}f(t)) = F(s-a)
+          </me>
+          Multiplication by an exponential in the t-domain shifts the s-domain.
+        </p>
+        <p>
+          <term>2nd Shifting Theorem (t-domain shift):</term>
+          <me>
+            \mathcal{L}(H(t-c)f(t-c)) = e^{-cs}F(s)
+          </me>
+          where <m>F(s) = \mathcal{L}(f(t))</m>. Multiplication by <m>e^{-cs}</m> in the s-domain corresponds to shifting by <m>c</m> in the t-domain.
+        </p>
+      </statement>
+    </theorem>
+  </subsection>
+
+  <example>
+    <title>Concluding Morphine Example</title>
+    <statement>
+      <p>
+        Solve the IVP for the morphine concentration <m>u(t)</m>:
+        <me>
+          u' = -ku + 1.5 + 0.58H(t-12), \quad u(0)=10, \quad k=0.173
+        </me>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Taking the Laplace transform of the ODE:
+        <md>
+          <mrow>sU(s) - 10 \amp= -kU(s) + \frac{1.5}{s} + 0.58\frac{e^{-12s}}{s}</mrow>
+          <mrow>U(s)(s+k) \amp= 10 + \frac{1.5}{s} + 0.58\frac{e^{-12s}}{s}</mrow>
+          <mrow>U(s) \amp= \frac{10}{s+k} + \frac{1.5}{s(s+k)} + 0.58e^{-12s}\left( \frac{1}{s(s+k)} \right)</mrow>
+        </md>
+      </p>
+      <p>
+        <strong>Side Work (Partial Fraction Decomposition):</strong>
+        <me>
+          \frac{1}{s(s+k)} = \frac{A}{s} + \frac{B}{s+k} \implies \frac{1}{k}\left(\frac{1}{s} - \frac{1}{s+k}\right)
+        </me>
+        Let <m>\phi(t) = \mathcal{L}^{-1}\left( \frac{1}{k}(\frac{1}{s} - \frac{1}{s+k}) \right) = \frac{1}{k}(1 - e^{-kt})</m>.
+      </p>
+      <p>
+        Applying the inverse Laplace transform and the 2nd Shifting Theorem:
+        <me>
+          u(t) = 10e^{-kt} + 1.5\phi(t) + 0.58H(t-12)\phi(t-12)
+        </me>
+        Substituting <m>\phi(t)</m>:
+        <me>
+          u(t) = 10e^{-kt} + \frac{1.5}{k}(1 - e^{-kt}) + \frac{0.58}{k}H(t-12)[1 - e^{-k(t-12)}]
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <title>Newton's Law of Cooling with Discontinuous Ambient Temperature</title>
+    <statement>
+      <p>
+        Consider an object's temperature <m>u(t)</m> where <m>u(0)=50^\circ\text{F}</m>. The ambient temperature starts at <m>80^\circ\text{F}</m> and drops to <m>30^\circ\text{F}</m> at <m>t=20</m>. Let <m>k=0.1</m>.
+        <me>
+          u' = -k(u - A(t))
+        </me>
+        Find <m>u(t)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        First, define the ambient temperature <m>A(t)</m>:
+        <me>
+          A(t) = \begin{cases} 80 &amp; t \le 20 \\ 30 &amp; t \gt 20 \end{cases} = 80 - 50H(t-20)
+        </me>
+        The ODE becomes:
+        <md>
+          <mrow>u' \amp= -0.1(u - (80 - 50H(t-20)))</mrow>
+          <mrow>u' \amp= -0.1u + 8 - 5H(t-20)</mrow>
+        </md>
+        Take the Laplace transform:
+        <md>
+          <mrow>sU(s) - 50 \amp= -0.1U(s) + \frac{8}{s} - \frac{5e^{-20s}}{s}</mrow>
+          <mrow>U(s)(s+0.1) \amp= 50 + \frac{8}{s} - \frac{5e^{-20s}}{s}</mrow>
+          <mrow>U(s) \amp= \frac{50s+8}{s(s+0.1)} - \frac{5e^{-20s}}{s(s+0.1)}</mrow>
+        </md>
+      </p>
+      <p>
+        <strong>Partial Fraction Decomposition:</strong>
+        <ol>
+          <li>
+            <p>
+              For <m>\frac{50s+8}{s(s+0.1)}</m>:
+              <me>\frac{A}{s} + \frac{B}{s+0.1} = \frac{(A+B)s + 0.1A}{s(s+0.1)}</me>
+              Matching coefficients: <m>0.1A = 8 \implies A = 80</m>. <m>A+B=50 \implies 80+B=50 \implies B=-30</m>.
+              <me>\mathcal{L}^{-1}\left( \frac{80}{s} - \frac{30}{s+0.1} \right) = 80 - 30e^{-0.1t}</me>
+            </p>
+          </li>
+          <li>
+            <p>
+              For <m>\frac{5}{s(s+0.1)}</m>:
+              <me>\frac{50}{s} - \frac{50}{s+0.1}</me>
+            </p>
+          </li>
+        </ol>
+      </p>
+      <p>
+        Combining these results and using the 2nd Shifting Theorem on the term with <m>e^{-20s}</m>:
+        <me>
+          u(t) = (80 - 30e^{-0.1t}) - H(t-20)\left[ 50 - 50e^{-0.1(t-20)} \right]
+        </me>
+      </p>
+    </solution>
+  </example>
+</section>

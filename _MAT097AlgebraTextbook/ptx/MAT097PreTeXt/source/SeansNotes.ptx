@@ -1,0 +1,6 @@
+<chapter xmlns:ns0="http://www.w3.org/2001/XInclude" xml:id="sean-notes">
+  <title>Sean's Notes</title>
+  <ns0:include href="LaplaceDiscontinuousForcing.ptx" />
+
+  
+</chapter>
